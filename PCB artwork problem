@@ -1,0 +1,10 @@
+PCB artwork problem
+1. Regulator pattern size
+2. ISP connect 6p dril size 
+3. ISP connect pin match rx,tx disconnected 
+4. USB micro 5pin reverse D+, D-
+5. BGA type can't connect, too small
+6. Atmega128 VDD is 3.3v, can't use ext Xtal 16MHz
+7. CP2102 Connect mismatch
+8. buzzer is not piezo buzzer
+9. buzzer switching circuit need pixed 

@@ -1,0 +1,3053 @@
+\t (00:00:12) allegro 16.6-2015 S111 (v16-6-112JA) Windows 32
+\t (00:00:12)     Journal start - Wed Oct 17 09:26:22 2018
+\t (00:00:12)         Host=USER1-PC User=USER Pid=6692 CPUs=4
+\t (00:00:12) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:12) 
+\t (00:00:13) Opening existing design...
+\d (00:00:13) Design opened: C:/project/allegro/SENSOR BOARD.brd
+\t (00:00:14) Grids are drawn 1.2700, 1.2700 apart for enhanced viewability.
+\i (00:00:14) trapsize 12746
+\i (00:00:14) trapsize 12403
+\i (00:00:14) trapsize 12805
+\i (00:00:14) trapsize 10671
+\t (00:00:14) Grids are drawn 1.2700, 1.2700 apart for enhanced viewability.
+\i (00:00:14) trapsize 10671
+\i (00:00:15) generaledit 
+\i (00:00:20) color192 
+\i (00:00:20) setwindow cvf.dialog
+\i (00:00:20) cvf layer_mode
+\i (00:00:20) setwindow pcb
+\i (00:00:20) generaledit 
+\i (00:00:22) setwindow cvf.dialog
+\i (00:00:22) cvf global_visible
+\i (00:00:23) cvf okay
+\i (00:00:23) setwindow pcb
+\i (00:00:23) pick grid -34.9688 18.4923
+\t (00:00:23) last pick:  -34.9250 18.4150
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 39.7274 35.7792
+\i (00:00:24) trapsize 5335
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 39.6207 35.9926
+\i (00:00:24) trapsize 2668
+\i (00:00:27) setwindow form.find
+\i (00:00:27) FORM find all_on  
+\i (00:00:28) setwindow pcb
+\i (00:00:28) pick grid 42.3418 47.8907
+\t (00:00:28) last pick:  42.5450 47.6250
+\i (00:00:30) pick grid 41.0613 48.6377
+\t (00:00:30) last pick:  41.2750 48.8950
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 30.0703 45.0629
+\i (00:00:32) trapsize 5335
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 29.5367 45.3830
+\i (00:00:32) trapsize 10671
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out 69.1014 28.7365
+\t (00:00:34) Grids are drawn 2.5400, 2.5400 apart for enhanced viewability.
+\i (00:00:34) trapsize 21341
+\i (00:00:35) drag_start grid 112.9268 -45.8537
+\i (00:00:35) drag_stop -59.0854 124.8780
+\i (00:00:36) prepopup 30.9756 57.0122
+\i (00:00:39) dehilight 
+\t (00:00:39) No elements found matching this filter.
+\i (00:00:39) generaledit 
+\i (00:00:39) pick grid -25.7927 -24.9390
+\t (00:00:39) last pick:  -26.0350 -24.7650
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in 36.9512 22.0122
+\t (00:00:40) Grids are drawn 1.2700, 1.2700 apart for enhanced viewability.
+\i (00:00:40) trapsize 10671
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 8.0670 11.1281
+\i (00:00:41) trapsize 5335
+\i (00:00:42) pick grid 8.1737 17.4238
+\t (00:00:42) last pick:  8.2550 17.1450
+\i (00:00:44) dehilight 
+\t (00:00:44) No elements found matching this filter.
+\i (00:00:44) generaledit 
+\i (00:00:45) pick grid -20.6372 12.3019
+\t (00:00:45) last pick:  -20.3200 12.0650
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 7.0000 7.2866
+\i (00:00:48) trapsize 2668
+\i (00:00:50) pick grid 8.8140 15.7699
+\t (00:00:50) last pick:  8.8900 15.8750
+\i (00:00:52) setwindow form.find
+\i (00:00:52) FORM find all_off  
+\i (00:00:53) FORM find symbols YES 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) pick grid 9.8277 16.6235
+\t (00:00:55) last pick:  9.5250 16.5100
+\i (00:00:58) dehilight 
+\t (00:00:58) Symbol "C20" dehighlighted.
+\i (00:00:58) generaledit 
+\i (00:00:59) zoom out 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom out -2.6570 8.1403
+\i (00:00:59) trapsize 5335
+\i (00:01:00) roam y -96 
+\i (00:01:00) roam y -96
+\i (00:01:00) roam y -96 
+\i (00:01:00) roam y -96
+\i (00:01:00) zoom in 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 6.0929 36.7378
+\i (00:01:00) trapsize 2668
+\i (00:01:01) pick grid 6.1997 36.3110
+\t (00:01:01) last pick:  6.3500 36.1950
+\i (00:01:03) dehilight 
+\t (00:01:04) Symbol "L1" dehighlighted.
+\i (00:01:04) generaledit 
+\i (00:01:04) pick grid 17.0838 38.3384
+\t (00:01:04) last pick:  17.1450 38.1000
+\i (00:01:06) dehilight 
+\t (00:01:06) Symbol "U8" dehighlighted.
+\i (00:01:06) generaledit 
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 33.7835 40.4192
+\i (00:01:06) trapsize 5335
+\i (00:01:07) pick grid 40.9329 47.4619
+\t (00:01:07) last pick:  40.6400 47.6250
+\i (00:01:09) dehilight 
+\t (00:01:09) Symbol "C18" dehighlighted.
+\i (00:01:09) generaledit 
+\i (00:01:10) pick grid 61.6341 18.3308
+\t (00:01:10) last pick:  61.5950 18.4150
+\i (00:01:11) dehilight 
+\t (00:01:12) Symbol "C2" dehighlighted.
+\i (00:01:12) generaledit 
+\i (00:01:12) roam x 96 
+\i (00:01:12) roam x 96
+\i (00:01:12) zoom in 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom in 34.4970 47.8887
+\i (00:01:12) trapsize 2668
+\i (00:01:13) roam y -96 
+\i (00:01:13) roam y -96
+\i (00:01:13) roam y -96 
+\i (00:01:13) roam y -96
+\i (00:01:13) roam y -96 
+\i (00:01:13) roam y -96
+\i (00:01:14) pick grid 47.8888 58.4526
+\t (00:01:14) last pick:  47.6250 58.4200
+\i (00:01:15) dehilight 
+\t (00:01:15) Symbol "D2" dehighlighted.
+\i (00:01:15) generaledit 
+\i (00:01:16) zoom out 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom out 13.3690 63.7346
+\i (00:01:16) trapsize 5335
+\i (00:01:16) roam y 96 
+\i (00:01:16) roam y 96
+\i (00:01:16) zoom out 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom out 15.0763 51.9970
+\i (00:01:16) trapsize 10671
+\i (00:01:17) prepopup 27.0610 -10.1067
+\i (00:01:18) pick grid 33.0366 -7.7591
+\t (00:01:18) last pick:  33.0200 -7.6200
+\i (00:01:18) done 
+\i (00:01:18) generaledit 
+\i (00:01:19) zoom in 1 
+\i (00:01:19) setwindow pcb
+\i (00:01:19) zoom in 12.7622 53.7043
+\i (00:01:19) trapsize 5335
+\i (00:01:22) zoom out 1 
+\i (00:01:22) setwindow pcb
+\i (00:01:22) zoom out 6.2530 44.8476
+\i (00:01:22) trapsize 10671
+\i (00:01:22) zoom out 1 
+\i (00:01:22) setwindow pcb
+\i (00:01:22) zoom out 1.2378 42.5001
+\t (00:01:22) Grids are drawn 2.5400, 2.5400 apart for enhanced viewability.
+\i (00:01:22) trapsize 21341
+\i (00:01:25) color192 
+\i (00:01:25) setwindow cvf.dialog
+\i (00:01:25) cvf layer_mode
+\i (00:01:25) setwindow pcb
+\i (00:01:25) generaledit 
+\i (00:01:27) setwindow cvf.dialog
+\i (00:01:27) cvf global_invisible
+\i (00:01:28) cvf layers_visible stack-up stack-up/soldermask_top TRUE
+\i (00:01:28) cvf layers_visible stack-up stack-up/pastemask_top TRUE
+\i (00:01:29) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:01:30) cvf layer_tree_item 'Board Geometry'
+\i (00:01:31) cvf layers_visible board_geometry/outline TRUE
+\i (00:01:33) cvf layers_visible board_geometry/silkscreen_top TRUE
+\i (00:01:33) cvf layers_visible board_geometry/soldermask_top TRUE
+\i (00:01:36) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:01:36) cvf layer_tree_item 'Package Geometry'
+\i (00:01:39) cvf layers_visible package_geometry/pastemask_top TRUE
+\i (00:01:41) cvf layers_visible package_geometry/silkscreen_top TRUE
+\i (00:01:42) cvf layers_visible package_geometry/soldermask_top TRUE
+\i (00:01:43) cvf layer_tree_item 'Components'
+\i (00:01:43) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:01:44) cvf layer_tree_item 'Components'
+\i (00:01:45) cvf layers_visible components ref_des/silkscreen_top TRUE
+\i (00:01:46) cvf okay
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom in 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom in 56.1585 -11.7073
+\t (00:01:46) Grids are drawn 1.2700, 1.2700 apart for enhanced viewability.
+\i (00:01:46) trapsize 10671
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 20.6585 -4.6646
+\i (00:01:47) trapsize 5335
+\i (00:01:48) roam y -96 
+\i (00:01:48) roam y -96
+\i (00:01:48) roam y -96 
+\i (00:01:48) roam y -96
+\i (00:01:48) roam y -96 
+\i (00:01:48) roam y -96
+\i (00:01:50) plot 
+\i (00:01:52) plotwint initialize "Hancom PDF"
+\i (00:01:52) plotwint orientation 1
+\i (00:01:52) plotwint papername "A4"
+\i (00:01:52) plotwint copies 1
+\i (00:01:52) plotwint defaultsource 0
+\i (00:01:52) plotwint printquality 600
+\i (00:01:52) plotwint color 2
+\i (00:01:52) plotwint duplex 1
+\i (00:01:52) plotwint execute
+\i (00:02:18) zoom out 1 
+\i (00:02:18) setwindow pcb
+\i (00:02:18) zoom out 38.1586 24.3598
+\i (00:02:18) trapsize 10671
+\i (00:02:19) zoom in 1 
+\i (00:02:19) setwindow pcb
+\i (00:02:19) zoom in 38.5853 19.4513
+\i (00:02:19) trapsize 5335
+\i (00:02:19) zoom in 1 
+\i (00:02:19) setwindow pcb
+\i (00:02:19) zoom in 35.7043 11.3416
+\i (00:02:19) trapsize 2668
+\i (00:02:21) plot 
+\i (00:02:22) plotwint initialize "Hancom PDF"
+\i (00:02:22) plotwint execute
+\i (00:02:25) zoom out 1 
+\i (00:02:25) setwindow pcb
+\i (00:02:25) zoom out 37.0915 22.5458
+\i (00:02:25) trapsize 5335
+\i (00:02:25) zoom out 1 
+\i (00:02:25) setwindow pcb
+\i (00:02:25) zoom out 37.0916 22.3325
+\i (00:02:25) trapsize 10671
+\i (00:02:26) zoom out 1 
+\i (00:02:26) setwindow pcb
+\i (00:02:26) zoom out 39.4391 22.9727
+\t (00:02:26) Grids are drawn 2.5400, 2.5400 apart for enhanced viewability.
+\i (00:02:26) trapsize 21341
+\i (00:02:27) zoom fit 
+\i (00:02:27) trapsize 7229
+\i (00:02:30) plot 
+\i (00:02:31) plotwint initialize "Hancom PDF"
+\i (00:02:31) plotwint execute
+\i (00:07:40) xhilite 
+\i (00:07:40) xrefdes C11 
+\i (00:07:40) xrefdes C12 
+\i (00:07:40) xNet +3.3V 
+\i (00:07:40) xNet Gnd 
+\i (00:07:40) xNet Int0 
+\i (00:07:40) xrefdes U2 
+\i (00:07:40) xNet Pa3 
+\i (00:07:40) xNet Int1 
+\i (00:07:40) xname_flush 
+\i (00:07:40) trapsize 7114
+\t (00:07:40) Symbol "C11" highlighted.
+\t (00:07:40) Symbol "C12" highlighted.
+\t (00:07:40) Net "+3.3V" highlighted.
+\t (00:07:40) Net "Gnd" highlighted.
+\t (00:07:40) Net "Int0" highlighted.
+\t (00:07:40) Symbol "U2" highlighted.
+\t (00:07:40) Net "Pa3" highlighted.
+\t (00:07:40) Net "Int1" highlighted.
+\i (00:07:40) done 
+\i (00:07:40) generaledit 
+\i (00:07:45) xhilite 
+\i (00:07:45) xrefdes U5 
+\i (00:07:45) xrefdes C17 
+\i (00:07:45) xrefdes C18 
+\i (00:07:45) xNet Int6 
+\i (00:07:45) xNet Pa4 
+\i (00:07:45) xNet Pa5 
+\i (00:07:45) xname_flush 
+\i (00:07:45) trapsize 2157
+\t (00:07:45) Symbol "U5" highlighted.
+\t (00:07:45) Symbol "C17" highlighted.
+\t (00:07:45) Symbol "C18" highlighted.
+\t (00:07:45) Net "Int6" highlighted.
+\t (00:07:45) Net "Pa4" highlighted.
+\t (00:07:45) Net "Pa5" highlighted.
+\i (00:07:45) done 
+\i (00:07:45) generaledit 
+\i (00:07:46) xdehilite 
+\i (00:07:46) xNet +3.3V 
+\i (00:07:46) xNet Gnd 
+\i (00:07:46) xNet Int0 
+\i (00:07:46) xNet Pa3 
+\i (00:07:46) xNet Int1 
+\i (00:07:46) xname_flush 
+\t (00:07:46) Net "+3.3V" dehighlighted.
+\t (00:07:46) Net "Gnd" dehighlighted.
+\t (00:07:46) Net "Int0" dehighlighted.
+\t (00:07:46) Net "Pa3" dehighlighted.
+\t (00:07:46) Net "Int1" dehighlighted.
+\i (00:07:46) done 
+\i (00:07:46) generaledit 
+\i (00:07:52) xhilite 
+\i (00:07:52) xNet +5V 
+\i (00:07:52) xNet Gnd 
+\i (00:07:52) xNet Buzzer 
+\i (00:07:52) xname_flush 
+\i (00:07:52) trapsize 7114
+\t (00:07:52) Net "+5V" highlighted.
+\t (00:07:52) Net "Gnd" highlighted.
+\t (00:07:52) Net "Buzzer" highlighted.
+\i (00:07:52) done 
+\i (00:07:52) generaledit 
+\i (00:07:53) xdehilite 
+\i (00:07:53) xNet +3.3V 
+\i (00:07:53) xNet Gnd 
+\i (00:07:53) xNet Int6 
+\i (00:07:53) xNet Int0 
+\i (00:07:53) xNet Int1 
+\i (00:07:53) xNet Pa4 
+\i (00:07:53) xNet Pa5 
+\i (00:07:53) xname_flush 
+\t (00:07:53) Net "Gnd" dehighlighted.
+\t (00:07:53) Net "Int6" dehighlighted.
+\t (00:07:53) Net "Pa4" dehighlighted.
+\t (00:07:53) Net "Pa5" dehighlighted.
+\i (00:07:53) done 
+\i (00:07:53) generaledit 
+\i (00:07:57) xhilite 
+\i (00:07:57) xrefdes U4 
+\i (00:07:57) xNet Int5 
+\i (00:07:57) xNet +3.3V 
+\i (00:07:57) xNet Int4 
+\i (00:07:57) xrefdes C15 
+\i (00:07:57) xNet Gnd 
+\i (00:07:57) xNet Int1 
+\i (00:07:57) xNet Int0 
+\i (00:07:57) xrefdes C16 
+\i (00:07:57) xNet Pa1 
+\i (00:07:57) xname_flush 
+\i (00:07:57) trapsize 7114
+\t (00:07:57) 7 Net(s) highlighted.
+\t (00:07:57) 3 Component(s) highlighted.
+\i (00:07:57) done 
+\i (00:07:57) generaledit 
+\i (00:07:58) xdehilite 
+\i (00:07:58) xNet +5V 
+\i (00:07:58) xNet Gnd 
+\i (00:07:58) xNet Buzzer 
+\i (00:07:58) xname_flush 
+\t (00:07:58) Net "+5V" dehighlighted.
+\t (00:07:58) Net "Gnd" dehighlighted.
+\t (00:07:58) Net "Buzzer" dehighlighted.
+\i (00:07:58) done 
+\i (00:07:58) generaledit 
+\i (00:08:01) xhilite 
+\i (00:08:01) xrefdes U6 
+\i (00:08:01) xNet +3.3V 
+\i (00:08:01) xrefdes C19 
+\i (00:08:01) xNet Gnd 
+\i (00:08:01) xNet Int0 
+\i (00:08:01) xNet Int7 
+\i (00:08:01) xNet Int1 
+\i (00:08:01) xname_flush 
+\i (00:08:01) trapsize 7114
+\t (00:08:01) Symbol "U6" highlighted.
+\t (00:08:01) Net "+3.3V" highlighted.
+\t (00:08:01) Symbol "C19" highlighted.
+\t (00:08:01) Net "Gnd" highlighted.
+\t (00:08:01) Net "Int0" highlighted.
+\t (00:08:01) Net "Int7" highlighted.
+\t (00:08:01) Net "Int1" highlighted.
+\i (00:08:02) done 
+\i (00:08:02) generaledit 
+\i (00:08:03) xdehilite 
+\i (00:08:03) xNet Int5 
+\i (00:08:03) xNet Int4 
+\i (00:08:03) xNet +3.3V 
+\i (00:08:03) xNet Gnd 
+\i (00:08:03) xNet Int1 
+\i (00:08:03) xNet Int0 
+\i (00:08:03) xNet Pa1 
+\i (00:08:03) xname_flush 
+\t (00:08:03) Net "Int5" dehighlighted.
+\t (00:08:03) Net "Int4" dehighlighted.
+\t (00:08:03) Net "+3.3V" dehighlighted.
+\t (00:08:03) Net "Gnd" dehighlighted.
+\t (00:08:03) Net "Int1" dehighlighted.
+\t (00:08:03) Net "Int0" dehighlighted.
+\t (00:08:03) Net "Pa1" dehighlighted.
+\i (00:08:03) done 
+\i (00:08:03) generaledit 
+\i (00:08:08) xdehilite 
+\i (00:08:08) xNet +3.3V 
+\i (00:08:08) xNet Gnd 
+\i (00:08:08) xNet Int7 
+\i (00:08:08) xNet Int1 
+\i (00:08:08) xNet Int0 
+\i (00:08:08) xname_flush 
+\t (00:08:08) Net "+3.3V" dehighlighted.
+\t (00:08:08) Net "Int7" dehighlighted.
+\t (00:08:08) Net "Int1" dehighlighted.
+\t (00:08:08) Net "Int0" dehighlighted.
+\i (00:08:08) done 
+\i (00:08:08) generaledit 
+\i (00:08:11) xhilite 
+\i (00:08:11) xNet Int5 
+\i (00:08:11) xNet Int4 
+\i (00:08:11) xNet +3.3V 
+\i (00:08:11) xNet Gnd 
+\i (00:08:11) xNet Int1 
+\i (00:08:11) xNet Int0 
+\i (00:08:11) xNet Pa1 
+\i (00:08:11) xname_flush 
+\i (00:08:11) trapsize 7114
+\t (00:08:11) Net "Int5" highlighted.
+\t (00:08:11) Net "Int4" highlighted.
+\t (00:08:11) Net "+3.3V" highlighted.
+\t (00:08:11) Net "Gnd" highlighted.
+\t (00:08:11) Net "Int1" highlighted.
+\t (00:08:11) Net "Int0" highlighted.
+\t (00:08:11) Net "Pa1" highlighted.
+\i (00:08:11) done 
+\i (00:08:11) generaledit 
+\i (00:08:14) xdehilite 
+\i (00:08:14) xNet Int5 
+\i (00:08:14) xNet Int4 
+\i (00:08:14) xNet +3.3V 
+\i (00:08:14) xNet Gnd 
+\i (00:08:14) xNet Int1 
+\i (00:08:14) xNet Int0 
+\i (00:08:14) xNet Pa1 
+\i (00:08:14) xname_flush 
+\t (00:08:14) Net "Int5" dehighlighted.
+\t (00:08:14) Net "Int4" dehighlighted.
+\t (00:08:14) Net "+3.3V" dehighlighted.
+\t (00:08:14) Net "Gnd" dehighlighted.
+\t (00:08:14) Net "Int1" dehighlighted.
+\t (00:08:14) Net "Int0" dehighlighted.
+\t (00:08:14) Net "Pa1" dehighlighted.
+\i (00:08:15) done 
+\i (00:08:15) generaledit 
+\i (00:08:15) xhilite 
+\i (00:08:15) xNet +3.3V 
+\i (00:08:15) xNet Gnd 
+\i (00:08:15) xNet Int7 
+\i (00:08:15) xNet Int1 
+\i (00:08:15) xNet Int0 
+\i (00:08:15) xname_flush 
+\i (00:08:15) trapsize 7114
+\t (00:08:15) Net "+3.3V" highlighted.
+\t (00:08:15) Net "Gnd" highlighted.
+\t (00:08:15) Net "Int7" highlighted.
+\t (00:08:15) Net "Int1" highlighted.
+\t (00:08:15) Net "Int0" highlighted.
+\i (00:08:15) done 
+\i (00:08:15) generaledit 
+\i (00:08:16) xhilite 
+\i (00:08:16) xname_flush 
+\i (00:08:16) done 
+\i (00:08:16) generaledit 
+\i (00:08:16) xdehilite 
+\i (00:08:16) xNet +3.3V 
+\i (00:08:16) xNet Gnd 
+\i (00:08:16) xNet Int7 
+\i (00:08:16) xNet Int1 
+\i (00:08:16) xNet Int0 
+\i (00:08:16) xname_flush 
+\t (00:08:16) Net "+3.3V" dehighlighted.
+\t (00:08:16) Net "Gnd" dehighlighted.
+\t (00:08:16) Net "Int7" dehighlighted.
+\t (00:08:16) Net "Int1" dehighlighted.
+\t (00:08:16) Net "Int0" dehighlighted.
+\i (00:08:16) done 
+\i (00:08:16) xhilite 
+\i (00:08:16) xname_flush 
+\i (00:08:16) done 
+\i (00:08:16) generaledit 
+\i (00:08:17) xdehilite 
+\i (00:08:17) xname_flush 
+\i (00:08:17) done 
+\i (00:08:17) generaledit 
+\i (00:08:18) xhilite 
+\i (00:08:18) xNet +3.3V 
+\i (00:08:18) xNet Gnd 
+\i (00:08:18) xNet Int7 
+\i (00:08:18) xNet Int1 
+\i (00:08:18) xNet Int0 
+\i (00:08:18) xname_flush 
+\i (00:08:18) trapsize 7114
+\t (00:08:18) Net "+3.3V" highlighted.
+\t (00:08:18) Net "Gnd" highlighted.
+\t (00:08:18) Net "Int7" highlighted.
+\t (00:08:18) Net "Int1" highlighted.
+\t (00:08:18) Net "Int0" highlighted.
+\i (00:08:18) done 
+\i (00:08:18) generaledit 
+\i (00:08:20) xdehilite 
+\i (00:08:20) xNet +3.3V 
+\i (00:08:20) xNet Gnd 
+\i (00:08:20) xNet Int7 
+\i (00:08:20) xNet Int1 
+\i (00:08:20) xNet Int0 
+\i (00:08:20) xname_flush 
+\t (00:08:20) Net "+3.3V" dehighlighted.
+\t (00:08:20) Net "Gnd" dehighlighted.
+\t (00:08:20) Net "Int7" dehighlighted.
+\t (00:08:20) Net "Int1" dehighlighted.
+\t (00:08:20) Net "Int0" dehighlighted.
+\i (00:08:20) done 
+\i (00:08:20) generaledit 
+\i (00:08:23) xhilite 
+\i (00:08:23) xNet +3.3V 
+\i (00:08:23) xNet Gnd 
+\i (00:08:23) xNet Int6 
+\i (00:08:23) xNet Int0 
+\i (00:08:23) xNet Int1 
+\i (00:08:23) xNet Pa4 
+\i (00:08:23) xNet Pa5 
+\i (00:08:23) xname_flush 
+\i (00:08:23) trapsize 7114
+\t (00:08:23) Net "+3.3V" highlighted.
+\t (00:08:23) Net "Gnd" highlighted.
+\t (00:08:23) Net "Int6" highlighted.
+\t (00:08:23) Net "Int0" highlighted.
+\t (00:08:23) Net "Int1" highlighted.
+\t (00:08:23) Net "Pa4" highlighted.
+\t (00:08:23) Net "Pa5" highlighted.
+\i (00:08:23) done 
+\i (00:08:23) generaledit 
+\i (00:08:26) xdehilite 
+\i (00:08:26) xNet +3.3V 
+\i (00:08:26) xNet Gnd 
+\i (00:08:26) xNet Int6 
+\i (00:08:26) xNet Int0 
+\i (00:08:26) xNet Int1 
+\i (00:08:26) xNet Pa4 
+\i (00:08:26) xNet Pa5 
+\i (00:08:26) xname_flush 
+\t (00:08:26) Net "+3.3V" dehighlighted.
+\t (00:08:26) Net "Gnd" dehighlighted.
+\t (00:08:26) Net "Int6" dehighlighted.
+\t (00:08:26) Net "Int0" dehighlighted.
+\t (00:08:26) Net "Int1" dehighlighted.
+\t (00:08:26) Net "Pa4" dehighlighted.
+\t (00:08:26) Net "Pa5" dehighlighted.
+\i (00:08:26) done 
+\i (00:08:26) generaledit 
+\i (00:08:27) xhilite 
+\i (00:08:27) xNet +3.3V 
+\i (00:08:27) xNet Gnd 
+\i (00:08:27) xNet Int0 
+\i (00:08:27) xNet Pa3 
+\i (00:08:27) xNet Int1 
+\i (00:08:27) xname_flush 
+\i (00:08:27) trapsize 7114
+\t (00:08:27) Net "+3.3V" highlighted.
+\t (00:08:27) Net "Gnd" highlighted.
+\t (00:08:27) Net "Int0" highlighted.
+\t (00:08:27) Net "Pa3" highlighted.
+\t (00:08:27) Net "Int1" highlighted.
+\i (00:08:27) done 
+\i (00:08:27) generaledit 
+\i (00:08:29) xdehilite 
+\i (00:08:29) xNet +3.3V 
+\i (00:08:29) xNet Gnd 
+\i (00:08:29) xNet Int0 
+\i (00:08:29) xNet Pa3 
+\i (00:08:29) xNet Int1 
+\i (00:08:29) xname_flush 
+\t (00:08:29) Net "+3.3V" dehighlighted.
+\t (00:08:29) Net "Gnd" dehighlighted.
+\t (00:08:29) Net "Int0" dehighlighted.
+\t (00:08:29) Net "Pa3" dehighlighted.
+\t (00:08:29) Net "Int1" dehighlighted.
+\i (00:08:29) done 
+\i (00:08:29) generaledit 
+\i (00:08:30) xhilite 
+\i (00:08:30) xrefdes U8 
+\i (00:08:30) xrefdes C22 
+\i (00:08:30) xNet N106265 
+\i (00:08:30) xNet Gnd 
+\i (00:08:30) xrefdes C23 
+\i (00:08:30) xNet +3.3V 
+\i (00:08:30) xNet N106329 
+\i (00:08:30) xNet Pe1 
+\i (00:08:30) xNet Pe0 
+\i (00:08:30) xrefdes R16 
+\i (00:08:30) xNet D- 
+\i (00:08:30) xNet D+ 
+\i (00:08:30) xname_flush 
+\i (00:08:30) trapsize 7114
+\t (00:08:30) 8 Net(s) highlighted.
+\t (00:08:30) 4 Component(s) highlighted.
+\i (00:08:30) done 
+\i (00:08:30) generaledit 
+\i (00:08:33) xdehilite 
+\i (00:08:33) xrefdes U8 
+\i (00:08:33) xrefdes C22 
+\i (00:08:33) xNet N106265 
+\i (00:08:33) xNet Gnd 
+\i (00:08:33) xrefdes C23 
+\i (00:08:33) xNet +3.3V 
+\i (00:08:33) xNet N106329 
+\i (00:08:33) xNet Pe1 
+\i (00:08:33) xNet Pe0 
+\i (00:08:33) xrefdes R16 
+\i (00:08:33) xNet D- 
+\i (00:08:33) xNet D+ 
+\i (00:08:33) xname_flush 
+\t (00:08:33) 8 Net(s) dehighlighted.
+\t (00:08:33) 4 Component(s) dehighlighted.
+\i (00:08:33) done 
+\i (00:08:33) generaledit 
+\i (00:08:34) xhilite 
+\i (00:08:34) xNet +5V 
+\i (00:08:34) xNet +3.3V 
+\i (00:08:34) xrefdes U7 
+\i (00:08:34) xNet Gnd 
+\i (00:08:34) xrefdes C20 
+\i (00:08:34) xrefdes C21 
+\i (00:08:34) xname_flush 
+\i (00:08:34) trapsize 7114
+\t (00:08:34) Net "+5V" highlighted.
+\t (00:08:34) Net "+3.3V" highlighted.
+\t (00:08:34) Symbol "U7" highlighted.
+\t (00:08:34) Net "Gnd" highlighted.
+\t (00:08:34) Symbol "C20" highlighted.
+\t (00:08:34) Symbol "C21" highlighted.
+\i (00:08:34) done 
+\i (00:08:34) generaledit 
+\i (00:08:37) xdehilite 
+\i (00:08:37) xNet +5V 
+\i (00:08:37) xNet +3.3V 
+\i (00:08:37) xrefdes U7 
+\i (00:08:37) xNet Gnd 
+\i (00:08:37) xrefdes C20 
+\i (00:08:37) xrefdes C21 
+\i (00:08:37) xname_flush 
+\t (00:08:37) Net "+5V" dehighlighted.
+\t (00:08:37) Net "+3.3V" dehighlighted.
+\t (00:08:37) Symbol "U7" dehighlighted.
+\t (00:08:37) Net "Gnd" dehighlighted.
+\t (00:08:37) Symbol "C20" dehighlighted.
+\t (00:08:37) Symbol "C21" dehighlighted.
+\i (00:08:37) done 
+\i (00:08:37) generaledit 
+\i (00:08:38) xhilite 
+\i (00:08:38) xrefdes J2 
+\i (00:08:38) xNet Gnd 
+\i (00:08:38) xNet +3.3V 
+\i (00:08:38) xNet Mosi 
+\i (00:08:38) xNet /Reset 
+\i (00:08:38) xNet Pb1 
+\i (00:08:38) xNet Miso 
+\i (00:08:38) xname_flush 
+\i (00:08:38) trapsize 7114
+\t (00:08:38) Symbol "J2" highlighted.
+\t (00:08:38) Net "Gnd" highlighted.
+\t (00:08:38) Net "+3.3V" highlighted.
+\t (00:08:38) Net "Mosi" highlighted.
+\t (00:08:38) Net "/Reset" highlighted.
+\t (00:08:38) Net "Pb1" highlighted.
+\t (00:08:38) Net "Miso" highlighted.
+\i (00:08:38) done 
+\i (00:08:38) generaledit 
+\i (00:08:40) xdehilite 
+\i (00:08:40) xrefdes J2 
+\i (00:08:40) xNet Gnd 
+\i (00:08:40) xNet +3.3V 
+\i (00:08:40) xNet Mosi 
+\i (00:08:40) xNet /Reset 
+\i (00:08:40) xNet Pb1 
+\i (00:08:40) xNet Miso 
+\i (00:08:40) xname_flush 
+\t (00:08:40) Symbol "J2" dehighlighted.
+\t (00:08:40) Net "Gnd" dehighlighted.
+\t (00:08:40) Net "+3.3V" dehighlighted.
+\t (00:08:40) Net "Mosi" dehighlighted.
+\t (00:08:40) Net "/Reset" dehighlighted.
+\t (00:08:40) Net "Pb1" dehighlighted.
+\t (00:08:40) Net "Miso" dehighlighted.
+\i (00:08:40) done 
+\i (00:08:40) generaledit 
+\i (00:08:41) xhilite 
+\i (00:08:41) xrefdes J5 
+\i (00:08:41) xrefdes R17 
+\i (00:08:41) xrefdes R18 
+\i (00:08:41) xNet Int1 
+\i (00:08:41) xNet Int0 
+\i (00:08:41) xNet +3.3V 
+\i (00:08:41) xname_flush 
+\i (00:08:41) trapsize 7114
+\t (00:08:41) Symbol "J5" highlighted.
+\t (00:08:41) Symbol "R17" highlighted.
+\t (00:08:41) Symbol "R18" highlighted.
+\t (00:08:41) Net "Int1" highlighted.
+\t (00:08:41) Net "Int0" highlighted.
+\t (00:08:41) Net "+3.3V" highlighted.
+\i (00:08:41) done 
+\i (00:08:41) generaledit 
+\i (00:08:43) xdehilite 
+\i (00:08:43) xrefdes J5 
+\i (00:08:43) xrefdes R17 
+\i (00:08:43) xrefdes R18 
+\i (00:08:43) xNet Int1 
+\i (00:08:43) xNet Int0 
+\i (00:08:43) xNet +3.3V 
+\i (00:08:43) xname_flush 
+\t (00:08:43) Symbol "J5" dehighlighted.
+\t (00:08:43) Symbol "R17" dehighlighted.
+\t (00:08:43) Symbol "R18" dehighlighted.
+\t (00:08:43) Net "Int1" dehighlighted.
+\t (00:08:43) Net "Int0" dehighlighted.
+\t (00:08:43) Net "+3.3V" dehighlighted.
+\i (00:08:43) done 
+\i (00:08:43) generaledit 
+\i (00:08:45) xhilite 
+\i (00:08:45) xrefdes J3 
+\i (00:08:45) xrefdes J4 
+\i (00:08:45) xNet Pe0 
+\i (00:08:45) xNet Pe1 
+\i (00:08:45) xNet Int2 
+\i (00:08:45) xNet Int3 
+\i (00:08:45) xname_flush 
+\i (00:08:45) trapsize 3256
+\t (00:08:45) Symbol "J3" highlighted.
+\t (00:08:45) Symbol "J4" highlighted.
+\t (00:08:45) Net "Pe0" highlighted.
+\t (00:08:45) Net "Pe1" highlighted.
+\t (00:08:45) Net "Int2" highlighted.
+\t (00:08:45) Net "Int3" highlighted.
+\i (00:08:46) done 
+\i (00:08:46) generaledit 
+\i (00:08:47) xdehilite 
+\i (00:08:47) xrefdes J3 
+\i (00:08:47) xrefdes J4 
+\i (00:08:47) xNet Pe0 
+\i (00:08:47) xNet Pe1 
+\i (00:08:47) xNet Int2 
+\i (00:08:47) xNet Int3 
+\i (00:08:47) xname_flush 
+\t (00:08:47) Symbol "J3" dehighlighted.
+\t (00:08:47) Symbol "J4" dehighlighted.
+\t (00:08:47) Net "Pe0" dehighlighted.
+\t (00:08:47) Net "Pe1" dehighlighted.
+\t (00:08:47) Net "Int2" dehighlighted.
+\t (00:08:47) Net "Int3" dehighlighted.
+\i (00:08:47) done 
+\i (00:08:48) generaledit 
+\w (00:10:13) Save Pending
+\i (00:11:14) xhilite 
+\i (00:11:14) xrefdes D3 
+\i (00:11:14) xrefdes R4 
+\i (00:11:14) xrefdes Sw2 
+\i (00:11:14) xNet /Reset 
+\i (00:11:14) xNet +3.3V 
+\i (00:11:14) xNet Gnd 
+\i (00:11:14) xrefdes C6 
+\i (00:11:14) xname_flush 
+\i (00:11:14) trapsize 7114
+\t (00:11:14) Symbol "D3" highlighted.
+\t (00:11:14) Symbol "R4" highlighted.
+\t (00:11:14) Symbol "Sw2" highlighted.
+\t (00:11:14) Net "/Reset" highlighted.
+\t (00:11:14) Net "+3.3V" highlighted.
+\t (00:11:14) Net "Gnd" highlighted.
+\t (00:11:14) Symbol "C6" highlighted.
+\i (00:11:14) done 
+\i (00:11:14) generaledit 
+\i (00:11:17) xdehilite 
+\i (00:11:17) xrefdes D3 
+\i (00:11:17) xrefdes R4 
+\i (00:11:17) xrefdes Sw2 
+\i (00:11:17) xNet /Reset 
+\i (00:11:17) xNet +3.3V 
+\i (00:11:17) xNet Gnd 
+\i (00:11:17) xrefdes C6 
+\i (00:11:17) xname_flush 
+\t (00:11:17) Symbol "D3" dehighlighted.
+\t (00:11:17) Symbol "R4" dehighlighted.
+\t (00:11:17) Symbol "Sw2" dehighlighted.
+\t (00:11:17) Net "/Reset" dehighlighted.
+\t (00:11:17) Net "+3.3V" dehighlighted.
+\t (00:11:17) Net "Gnd" dehighlighted.
+\t (00:11:17) Symbol "C6" dehighlighted.
+\i (00:11:17) done 
+\i (00:11:17) generaledit 
+\i (00:11:18) xhilite 
+\i (00:11:18) xNet +3.3V 
+\i (00:11:18) xrefdes J13 
+\i (00:11:18) xNet Gnd 
+\i (00:11:18) xname_flush 
+\i (00:11:18) trapsize 7114
+\t (00:11:18) Net "+3.3V" highlighted.
+\t (00:11:18) Symbol "J13" highlighted.
+\t (00:11:18) Net "Gnd" highlighted.
+\i (00:11:18) done 
+\i (00:11:18) generaledit 
+\i (00:11:22) xdehilite 
+\i (00:11:22) xNet +3.3V 
+\i (00:11:22) xrefdes J13 
+\i (00:11:22) xNet Gnd 
+\i (00:11:22) xname_flush 
+\t (00:11:22) Net "+3.3V" dehighlighted.
+\t (00:11:22) Symbol "J13" dehighlighted.
+\t (00:11:22) Net "Gnd" dehighlighted.
+\i (00:11:22) done 
+\i (00:11:22) generaledit 
+\i (00:11:23) xhilite 
+\i (00:11:23) xrefdes J3 
+\i (00:11:23) xrefdes J4 
+\i (00:11:23) xNet Pe0 
+\i (00:11:23) xNet Pe1 
+\i (00:11:23) xNet Int2 
+\i (00:11:23) xNet Int3 
+\i (00:11:23) xname_flush 
+\i (00:11:23) trapsize 3256
+\t (00:11:23) Symbol "J3" highlighted.
+\t (00:11:23) Symbol "J4" highlighted.
+\t (00:11:23) Net "Pe0" highlighted.
+\t (00:11:23) Net "Pe1" highlighted.
+\t (00:11:23) Net "Int2" highlighted.
+\t (00:11:23) Net "Int3" highlighted.
+\i (00:11:23) done 
+\i (00:11:23) generaledit 
+\i (00:11:26) xdehilite 
+\i (00:11:26) xrefdes J3 
+\i (00:11:26) xrefdes J4 
+\i (00:11:26) xNet Pe0 
+\i (00:11:26) xNet Pe1 
+\i (00:11:26) xNet Int2 
+\i (00:11:26) xNet Int3 
+\i (00:11:26) xname_flush 
+\t (00:11:26) Symbol "J3" dehighlighted.
+\t (00:11:26) Symbol "J4" dehighlighted.
+\t (00:11:26) Net "Pe0" dehighlighted.
+\t (00:11:26) Net "Pe1" dehighlighted.
+\t (00:11:26) Net "Int2" dehighlighted.
+\t (00:11:26) Net "Int3" dehighlighted.
+\i (00:11:26) done 
+\i (00:11:26) generaledit 
+\i (00:11:27) xhilite 
+\i (00:11:27) xNet Int0 
+\i (00:11:27) xNet Int2 
+\i (00:11:27) xNet Int1 
+\i (00:11:27) xNet Int4 
+\i (00:11:27) xNet Int3 
+\i (00:11:27) xNet Int6 
+\i (00:11:27) xNet Int5 
+\i (00:11:27) xNet Int7 
+\i (00:11:27) xNet Miso 
+\i (00:11:27) xNet Mosi 
+\i (00:11:27) xNet Pb1 
+\i (00:11:27) xNet Pe0 
+\i (00:11:27) xNet Pe1 
+\i (00:11:27) xNet Buzzer 
+\i (00:11:27) xname_flush 
+\i (00:11:27) trapsize 7114
+\t (00:11:27) 14 Net(s) highlighted.
+\i (00:11:27) done 
+\i (00:11:27) generaledit 
+\i (00:11:29) xdehilite 
+\i (00:11:30) xNet Int0 
+\i (00:11:30) xNet Int2 
+\i (00:11:30) xNet Int1 
+\i (00:11:30) xNet Int4 
+\i (00:11:30) xNet Int3 
+\i (00:11:30) xNet Int6 
+\i (00:11:30) xNet Int5 
+\i (00:11:30) xNet Int7 
+\i (00:11:30) xNet Miso 
+\i (00:11:30) xNet Mosi 
+\i (00:11:30) xNet Pb1 
+\i (00:11:30) xNet Pe0 
+\i (00:11:30) xNet Pe1 
+\i (00:11:30) xNet Buzzer 
+\i (00:11:30) xname_flush 
+\t (00:11:30) 14 Net(s) dehighlighted.
+\i (00:11:30) done 
+\i (00:11:30) generaledit 
+\i (00:11:30) xhilite 
+\i (00:11:30) xrefdes J2 
+\i (00:11:30) xNet Gnd 
+\i (00:11:30) xNet +3.3V 
+\i (00:11:30) xNet Mosi 
+\i (00:11:30) xNet /Reset 
+\i (00:11:30) xNet Pb1 
+\i (00:11:30) xNet Miso 
+\i (00:11:30) xname_flush 
+\i (00:11:30) trapsize 7114
+\t (00:11:30) Symbol "J2" highlighted.
+\t (00:11:30) Net "Gnd" highlighted.
+\t (00:11:30) Net "+3.3V" highlighted.
+\t (00:11:30) Net "Mosi" highlighted.
+\t (00:11:30) Net "/Reset" highlighted.
+\t (00:11:30) Net "Pb1" highlighted.
+\t (00:11:30) Net "Miso" highlighted.
+\i (00:11:30) done 
+\i (00:11:30) generaledit 
+\i (00:11:33) xdehilite 
+\i (00:11:33) xrefdes J2 
+\i (00:11:33) xNet Gnd 
+\i (00:11:33) xNet +3.3V 
+\i (00:11:33) xNet Mosi 
+\i (00:11:33) xNet /Reset 
+\i (00:11:33) xNet Pb1 
+\i (00:11:33) xNet Miso 
+\i (00:11:33) xname_flush 
+\t (00:11:33) Symbol "J2" dehighlighted.
+\t (00:11:33) Net "Gnd" dehighlighted.
+\t (00:11:33) Net "+3.3V" dehighlighted.
+\t (00:11:33) Net "Mosi" dehighlighted.
+\t (00:11:33) Net "/Reset" dehighlighted.
+\t (00:11:33) Net "Pb1" dehighlighted.
+\t (00:11:33) Net "Miso" dehighlighted.
+\i (00:11:33) done 
+\i (00:11:33) generaledit 
+\i (00:11:36) xhilite 
+\i (00:11:36) xrefdes J5 
+\i (00:11:36) xrefdes R17 
+\i (00:11:36) xrefdes R18 
+\i (00:11:36) xNet Int1 
+\i (00:11:36) xNet Int0 
+\i (00:11:36) xNet +3.3V 
+\i (00:11:36) xname_flush 
+\i (00:11:36) trapsize 7114
+\t (00:11:36) Symbol "J5" highlighted.
+\t (00:11:36) Symbol "R17" highlighted.
+\t (00:11:36) Symbol "R18" highlighted.
+\t (00:11:36) Net "Int1" highlighted.
+\t (00:11:36) Net "Int0" highlighted.
+\t (00:11:36) Net "+3.3V" highlighted.
+\i (00:11:36) done 
+\i (00:11:36) generaledit 
+\i (00:11:36) xdehilite 
+\i (00:11:36) xrefdes J5 
+\i (00:11:36) xrefdes R17 
+\i (00:11:36) xrefdes R18 
+\i (00:11:36) xNet Int1 
+\i (00:11:36) xNet Int0 
+\i (00:11:36) xNet +3.3V 
+\i (00:11:36) xname_flush 
+\t (00:11:36) Symbol "J5" dehighlighted.
+\t (00:11:36) Symbol "R17" dehighlighted.
+\t (00:11:36) Symbol "R18" dehighlighted.
+\t (00:11:36) Net "Int1" dehighlighted.
+\t (00:11:36) Net "Int0" dehighlighted.
+\t (00:11:36) Net "+3.3V" dehighlighted.
+\i (00:11:36) done 
+\i (00:11:36) generaledit 
+\i (00:11:37) xhilite 
+\i (00:11:37) xrefdes J5 
+\i (00:11:37) xrefdes R17 
+\i (00:11:37) xrefdes R18 
+\i (00:11:37) xNet Int1 
+\i (00:11:37) xNet Int0 
+\i (00:11:37) xNet +3.3V 
+\i (00:11:37) xname_flush 
+\i (00:11:37) trapsize 7114
+\t (00:11:37) Symbol "J5" highlighted.
+\t (00:11:37) Symbol "R17" highlighted.
+\t (00:11:37) Symbol "R18" highlighted.
+\t (00:11:37) Net "Int1" highlighted.
+\t (00:11:37) Net "Int0" highlighted.
+\t (00:11:37) Net "+3.3V" highlighted.
+\i (00:11:37) done 
+\i (00:11:37) generaledit 
+\i (00:11:39) xdehilite 
+\i (00:11:39) xrefdes J5 
+\i (00:11:39) xrefdes R17 
+\i (00:11:39) xrefdes R18 
+\i (00:11:39) xNet Int1 
+\i (00:11:39) xNet Int0 
+\i (00:11:39) xNet +3.3V 
+\i (00:11:39) xname_flush 
+\t (00:11:39) Symbol "J5" dehighlighted.
+\t (00:11:39) Symbol "R17" dehighlighted.
+\t (00:11:39) Symbol "R18" dehighlighted.
+\t (00:11:39) Net "Int1" dehighlighted.
+\t (00:11:39) Net "Int0" dehighlighted.
+\t (00:11:39) Net "+3.3V" dehighlighted.
+\i (00:11:40) done 
+\i (00:11:40) generaledit 
+\i (00:11:40) xhilite 
+\i (00:11:40) xNet +5V 
+\i (00:11:40) xNet +3.3V 
+\i (00:11:40) xrefdes U7 
+\i (00:11:40) xNet Gnd 
+\i (00:11:40) xrefdes C20 
+\i (00:11:40) xrefdes C21 
+\i (00:11:40) xname_flush 
+\i (00:11:40) trapsize 7114
+\t (00:11:40) Net "+5V" highlighted.
+\t (00:11:40) Net "+3.3V" highlighted.
+\t (00:11:40) Symbol "U7" highlighted.
+\t (00:11:40) Net "Gnd" highlighted.
+\t (00:11:40) Symbol "C20" highlighted.
+\t (00:11:40) Symbol "C21" highlighted.
+\i (00:11:40) done 
+\i (00:11:40) generaledit 
+\i (00:11:43) xdehilite 
+\i (00:11:43) xNet +5V 
+\i (00:11:43) xNet +3.3V 
+\i (00:11:43) xrefdes U7 
+\i (00:11:43) xNet Gnd 
+\i (00:11:43) xrefdes C20 
+\i (00:11:43) xrefdes C21 
+\i (00:11:43) xname_flush 
+\t (00:11:43) Net "+5V" dehighlighted.
+\t (00:11:43) Net "+3.3V" dehighlighted.
+\t (00:11:43) Symbol "U7" dehighlighted.
+\t (00:11:43) Net "Gnd" dehighlighted.
+\t (00:11:43) Symbol "C20" dehighlighted.
+\t (00:11:43) Symbol "C21" dehighlighted.
+\i (00:11:43) done 
+\i (00:11:43) generaledit 
+\i (00:11:48) xhilite 
+\i (00:11:48) xrefdes U8 
+\i (00:11:48) xrefdes C22 
+\i (00:11:48) xNet N106265 
+\i (00:11:48) xNet Gnd 
+\i (00:11:48) xrefdes C23 
+\i (00:11:48) xNet +3.3V 
+\i (00:11:48) xNet N106329 
+\i (00:11:48) xNet Pe1 
+\i (00:11:48) xNet Pe0 
+\i (00:11:48) xrefdes R16 
+\i (00:11:48) xNet D- 
+\i (00:11:48) xNet D+ 
+\i (00:11:48) xname_flush 
+\i (00:11:48) trapsize 7114
+\t (00:11:48) 8 Net(s) highlighted.
+\t (00:11:48) 4 Component(s) highlighted.
+\i (00:11:48) done 
+\i (00:11:48) generaledit 
+\i (00:11:53) xdehilite 
+\i (00:11:53) xrefdes U8 
+\i (00:11:53) xrefdes C22 
+\i (00:11:53) xNet N106265 
+\i (00:11:53) xNet Gnd 
+\i (00:11:53) xrefdes C23 
+\i (00:11:53) xNet +3.3V 
+\i (00:11:53) xNet N106329 
+\i (00:11:53) xNet Pe1 
+\i (00:11:53) xNet Pe0 
+\i (00:11:53) xrefdes R16 
+\i (00:11:53) xNet D- 
+\i (00:11:53) xNet D+ 
+\i (00:11:53) xname_flush 
+\t (00:11:53) 8 Net(s) dehighlighted.
+\t (00:11:53) 4 Component(s) dehighlighted.
+\i (00:11:53) done 
+\i (00:11:53) generaledit 
+\i (00:11:56) xhilite 
+\i (00:11:56) xNet +3.3V 
+\i (00:11:56) xNet Gnd 
+\i (00:11:56) xNet Int0 
+\i (00:11:56) xNet Pa3 
+\i (00:11:56) xNet Int1 
+\i (00:11:56) xname_flush 
+\i (00:11:56) trapsize 7114
+\t (00:11:56) Net "+3.3V" highlighted.
+\t (00:11:56) Net "Gnd" highlighted.
+\t (00:11:56) Net "Int0" highlighted.
+\t (00:11:56) Net "Pa3" highlighted.
+\t (00:11:56) Net "Int1" highlighted.
+\i (00:11:56) done 
+\i (00:11:56) generaledit 
+\i (00:12:00) xdehilite 
+\i (00:12:00) xNet +3.3V 
+\i (00:12:00) xNet Gnd 
+\i (00:12:00) xNet Int0 
+\i (00:12:00) xNet Pa3 
+\i (00:12:00) xNet Int1 
+\i (00:12:00) xname_flush 
+\t (00:12:00) Net "+3.3V" dehighlighted.
+\t (00:12:00) Net "Gnd" dehighlighted.
+\t (00:12:00) Net "Int0" dehighlighted.
+\t (00:12:00) Net "Pa3" dehighlighted.
+\t (00:12:00) Net "Int1" dehighlighted.
+\i (00:12:01) done 
+\i (00:12:01) generaledit 
+\i (00:12:03) xhilite 
+\i (00:12:03) xNet +3.3V 
+\i (00:12:03) xNet Gnd 
+\i (00:12:03) xNet Int6 
+\i (00:12:03) xNet Int0 
+\i (00:12:03) xNet Int1 
+\i (00:12:03) xNet Pa4 
+\i (00:12:03) xNet Pa5 
+\i (00:12:03) xname_flush 
+\i (00:12:03) trapsize 7114
+\t (00:12:03) Net "+3.3V" highlighted.
+\t (00:12:03) Net "Gnd" highlighted.
+\t (00:12:03) Net "Int6" highlighted.
+\t (00:12:03) Net "Int0" highlighted.
+\t (00:12:03) Net "Int1" highlighted.
+\t (00:12:03) Net "Pa4" highlighted.
+\t (00:12:03) Net "Pa5" highlighted.
+\i (00:12:03) done 
+\i (00:12:03) generaledit 
+\i (00:12:07) xdehilite 
+\i (00:12:07) xNet +3.3V 
+\i (00:12:07) xNet Gnd 
+\i (00:12:07) xNet Int6 
+\i (00:12:07) xNet Int0 
+\i (00:12:07) xNet Int1 
+\i (00:12:07) xNet Pa4 
+\i (00:12:07) xNet Pa5 
+\i (00:12:07) xname_flush 
+\t (00:12:07) Net "+3.3V" dehighlighted.
+\t (00:12:07) Net "Gnd" dehighlighted.
+\t (00:12:07) Net "Int6" dehighlighted.
+\t (00:12:07) Net "Int0" dehighlighted.
+\t (00:12:07) Net "Int1" dehighlighted.
+\t (00:12:07) Net "Pa4" dehighlighted.
+\t (00:12:07) Net "Pa5" dehighlighted.
+\i (00:12:08) done 
+\i (00:12:08) generaledit 
+\i (00:12:09) xhilite 
+\i (00:12:09) xNet +5V 
+\i (00:12:09) xNet Gnd 
+\i (00:12:09) xNet Buzzer 
+\i (00:12:09) xname_flush 
+\i (00:12:09) trapsize 7114
+\t (00:12:09) Net "+5V" highlighted.
+\t (00:12:09) Net "Gnd" highlighted.
+\t (00:12:09) Net "Buzzer" highlighted.
+\i (00:12:10) done 
+\i (00:12:10) generaledit 
+\i (00:12:19) xdehilite 
+\i (00:12:19) xNet +5V 
+\i (00:12:19) xNet Gnd 
+\i (00:12:19) xNet Buzzer 
+\i (00:12:19) xname_flush 
+\t (00:12:19) Net "+5V" dehighlighted.
+\t (00:12:19) Net "Gnd" dehighlighted.
+\t (00:12:19) Net "Buzzer" dehighlighted.
+\i (00:12:19) done 
+\i (00:12:19) generaledit 
+\i (00:12:20) xhilite 
+\i (00:12:20) xNet +3.3V 
+\i (00:12:20) xNet Gnd 
+\i (00:12:20) xNet Int7 
+\i (00:12:20) xNet Int1 
+\i (00:12:20) xNet Int0 
+\i (00:12:20) xname_flush 
+\i (00:12:20) trapsize 7114
+\t (00:12:20) Net "+3.3V" highlighted.
+\t (00:12:20) Net "Gnd" highlighted.
+\t (00:12:20) Net "Int7" highlighted.
+\t (00:12:20) Net "Int1" highlighted.
+\t (00:12:20) Net "Int0" highlighted.
+\i (00:12:20) done 
+\i (00:12:20) generaledit 
+\i (00:12:20) xdehilite 
+\i (00:12:20) xNet +3.3V 
+\i (00:12:20) xNet Gnd 
+\i (00:12:20) xNet Int7 
+\i (00:12:20) xNet Int1 
+\i (00:12:20) xNet Int0 
+\i (00:12:20) xname_flush 
+\t (00:12:20) Net "+3.3V" dehighlighted.
+\t (00:12:20) Net "Gnd" dehighlighted.
+\t (00:12:20) Net "Int7" dehighlighted.
+\t (00:12:20) Net "Int1" dehighlighted.
+\t (00:12:20) Net "Int0" dehighlighted.
+\i (00:12:21) done 
+\i (00:12:21) generaledit 
+\i (00:12:21) xhilite 
+\i (00:12:21) xNet Int5 
+\i (00:12:21) xNet Int4 
+\i (00:12:21) xNet +3.3V 
+\i (00:12:21) xNet Gnd 
+\i (00:12:21) xNet Int1 
+\i (00:12:21) xNet Int0 
+\i (00:12:21) xNet Pa1 
+\i (00:12:21) xname_flush 
+\i (00:12:21) trapsize 7114
+\t (00:12:21) Net "Int5" highlighted.
+\t (00:12:21) Net "Int4" highlighted.
+\t (00:12:21) Net "+3.3V" highlighted.
+\t (00:12:21) Net "Gnd" highlighted.
+\t (00:12:21) Net "Int1" highlighted.
+\t (00:12:21) Net "Int0" highlighted.
+\t (00:12:21) Net "Pa1" highlighted.
+\i (00:12:21) done 
+\i (00:12:21) generaledit 
+\i (00:12:27) xdehilite 
+\i (00:12:27) xNet Int5 
+\i (00:12:27) xNet Int4 
+\i (00:12:27) xNet +3.3V 
+\i (00:12:27) xNet Gnd 
+\i (00:12:27) xNet Int1 
+\i (00:12:27) xNet Int0 
+\i (00:12:27) xNet Pa1 
+\i (00:12:27) xname_flush 
+\t (00:12:27) Net "Int5" dehighlighted.
+\t (00:12:27) Net "Int4" dehighlighted.
+\t (00:12:27) Net "+3.3V" dehighlighted.
+\t (00:12:27) Net "Gnd" dehighlighted.
+\t (00:12:27) Net "Int1" dehighlighted.
+\t (00:12:27) Net "Int0" dehighlighted.
+\t (00:12:27) Net "Pa1" dehighlighted.
+\i (00:12:27) done 
+\i (00:12:27) generaledit 
+\i (00:12:27) xhilite 
+\i (00:12:27) xNet +3.3V 
+\i (00:12:27) xNet Gnd 
+\i (00:12:27) xNet Int7 
+\i (00:12:27) xNet Int1 
+\i (00:12:27) xNet Int0 
+\i (00:12:27) xname_flush 
+\i (00:12:27) trapsize 7114
+\t (00:12:27) Net "+3.3V" highlighted.
+\t (00:12:27) Net "Gnd" highlighted.
+\t (00:12:27) Net "Int7" highlighted.
+\t (00:12:27) Net "Int1" highlighted.
+\t (00:12:27) Net "Int0" highlighted.
+\i (00:12:27) done 
+\i (00:12:27) generaledit 
+\i (00:12:29) xdehilite 
+\i (00:12:29) xNet +3.3V 
+\i (00:12:29) xNet Gnd 
+\i (00:12:29) xNet Int7 
+\i (00:12:29) xNet Int1 
+\i (00:12:29) xNet Int0 
+\i (00:12:29) xname_flush 
+\t (00:12:29) Net "+3.3V" dehighlighted.
+\t (00:12:29) Net "Gnd" dehighlighted.
+\t (00:12:29) Net "Int7" dehighlighted.
+\t (00:12:29) Net "Int1" dehighlighted.
+\t (00:12:29) Net "Int0" dehighlighted.
+\i (00:12:29) done 
+\i (00:12:29) generaledit 
+\i (00:12:57) xhilite 
+\i (00:12:57) xNet Int5 
+\i (00:12:57) xNet Int4 
+\i (00:12:57) xNet +3.3V 
+\i (00:12:57) xNet Gnd 
+\i (00:12:57) xNet Int1 
+\i (00:12:57) xNet Int0 
+\i (00:12:57) xNet Pa1 
+\i (00:12:57) xname_flush 
+\i (00:12:57) trapsize 7114
+\t (00:12:57) Net "Int5" highlighted.
+\t (00:12:57) Net "Int4" highlighted.
+\t (00:12:57) Net "+3.3V" highlighted.
+\t (00:12:57) Net "Gnd" highlighted.
+\t (00:12:57) Net "Int1" highlighted.
+\t (00:12:57) Net "Int0" highlighted.
+\t (00:12:57) Net "Pa1" highlighted.
+\i (00:12:57) done 
+\i (00:12:57) generaledit 
+\i (00:12:58) xdehilite 
+\i (00:12:58) xNet Int5 
+\i (00:12:58) xNet Int4 
+\i (00:12:58) xNet +3.3V 
+\i (00:12:58) xNet Gnd 
+\i (00:12:58) xNet Int1 
+\i (00:12:58) xNet Int0 
+\i (00:12:58) xNet Pa1 
+\i (00:12:58) xname_flush 
+\t (00:12:58) Net "Int5" dehighlighted.
+\t (00:12:58) Net "Int4" dehighlighted.
+\t (00:12:58) Net "+3.3V" dehighlighted.
+\t (00:12:58) Net "Gnd" dehighlighted.
+\t (00:12:58) Net "Int1" dehighlighted.
+\t (00:12:58) Net "Int0" dehighlighted.
+\t (00:12:58) Net "Pa1" dehighlighted.
+\i (00:12:58) done 
+\i (00:12:58) generaledit 
+\i (00:13:00) xhilite 
+\i (00:13:00) xNet Int5 
+\i (00:13:00) xNet Int4 
+\i (00:13:00) xNet +3.3V 
+\i (00:13:00) xNet Gnd 
+\i (00:13:00) xNet Int1 
+\i (00:13:00) xNet Int0 
+\i (00:13:00) xNet Pa1 
+\i (00:13:00) xNet Int7 
+\i (00:13:00) xname_flush 
+\i (00:13:00) trapsize 7114
+\t (00:13:00) Net "Int5" highlighted.
+\t (00:13:00) Net "Int4" highlighted.
+\t (00:13:00) Net "+3.3V" highlighted.
+\t (00:13:00) Net "Gnd" highlighted.
+\t (00:13:00) Net "Int1" highlighted.
+\t (00:13:00) Net "Int0" highlighted.
+\t (00:13:00) Net "Pa1" highlighted.
+\t (00:13:00) Net "Int7" highlighted.
+\i (00:13:00) done 
+\i (00:13:00) generaledit 
+\i (00:13:04) xdehilite 
+\i (00:13:04) xNet Int5 
+\i (00:13:04) xNet Int4 
+\i (00:13:04) xNet +3.3V 
+\i (00:13:04) xNet Gnd 
+\i (00:13:04) xNet Int1 
+\i (00:13:04) xNet Int0 
+\i (00:13:04) xNet Pa1 
+\i (00:13:04) xNet Int7 
+\i (00:13:04) xname_flush 
+\t (00:13:04) Net "Int5" dehighlighted.
+\t (00:13:04) Net "Int4" dehighlighted.
+\t (00:13:04) Net "+3.3V" dehighlighted.
+\t (00:13:04) Net "Gnd" dehighlighted.
+\t (00:13:04) Net "Int1" dehighlighted.
+\t (00:13:04) Net "Int0" dehighlighted.
+\t (00:13:04) Net "Pa1" dehighlighted.
+\t (00:13:04) Net "Int7" dehighlighted.
+\i (00:13:04) done 
+\i (00:13:04) generaledit 
+\i (00:13:05) xhilite 
+\i (00:13:05) xNet +3.3V 
+\i (00:13:05) xNet Gnd 
+\i (00:13:05) xname_flush 
+\i (00:13:05) trapsize 7114
+\t (00:13:05) Net "+3.3V" highlighted.
+\t (00:13:05) Net "Gnd" highlighted.
+\i (00:13:06) done 
+\i (00:13:06) generaledit 
+\i (00:13:06) xdehilite 
+\i (00:13:06) xNet +3.3V 
+\i (00:13:06) xNet Gnd 
+\i (00:13:06) xname_flush 
+\t (00:13:06) Net "+3.3V" dehighlighted.
+\t (00:13:06) Net "Gnd" dehighlighted.
+\i (00:13:06) done 
+\i (00:13:06) generaledit 
+\i (00:13:07) xhilite 
+\i (00:13:07) xNet +3.3V 
+\i (00:13:07) xNet Gnd 
+\i (00:13:07) xname_flush 
+\i (00:13:07) trapsize 7114
+\t (00:13:07) Net "+3.3V" highlighted.
+\t (00:13:07) Net "Gnd" highlighted.
+\i (00:13:07) done 
+\i (00:13:07) generaledit 
+\i (00:13:08) xhilite 
+\i (00:13:08) xname_flush 
+\i (00:13:08) done 
+\i (00:13:08) generaledit 
+\i (00:13:10) xhilite 
+\i (00:13:10) xNet Int7 
+\i (00:13:10) xNet Int0 
+\i (00:13:10) xNet Int1 
+\i (00:13:10) xname_flush 
+\i (00:13:10) trapsize 7114
+\t (00:13:10) Net "Int7" highlighted.
+\t (00:13:10) Net "Int0" highlighted.
+\t (00:13:10) Net "Int1" highlighted.
+\i (00:13:10) done 
+\i (00:13:10) generaledit 
+\i (00:13:12) xdehilite 
+\i (00:13:12) xNet +3.3V 
+\i (00:13:12) xNet Gnd 
+\i (00:13:12) xNet Int7 
+\i (00:13:12) xNet Int0 
+\i (00:13:12) xNet Int1 
+\i (00:13:12) xname_flush 
+\t (00:13:12) Net "+3.3V" dehighlighted.
+\t (00:13:12) Net "Gnd" dehighlighted.
+\t (00:13:12) Net "Int7" dehighlighted.
+\t (00:13:12) Net "Int0" dehighlighted.
+\t (00:13:12) Net "Int1" dehighlighted.
+\i (00:13:12) done 
+\i (00:13:12) generaledit 
+\i (00:13:13) xhilite 
+\i (00:13:13) xNet +3.3V 
+\i (00:13:13) xNet Gnd 
+\i (00:13:13) xNet Int7 
+\i (00:13:13) xNet Int0 
+\i (00:13:13) xNet Int1 
+\i (00:13:13) xname_flush 
+\i (00:13:13) trapsize 7114
+\t (00:13:13) Net "+3.3V" highlighted.
+\t (00:13:13) Net "Gnd" highlighted.
+\t (00:13:13) Net "Int7" highlighted.
+\t (00:13:13) Net "Int0" highlighted.
+\t (00:13:13) Net "Int1" highlighted.
+\i (00:13:13) done 
+\i (00:13:13) generaledit 
+\i (00:13:17) xhilite 
+\i (00:13:17) xname_flush 
+\i (00:13:17) done 
+\i (00:13:17) generaledit 
+\i (00:13:17) xhilite 
+\i (00:13:17) xname_flush 
+\i (00:13:17) done 
+\i (00:13:17) generaledit 
+\i (00:13:18) xhilite 
+\i (00:13:18) xname_flush 
+\i (00:13:18) done 
+\i (00:13:18) generaledit 
+\i (00:13:19) xhilite 
+\i (00:13:19) xname_flush 
+\i (00:13:19) done 
+\i (00:13:19) generaledit 
+\i (00:13:23) xdehilite 
+\i (00:13:23) xNet +3.3V 
+\i (00:13:23) xNet Gnd 
+\i (00:13:23) xNet Int7 
+\i (00:13:23) xNet Int0 
+\i (00:13:23) xNet Int1 
+\i (00:13:23) xname_flush 
+\t (00:13:23) Net "+3.3V" dehighlighted.
+\t (00:13:23) Net "Gnd" dehighlighted.
+\t (00:13:23) Net "Int7" dehighlighted.
+\t (00:13:23) Net "Int0" dehighlighted.
+\t (00:13:23) Net "Int1" dehighlighted.
+\i (00:13:23) done 
+\i (00:13:23) generaledit 
+\i (00:13:28) xhilite 
+\i (00:13:28) xNet +5V 
+\i (00:13:28) xNet Gnd 
+\i (00:13:28) xNet Buzzer 
+\i (00:13:28) xname_flush 
+\i (00:13:28) trapsize 7114
+\t (00:13:28) Net "+5V" highlighted.
+\t (00:13:28) Net "Gnd" highlighted.
+\t (00:13:28) Net "Buzzer" highlighted.
+\i (00:13:29) done 
+\i (00:13:29) xdehilite 
+\i (00:13:29) xNet +5V 
+\i (00:13:29) xNet Gnd 
+\i (00:13:29) xNet Buzzer 
+\i (00:13:29) xname_flush 
+\t (00:13:29) Net "+5V" dehighlighted.
+\t (00:13:29) Net "Gnd" dehighlighted.
+\t (00:13:29) Net "Buzzer" dehighlighted.
+\i (00:13:29) done 
+\i (00:13:29) generaledit 
+\i (00:13:30) xhilite 
+\i (00:13:30) xNet +5V 
+\i (00:13:30) xNet Gnd 
+\i (00:13:30) xNet Buzzer 
+\i (00:13:30) xname_flush 
+\i (00:13:30) trapsize 7114
+\t (00:13:30) Net "+5V" highlighted.
+\t (00:13:30) Net "Gnd" highlighted.
+\t (00:13:30) Net "Buzzer" highlighted.
+\i (00:13:30) done 
+\i (00:13:30) generaledit 
+\i (00:13:38) xhilite 
+\i (00:13:38) xNet +3.3V 
+\i (00:13:38) xNet Int6 
+\i (00:13:38) xNet Int0 
+\i (00:13:38) xNet Int1 
+\i (00:13:38) xNet Pa4 
+\i (00:13:38) xNet Pa5 
+\i (00:13:38) xname_flush 
+\i (00:13:38) trapsize 7114
+\t (00:13:38) Net "+3.3V" highlighted.
+\t (00:13:38) Net "Int6" highlighted.
+\t (00:13:38) Net "Int0" highlighted.
+\t (00:13:38) Net "Int1" highlighted.
+\t (00:13:38) Net "Pa4" highlighted.
+\t (00:13:38) Net "Pa5" highlighted.
+\i (00:13:38) done 
+\i (00:13:38) generaledit 
+\i (00:13:40) xdehilite 
+\i (00:13:40) xNet +5V 
+\i (00:13:40) xNet Gnd 
+\i (00:13:40) xNet Buzzer 
+\i (00:13:40) xname_flush 
+\t (00:13:40) Net "+5V" dehighlighted.
+\t (00:13:40) Net "Gnd" dehighlighted.
+\t (00:13:40) Net "Buzzer" dehighlighted.
+\i (00:13:40) done 
+\i (00:13:40) generaledit 
+\i (00:13:45) xhilite 
+\i (00:13:45) xNet +3.3V 
+\i (00:13:45) xNet Gnd 
+\i (00:13:45) xNet Int0 
+\i (00:13:45) xNet Pa3 
+\i (00:13:45) xNet Int1 
+\i (00:13:45) xname_flush 
+\i (00:13:45) trapsize 7114
+\t (00:13:45) Net "+3.3V" highlighted.
+\t (00:13:45) Net "Gnd" highlighted.
+\t (00:13:45) Net "Int0" highlighted.
+\t (00:13:45) Net "Pa3" highlighted.
+\t (00:13:45) Net "Int1" highlighted.
+\i (00:13:45) done 
+\i (00:13:45) generaledit 
+\i (00:13:46) xhilite 
+\i (00:13:46) xname_flush 
+\i (00:13:46) done 
+\i (00:13:46) generaledit 
+\i (00:13:47) xdehilite 
+\i (00:13:47) xNet +3.3V 
+\i (00:13:47) xNet Gnd 
+\i (00:13:47) xNet Int6 
+\i (00:13:47) xNet Int0 
+\i (00:13:47) xNet Int1 
+\i (00:13:47) xNet Pa4 
+\i (00:13:47) xNet Pa5 
+\i (00:13:47) xname_flush 
+\t (00:13:47) Net "+3.3V" dehighlighted.
+\t (00:13:47) Net "Gnd" dehighlighted.
+\t (00:13:47) Net "Int6" dehighlighted.
+\t (00:13:47) Net "Int0" dehighlighted.
+\t (00:13:47) Net "Int1" dehighlighted.
+\t (00:13:47) Net "Pa4" dehighlighted.
+\t (00:13:47) Net "Pa5" dehighlighted.
+\i (00:13:47) done 
+\i (00:13:47) generaledit 
+\i (00:13:56) xhilite 
+\i (00:13:56) xrefdes U8 
+\i (00:13:56) xrefdes C22 
+\i (00:13:56) xNet N106265 
+\i (00:13:56) xNet Gnd 
+\i (00:13:56) xrefdes C23 
+\i (00:13:56) xNet +3.3V 
+\i (00:13:56) xNet N106329 
+\i (00:13:56) xNet Pe1 
+\i (00:13:56) xNet Pe0 
+\i (00:13:56) xrefdes R16 
+\i (00:13:56) xNet D- 
+\i (00:13:56) xNet D+ 
+\i (00:13:56) xname_flush 
+\i (00:13:56) trapsize 7114
+\t (00:13:56) 8 Net(s) highlighted.
+\t (00:13:56) 4 Component(s) highlighted.
+\i (00:13:56) done 
+\i (00:13:56) generaledit 
+\i (00:13:57) xdehilite 
+\i (00:13:57) xNet +3.3V 
+\i (00:13:57) xNet Gnd 
+\i (00:13:57) xNet Int0 
+\i (00:13:57) xNet Pa3 
+\i (00:13:57) xNet Int1 
+\i (00:13:57) xname_flush 
+\t (00:13:57) Net "+3.3V" dehighlighted.
+\t (00:13:57) Net "Gnd" dehighlighted.
+\t (00:13:57) Net "Int0" dehighlighted.
+\t (00:13:57) Net "Pa3" dehighlighted.
+\t (00:13:57) Net "Int1" dehighlighted.
+\i (00:13:58) done 
+\i (00:13:58) generaledit 
+\i (00:14:05) xhilite 
+\i (00:14:05) xrefdes J2 
+\i (00:14:05) xNet Gnd 
+\i (00:14:05) xNet +3.3V 
+\i (00:14:05) xNet Mosi 
+\i (00:14:05) xNet /Reset 
+\i (00:14:05) xNet Pb1 
+\i (00:14:05) xNet Miso 
+\i (00:14:05) xname_flush 
+\i (00:14:05) trapsize 7114
+\t (00:14:05) Symbol "J2" highlighted.
+\t (00:14:05) Net "Gnd" highlighted.
+\t (00:14:05) Net "+3.3V" highlighted.
+\t (00:14:05) Net "Mosi" highlighted.
+\t (00:14:05) Net "/Reset" highlighted.
+\t (00:14:05) Net "Pb1" highlighted.
+\t (00:14:05) Net "Miso" highlighted.
+\i (00:14:05) done 
+\i (00:14:05) generaledit 
+\i (00:14:14) xdehilite 
+\i (00:14:14) xNet Gnd 
+\i (00:14:14) xNet +3.3V 
+\i (00:14:14) xNet Mosi 
+\i (00:14:14) xNet Pb1 
+\i (00:14:14) xNet Miso 
+\i (00:14:14) xNet /Reset 
+\i (00:14:14) xname_flush 
+\t (00:14:14) Net "Gnd" dehighlighted.
+\t (00:14:14) Net "+3.3V" dehighlighted.
+\t (00:14:14) Net "Mosi" dehighlighted.
+\t (00:14:14) Net "Pb1" dehighlighted.
+\t (00:14:14) Net "Miso" dehighlighted.
+\t (00:14:14) Net "/Reset" dehighlighted.
+\i (00:14:14) done 
+\i (00:14:15) generaledit 
+\i (00:14:15) xhilite 
+\i (00:14:15) xNet Int0 
+\i (00:14:15) xNet Int2 
+\i (00:14:15) xNet Int1 
+\i (00:14:15) xNet Int4 
+\i (00:14:15) xNet Int3 
+\i (00:14:15) xNet Int6 
+\i (00:14:15) xNet Int5 
+\i (00:14:15) xNet Int7 
+\i (00:14:15) xNet Miso 
+\i (00:14:15) xNet Mosi 
+\i (00:14:15) xNet Pb1 
+\i (00:14:15) xNet Pe0 
+\i (00:14:15) xNet Pe1 
+\i (00:14:15) xNet Buzzer 
+\i (00:14:15) xname_flush 
+\i (00:14:15) trapsize 7114
+\t (00:14:15) 14 Net(s) highlighted.
+\i (00:14:15) done 
+\i (00:14:15) generaledit 
+\i (00:14:19) xdehilite 
+\i (00:14:19) xNet Int1 
+\i (00:14:19) xNet Int0 
+\i (00:14:19) xNet Int5 
+\i (00:14:19) xNet Int4 
+\i (00:14:19) xNet Int3 
+\i (00:14:19) xNet Int2 
+\i (00:14:19) xNet Int7 
+\i (00:14:19) xNet Int6 
+\i (00:14:19) xNet Pe0 
+\i (00:14:19) xNet Miso 
+\i (00:14:19) xNet Mosi 
+\i (00:14:19) xNet Pb1 
+\i (00:14:19) xNet Pe1 
+\i (00:14:19) xNet Buzzer 
+\i (00:14:19) xname_flush 
+\t (00:14:19) 14 Net(s) dehighlighted.
+\i (00:14:19) done 
+\i (00:14:19) generaledit 
+\i (00:14:19) xhilite 
+\i (00:14:19) xrefdes R17 
+\i (00:14:19) xrefdes R18 
+\i (00:14:19) xNet Int1 
+\i (00:14:19) xNet Int0 
+\i (00:14:19) xNet +3.3V 
+\i (00:14:19) xname_flush 
+\i (00:14:19) trapsize 7114
+\t (00:14:19) Symbol "R17" highlighted.
+\t (00:14:19) Symbol "R18" highlighted.
+\t (00:14:19) Net "Int1" highlighted.
+\t (00:14:19) Net "Int0" highlighted.
+\t (00:14:19) Net "+3.3V" highlighted.
+\i (00:14:20) done 
+\i (00:14:20) generaledit 
+\i (00:14:20) xhilite 
+\i (00:14:20) xrefdes J5 
+\i (00:14:20) xrefdes R17 
+\i (00:14:20) xrefdes R18 
+\i (00:14:20) xname_flush 
+\i (00:14:20) trapsize 1922
+\t (00:14:20) Symbol "J5" highlighted.
+\t (00:14:20) Symbol "R17" highlighted.
+\t (00:14:20) Symbol "R18" highlighted.
+\i (00:14:20) done 
+\i (00:14:20) generaledit 
+\i (00:14:25) xdehilite 
+\i (00:14:25) xNet Int1 
+\i (00:14:25) xNet Int0 
+\i (00:14:25) xNet +3.3V 
+\i (00:14:25) xname_flush 
+\t (00:14:25) Net "Int1" dehighlighted.
+\t (00:14:25) Net "Int0" dehighlighted.
+\t (00:14:25) Net "+3.3V" dehighlighted.
+\i (00:14:25) done 
+\i (00:14:26) generaledit 
+\i (00:14:27) xhilite 
+\i (00:14:27) xNet +5V 
+\i (00:14:27) xNet +3.3V 
+\i (00:14:27) xrefdes U7 
+\i (00:14:27) xNet Gnd 
+\i (00:14:27) xrefdes C20 
+\i (00:14:27) xrefdes C21 
+\i (00:14:27) xname_flush 
+\i (00:14:27) trapsize 7114
+\t (00:14:27) Net "+5V" highlighted.
+\t (00:14:27) Net "+3.3V" highlighted.
+\t (00:14:27) Symbol "U7" highlighted.
+\t (00:14:27) Net "Gnd" highlighted.
+\t (00:14:27) Symbol "C20" highlighted.
+\t (00:14:27) Symbol "C21" highlighted.
+\i (00:14:27) done 
+\i (00:14:27) generaledit 
+\i (00:14:31) xdehilite 
+\i (00:14:31) xNet +5V 
+\i (00:14:31) xNet Gnd 
+\i (00:14:31) xNet +3.3V 
+\i (00:14:31) xname_flush 
+\t (00:14:31) Net "+5V" dehighlighted.
+\t (00:14:31) Net "Gnd" dehighlighted.
+\t (00:14:31) Net "+3.3V" dehighlighted.
+\i (00:14:31) done 
+\i (00:14:32) generaledit 
+\i (00:14:32) xhilite 
+\i (00:14:32) xrefdes Ic1 
+\i (00:14:32) xNet +3.3V 
+\i (00:14:32) xNet Gnd 
+\i (00:14:32) xNet N01134 
+\i (00:14:32) xNet N01127 
+\i (00:14:32) xNet Pg1 
+\i (00:14:32) xNet Pg2 
+\i (00:14:32) xNet Pg3 
+\i (00:14:32) xNet Pg4 
+\i (00:14:32) xNet Pf7 
+\i (00:14:32) xNet Pg0 
+\i (00:14:32) xNet Pf6 
+\i (00:14:32) xNet Pf4 
+\i (00:14:32) xNet Pf5 
+\i (00:14:32) xNet Pf3 
+\i (00:14:32) xNet Pf2 
+\i (00:14:32) xNet Pf1 
+\i (00:14:32) xNet Pf0 
+\i (00:14:32) xNet Int7 
+\i (00:14:32) xNet Int6 
+\i (00:14:32) xNet Int5 
+\i (00:14:32) xNet Int4 
+\i (00:14:32) xNet Pe3 
+\i (00:14:32) xNet Pe2 
+\i (00:14:32) xNet Pe1 
+\i (00:14:32) xNet Pe0 
+\i (00:14:32) xNet Pd7 
+\i (00:14:32) xNet Pd6 
+\i (00:14:32) xNet Pd5 
+\i (00:14:32) xNet Pd4 
+\i (00:14:32) xNet Int3 
+\i (00:14:32) xNet Int2 
+\i (00:14:32) xNet Int1 
+\i (00:14:32) xNet Int0 
+\i (00:14:32) xNet Pc6 
+\i (00:14:32) xNet Pc3 
+\i (00:14:32) xNet Pc1 
+\i (00:14:32) xNet Pb7 
+\i (00:14:32) xNet Pb5 
+\i (00:14:32) xNet Miso 
+\i (00:14:32) xNet Pb0 
+\i (00:14:32) xNet Pa4 
+\i (00:14:32) xNet Pa2 
+\i (00:14:32) xNet Pa0 
+\i (00:14:32) xname_flush 
+\t (00:14:32) 43 Net(s) highlighted.
+\t (00:14:32) 1 Component(s) highlighted.
+\i (00:14:32) done 
+\i (00:14:32) generaledit 
+\i (00:14:35) xhilite 
+\i (00:14:35) xrefdes Ic1 
+\i (00:14:35) xrefdes Y1 
+\i (00:14:35) xrefdes C1 
+\i (00:14:35) xrefdes C2 
+\i (00:14:35) xNet /Pen 
+\i (00:14:35) xNet /Reset 
+\i (00:14:35) xNet Pc7 
+\i (00:14:35) xNet Pc5 
+\i (00:14:35) xNet Pc4 
+\i (00:14:35) xNet Pc2 
+\i (00:14:35) xNet Pc0 
+\i (00:14:35) xNet Pb6 
+\i (00:14:35) xNet Buzzer 
+\i (00:14:35) xNet Mosi 
+\i (00:14:35) xNet Pb1 
+\i (00:14:35) xNet Pa7 
+\i (00:14:35) xNet Pa6 
+\i (00:14:35) xNet Pa5 
+\i (00:14:35) xNet Pa3 
+\i (00:14:35) xNet Pa1 
+\i (00:14:35) xname_flush 
+\i (00:14:35) trapsize 7114
+\t (00:14:35) 16 Net(s) highlighted.
+\t (00:14:35) 4 Component(s) highlighted.
+\i (00:14:35) done 
+\i (00:14:35) generaledit 
+\i (00:14:40) xdehilite 
+\i (00:14:40) xrefdes Ic1 
+\i (00:14:40) xrefdes Y1 
+\i (00:14:40) xrefdes C1 
+\i (00:14:40) xrefdes C2 
+\i (00:14:40) xNet +3.3V 
+\i (00:14:40) xNet Gnd 
+\i (00:14:40) xNet N01134 
+\i (00:14:40) xNet N01127 
+\i (00:14:40) xNet Pg1 
+\i (00:14:40) xNet Pg2 
+\i (00:14:40) xNet Pg3 
+\i (00:14:40) xNet Pg4 
+\i (00:14:40) xNet Pf7 
+\i (00:14:40) xNet Pg0 
+\i (00:14:40) xNet Pf6 
+\i (00:14:40) xNet Pf4 
+\i (00:14:40) xNet Pf5 
+\i (00:14:40) xNet Pf3 
+\i (00:14:40) xNet Pf2 
+\i (00:14:40) xNet Pf1 
+\i (00:14:40) xNet Pf0 
+\i (00:14:40) xNet Int7 
+\i (00:14:40) xNet Int6 
+\i (00:14:40) xNet Int5 
+\i (00:14:40) xNet Int4 
+\i (00:14:40) xNet Pe3 
+\i (00:14:40) xNet Pe2 
+\i (00:14:40) xNet Pe1 
+\i (00:14:40) xNet Pe0 
+\i (00:14:40) xNet Pd7 
+\i (00:14:40) xNet Pd6 
+\i (00:14:40) xNet Pd5 
+\i (00:14:40) xNet Pd4 
+\i (00:14:40) xNet Int3 
+\i (00:14:40) xNet Int2 
+\i (00:14:40) xNet Int1 
+\i (00:14:40) xNet Int0 
+\i (00:14:40) xNet /Pen 
+\i (00:14:40) xNet /Reset 
+\i (00:14:40) xNet Pc7 
+\i (00:14:40) xNet Pc6 
+\i (00:14:40) xNet Pc5 
+\i (00:14:40) xNet Pc4 
+\i (00:14:40) xNet Pc3 
+\i (00:14:40) xNet Pc2 
+\i (00:14:40) xNet Pc1 
+\i (00:14:40) xNet Pc0 
+\i (00:14:40) xNet Pb7 
+\i (00:14:40) xNet Pb6 
+\i (00:14:40) xNet Pb5 
+\i (00:14:40) xNet Buzzer 
+\i (00:14:40) xNet Miso 
+\i (00:14:40) xNet Mosi 
+\i (00:14:40) xNet Pb1 
+\i (00:14:40) xNet Pb0 
+\i (00:14:40) xNet Pa7 
+\i (00:14:40) xNet Pa6 
+\i (00:14:40) xNet Pa5 
+\i (00:14:40) xNet Pa4 
+\i (00:14:40) xNet Pa3 
+\i (00:14:40) xNet Pa2 
+\i (00:14:40) xNet Pa1 
+\i (00:14:40) xNet Pa0 
+\i (00:14:40) xname_flush 
+\t (00:14:40) 59 Net(s) dehighlighted.
+\t (00:14:40) 4 Component(s) dehighlighted.
+\i (00:14:40) done 
+\i (00:14:40) generaledit 
+\i (00:14:41) xhilite 
+\i (00:14:41) xNet +3.3V 
+\i (00:14:41) xrefdes J13 
+\i (00:14:41) xNet Gnd 
+\i (00:14:41) xname_flush 
+\i (00:14:41) trapsize 7114
+\t (00:14:41) Net "+3.3V" highlighted.
+\t (00:14:41) Symbol "J13" highlighted.
+\t (00:14:41) Net "Gnd" highlighted.
+\i (00:14:41) done 
+\i (00:14:41) generaledit 
+\i (00:14:43) xdehilite 
+\i (00:14:43) xNet +3.3V 
+\i (00:14:43) xrefdes J13 
+\i (00:14:43) xNet Gnd 
+\i (00:14:43) xname_flush 
+\t (00:14:43) Net "+3.3V" dehighlighted.
+\t (00:14:43) Symbol "J13" dehighlighted.
+\t (00:14:43) Net "Gnd" dehighlighted.
+\i (00:14:43) done 
+\i (00:14:43) generaledit 
+\i (00:14:43) xhilite 
+\i (00:14:43) xrefdes J3 
+\i (00:14:43) xrefdes J4 
+\i (00:14:43) xNet Pe0 
+\i (00:14:43) xNet Pe1 
+\i (00:14:43) xNet Int2 
+\i (00:14:43) xNet Int3 
+\i (00:14:43) xname_flush 
+\i (00:14:43) trapsize 3256
+\t (00:14:43) Symbol "J3" highlighted.
+\t (00:14:43) Symbol "J4" highlighted.
+\t (00:14:43) Net "Pe0" highlighted.
+\t (00:14:43) Net "Pe1" highlighted.
+\t (00:14:43) Net "Int2" highlighted.
+\t (00:14:43) Net "Int3" highlighted.
+\i (00:14:44) done 
+\i (00:14:44) generaledit 
+\i (00:14:45) xdehilite 
+\i (00:14:45) xrefdes J3 
+\i (00:14:45) xrefdes J4 
+\i (00:14:45) xNet Pe0 
+\i (00:14:45) xNet Pe1 
+\i (00:14:45) xNet Int2 
+\i (00:14:45) xNet Int3 
+\i (00:14:45) xname_flush 
+\t (00:14:45) Symbol "J3" dehighlighted.
+\t (00:14:45) Symbol "J4" dehighlighted.
+\t (00:14:45) Net "Pe0" dehighlighted.
+\t (00:14:45) Net "Pe1" dehighlighted.
+\t (00:14:45) Net "Int2" dehighlighted.
+\t (00:14:45) Net "Int3" dehighlighted.
+\i (00:14:45) done 
+\i (00:14:45) generaledit 
+\i (00:14:46) xhilite 
+\i (00:14:46) xrefdes D3 
+\i (00:14:46) xrefdes R4 
+\i (00:14:46) xrefdes Sw2 
+\i (00:14:46) xNet /Reset 
+\i (00:14:46) xNet +3.3V 
+\i (00:14:46) xNet Gnd 
+\i (00:14:46) xrefdes C6 
+\i (00:14:46) xname_flush 
+\i (00:14:46) trapsize 7114
+\t (00:14:46) Symbol "D3" highlighted.
+\t (00:14:46) Symbol "R4" highlighted.
+\t (00:14:46) Symbol "Sw2" highlighted.
+\t (00:14:46) Net "/Reset" highlighted.
+\t (00:14:46) Net "+3.3V" highlighted.
+\t (00:14:46) Net "Gnd" highlighted.
+\t (00:14:46) Symbol "C6" highlighted.
+\i (00:14:46) done 
+\i (00:14:46) generaledit 
+\i (00:14:46) xdehilite 
+\i (00:14:47) xrefdes D3 
+\i (00:14:47) xrefdes R4 
+\i (00:14:47) xrefdes Sw2 
+\i (00:14:47) xNet /Reset 
+\i (00:14:47) xNet +3.3V 
+\i (00:14:47) xNet Gnd 
+\i (00:14:47) xrefdes C6 
+\i (00:14:47) xname_flush 
+\t (00:14:47) Symbol "D3" dehighlighted.
+\t (00:14:47) Symbol "R4" dehighlighted.
+\t (00:14:47) Symbol "Sw2" dehighlighted.
+\t (00:14:47) Net "/Reset" dehighlighted.
+\t (00:14:47) Net "+3.3V" dehighlighted.
+\t (00:14:47) Net "Gnd" dehighlighted.
+\t (00:14:47) Symbol "C6" dehighlighted.
+\i (00:14:47) done 
+\i (00:14:47) generaledit 
+\i (00:14:48) xhilite 
+\i (00:14:48) xrefdes D3 
+\i (00:14:48) xrefdes R4 
+\i (00:14:48) xrefdes Sw2 
+\i (00:14:48) xNet /Reset 
+\i (00:14:48) xNet +3.3V 
+\i (00:14:48) xNet Gnd 
+\i (00:14:48) xrefdes C6 
+\i (00:14:48) xname_flush 
+\i (00:14:48) trapsize 7114
+\t (00:14:48) Symbol "D3" highlighted.
+\t (00:14:48) Symbol "R4" highlighted.
+\t (00:14:48) Symbol "Sw2" highlighted.
+\t (00:14:48) Net "/Reset" highlighted.
+\t (00:14:48) Net "+3.3V" highlighted.
+\t (00:14:48) Net "Gnd" highlighted.
+\t (00:14:48) Symbol "C6" highlighted.
+\i (00:14:48) done 
+\i (00:14:48) generaledit 
+\i (00:14:52) xdehilite 
+\i (00:14:52) xrefdes D3 
+\i (00:14:52) xrefdes R4 
+\i (00:14:52) xrefdes Sw2 
+\i (00:14:52) xNet /Reset 
+\i (00:14:52) xNet +3.3V 
+\i (00:14:52) xNet Gnd 
+\i (00:14:52) xrefdes C6 
+\i (00:14:52) xname_flush 
+\t (00:14:52) Symbol "D3" dehighlighted.
+\t (00:14:52) Symbol "R4" dehighlighted.
+\t (00:14:52) Symbol "Sw2" dehighlighted.
+\t (00:14:52) Net "/Reset" dehighlighted.
+\t (00:14:52) Net "+3.3V" dehighlighted.
+\t (00:14:52) Net "Gnd" dehighlighted.
+\t (00:14:52) Symbol "C6" dehighlighted.
+\i (00:14:53) done 
+\i (00:14:53) generaledit 
+\i (00:14:56) xhilite 
+\i (00:14:56) xrefdes D1 
+\i (00:14:56) xNet +5V 
+\i (00:14:56) xNet Gnd 
+\i (00:14:56) xrefdes J14 
+\i (00:14:56) xNet D- 
+\i (00:14:56) xNet D+ 
+\i (00:14:56) xrefdes C5 
+\i (00:14:56) xrefdes R1 
+\i (00:14:56) xNet N05362 
+\i (00:14:56) xNet N83212 
+\i (00:14:56) xNet N83254 
+\i (00:14:56) xrefdes L1 
+\i (00:14:56) xrefdes F1 
+\i (00:14:56) xname_flush 
+\i (00:14:56) trapsize 7114
+\t (00:14:56) 7 Net(s) highlighted.
+\t (00:14:56) 6 Component(s) highlighted.
+\i (00:14:56) done 
+\i (00:14:56) generaledit 
+\i (00:15:01) xdehilite 
+\i (00:15:01) xrefdes D1 
+\i (00:15:01) xNet +5V 
+\i (00:15:01) xNet Gnd 
+\i (00:15:01) xrefdes J14 
+\i (00:15:01) xNet D- 
+\i (00:15:01) xNet D+ 
+\i (00:15:01) xrefdes C5 
+\i (00:15:01) xrefdes R1 
+\i (00:15:01) xNet N05362 
+\i (00:15:01) xNet N83212 
+\i (00:15:01) xNet N83254 
+\i (00:15:01) xrefdes L1 
+\i (00:15:01) xrefdes F1 
+\i (00:15:01) xname_flush 
+\t (00:15:01) 7 Net(s) dehighlighted.
+\t (00:15:01) 6 Component(s) dehighlighted.
+\i (00:15:01) done 
+\i (00:15:01) generaledit 
+\i (00:15:03) xdehilite 
+\i (00:15:03) xNet Gnd 
+\i (00:15:03) xNet +3.3V 
+\i (00:15:03) xNet Pe0 
+\i (00:15:03) xNet Pe1 
+\i (00:15:03) xNet D- 
+\i (00:15:03) xNet D+ 
+\i (00:15:03) xname_flush 
+\t (00:15:03) Net "+3.3V" dehighlighted.
+\t (00:15:03) Net "Pe0" dehighlighted.
+\t (00:15:03) Net "Pe1" dehighlighted.
+\t (00:15:03) Net "D-" dehighlighted.
+\t (00:15:03) Net "D+" dehighlighted.
+\i (00:15:03) done 
+\i (00:15:03) generaledit 
+\i (00:15:06) xhilite 
+\i (00:15:06) xNet Gnd 
+\i (00:15:06) xNet +3.3V 
+\i (00:15:06) xNet Pe0 
+\i (00:15:06) xNet Pe1 
+\i (00:15:06) xNet D- 
+\i (00:15:06) xNet D+ 
+\i (00:15:06) xname_flush 
+\i (00:15:06) trapsize 7114
+\t (00:15:06) Net "Gnd" highlighted.
+\t (00:15:06) Net "+3.3V" highlighted.
+\t (00:15:06) Net "Pe0" highlighted.
+\t (00:15:06) Net "Pe1" highlighted.
+\t (00:15:06) Net "D-" highlighted.
+\t (00:15:06) Net "D+" highlighted.
+\i (00:15:06) done 
+\i (00:15:06) generaledit 
+\i (00:15:09) xdehilite 
+\i (00:15:09) xNet Gnd 
+\i (00:15:09) xNet +3.3V 
+\i (00:15:09) xNet Pe0 
+\i (00:15:09) xNet Pe1 
+\i (00:15:09) xNet D- 
+\i (00:15:09) xNet D+ 
+\i (00:15:09) xname_flush 
+\t (00:15:09) Net "Gnd" dehighlighted.
+\t (00:15:09) Net "+3.3V" dehighlighted.
+\t (00:15:09) Net "Pe0" dehighlighted.
+\t (00:15:09) Net "Pe1" dehighlighted.
+\t (00:15:09) Net "D-" dehighlighted.
+\t (00:15:09) Net "D+" dehighlighted.
+\i (00:15:10) done 
+\i (00:15:10) generaledit 
+\i (00:15:14) xhilite 
+\i (00:15:14) xNet +3.3V 
+\i (00:15:14) xNet Gnd 
+\i (00:15:14) xNet Int7 
+\i (00:15:14) xNet Int0 
+\i (00:15:14) xNet Int1 
+\i (00:15:14) xname_flush 
+\i (00:15:14) trapsize 7114
+\t (00:15:15) Net "+3.3V" highlighted.
+\t (00:15:15) Net "Gnd" highlighted.
+\t (00:15:15) Net "Int7" highlighted.
+\t (00:15:15) Net "Int0" highlighted.
+\t (00:15:15) Net "Int1" highlighted.
+\i (00:15:15) done 
+\i (00:15:15) generaledit 
+\i (00:15:15) xhilite 
+\i (00:15:15) xname_flush 
+\i (00:15:15) done 
+\i (00:15:15) generaledit 
+\i (00:15:17) xdehilite 
+\i (00:15:17) xNet +3.3V 
+\i (00:15:17) xNet Gnd 
+\i (00:15:17) xNet Int7 
+\i (00:15:17) xNet Int0 
+\i (00:15:17) xNet Int1 
+\i (00:15:17) xname_flush 
+\t (00:15:17) Net "+3.3V" dehighlighted.
+\t (00:15:17) Net "Gnd" dehighlighted.
+\t (00:15:17) Net "Int7" dehighlighted.
+\t (00:15:17) Net "Int0" dehighlighted.
+\t (00:15:17) Net "Int1" dehighlighted.
+\i (00:15:17) done 
+\i (00:15:17) generaledit 
+\i (00:15:17) xhilite 
+\i (00:15:18) xNet +5V 
+\i (00:15:18) xNet Gnd 
+\i (00:15:18) xNet Buzzer 
+\i (00:15:18) xname_flush 
+\i (00:15:18) trapsize 7114
+\t (00:15:18) Net "+5V" highlighted.
+\t (00:15:18) Net "Gnd" highlighted.
+\t (00:15:18) Net "Buzzer" highlighted.
+\i (00:15:18) done 
+\i (00:15:18) generaledit 
+\i (00:15:22) xdehilite 
+\i (00:15:22) xNet +5V 
+\i (00:15:22) xNet Gnd 
+\i (00:15:22) xNet Buzzer 
+\i (00:15:22) xname_flush 
+\t (00:15:22) Net "+5V" dehighlighted.
+\t (00:15:22) Net "Gnd" dehighlighted.
+\t (00:15:22) Net "Buzzer" dehighlighted.
+\i (00:15:22) done 
+\i (00:15:22) generaledit 
+\i (00:15:22) xhilite 
+\i (00:15:22) xNet +3.3V 
+\i (00:15:22) xNet Gnd 
+\i (00:15:22) xNet Int6 
+\i (00:15:22) xNet Int0 
+\i (00:15:22) xNet Int1 
+\i (00:15:22) xNet Pa4 
+\i (00:15:22) xNet Pa5 
+\i (00:15:22) xname_flush 
+\i (00:15:22) trapsize 7114
+\t (00:15:22) Net "+3.3V" highlighted.
+\t (00:15:22) Net "Gnd" highlighted.
+\t (00:15:22) Net "Int6" highlighted.
+\t (00:15:22) Net "Int0" highlighted.
+\t (00:15:22) Net "Int1" highlighted.
+\t (00:15:22) Net "Pa4" highlighted.
+\t (00:15:22) Net "Pa5" highlighted.
+\i (00:15:23) done 
+\i (00:15:23) generaledit 
+\i (00:15:25) xdehilite 
+\i (00:15:25) xNet +3.3V 
+\i (00:15:25) xNet Gnd 
+\i (00:15:25) xNet Int6 
+\i (00:15:25) xNet Int0 
+\i (00:15:25) xNet Int1 
+\i (00:15:25) xNet Pa4 
+\i (00:15:25) xNet Pa5 
+\i (00:15:25) xname_flush 
+\t (00:15:25) Net "+3.3V" dehighlighted.
+\t (00:15:25) Net "Gnd" dehighlighted.
+\t (00:15:25) Net "Int6" dehighlighted.
+\t (00:15:25) Net "Int0" dehighlighted.
+\t (00:15:25) Net "Int1" dehighlighted.
+\t (00:15:25) Net "Pa4" dehighlighted.
+\t (00:15:25) Net "Pa5" dehighlighted.
+\i (00:15:25) done 
+\i (00:15:25) generaledit 
+\i (00:15:26) xhilite 
+\i (00:15:26) xNet Int5 
+\i (00:15:26) xNet Int4 
+\i (00:15:26) xNet +3.3V 
+\i (00:15:26) xNet Gnd 
+\i (00:15:26) xNet Int1 
+\i (00:15:26) xNet Int0 
+\i (00:15:26) xNet Pa1 
+\i (00:15:26) xname_flush 
+\i (00:15:26) trapsize 7114
+\t (00:15:26) Net "Int5" highlighted.
+\t (00:15:26) Net "Int4" highlighted.
+\t (00:15:26) Net "+3.3V" highlighted.
+\t (00:15:26) Net "Gnd" highlighted.
+\t (00:15:26) Net "Int1" highlighted.
+\t (00:15:26) Net "Int0" highlighted.
+\t (00:15:26) Net "Pa1" highlighted.
+\i (00:15:26) done 
+\i (00:15:26) generaledit 
+\i (00:15:28) xhilite 
+\i (00:15:28) xname_flush 
+\i (00:15:28) done 
+\i (00:15:28) generaledit 
+\i (00:15:31) xdehilite 
+\i (00:15:31) xNet Int5 
+\i (00:15:31) xNet Int4 
+\i (00:15:31) xNet +3.3V 
+\i (00:15:31) xNet Gnd 
+\i (00:15:31) xNet Int1 
+\i (00:15:31) xNet Int0 
+\i (00:15:31) xNet Pa1 
+\i (00:15:31) xname_flush 
+\t (00:15:31) Net "Int5" dehighlighted.
+\t (00:15:31) Net "Int4" dehighlighted.
+\t (00:15:31) Net "+3.3V" dehighlighted.
+\t (00:15:31) Net "Gnd" dehighlighted.
+\t (00:15:31) Net "Int1" dehighlighted.
+\t (00:15:31) Net "Int0" dehighlighted.
+\t (00:15:31) Net "Pa1" dehighlighted.
+\i (00:15:31) done 
+\i (00:15:31) generaledit 
+\i (00:15:32) xhilite 
+\i (00:15:32) xNet +3.3V 
+\i (00:15:32) xname_flush 
+\i (00:15:32) trapsize 7114
+\t (00:15:32) Net "+3.3V" highlighted.
+\i (00:15:32) done 
+\i (00:15:32) generaledit 
+\i (00:15:32) xdehilite 
+\i (00:15:32) xNet +3.3V 
+\i (00:15:32) xname_flush 
+\t (00:15:32) Net "+3.3V" dehighlighted.
+\i (00:15:32) done 
+\i (00:15:32) generaledit 
+\i (00:15:33) xhilite 
+\i (00:15:33) xNet Int5 
+\i (00:15:33) xNet Int4 
+\i (00:15:33) xNet +3.3V 
+\i (00:15:33) xNet Gnd 
+\i (00:15:33) xNet Int1 
+\i (00:15:33) xNet Int0 
+\i (00:15:33) xNet Pa1 
+\i (00:15:33) xname_flush 
+\i (00:15:33) trapsize 7114
+\t (00:15:33) Net "Int5" highlighted.
+\t (00:15:33) Net "Int4" highlighted.
+\t (00:15:33) Net "+3.3V" highlighted.
+\t (00:15:33) Net "Gnd" highlighted.
+\t (00:15:33) Net "Int1" highlighted.
+\t (00:15:33) Net "Int0" highlighted.
+\t (00:15:33) Net "Pa1" highlighted.
+\i (00:15:33) done 
+\i (00:15:34) generaledit 
+\i (00:15:35) xdehilite 
+\i (00:15:35) xNet Int5 
+\i (00:15:35) xNet Int4 
+\i (00:15:35) xNet +3.3V 
+\i (00:15:35) xNet Gnd 
+\i (00:15:35) xNet Int1 
+\i (00:15:35) xNet Int0 
+\i (00:15:35) xNet Pa1 
+\i (00:15:35) xname_flush 
+\t (00:15:35) Net "Int5" dehighlighted.
+\t (00:15:35) Net "Int4" dehighlighted.
+\t (00:15:35) Net "+3.3V" dehighlighted.
+\t (00:15:35) Net "Gnd" dehighlighted.
+\t (00:15:35) Net "Int1" dehighlighted.
+\t (00:15:35) Net "Int0" dehighlighted.
+\t (00:15:35) Net "Pa1" dehighlighted.
+\i (00:15:35) done 
+\i (00:15:35) generaledit 
+\i (00:15:37) xhilite 
+\i (00:15:37) xNet Gnd 
+\i (00:15:37) xNet +3.3V 
+\i (00:15:37) xNet Pe0 
+\i (00:15:37) xNet Pe1 
+\i (00:15:37) xNet D- 
+\i (00:15:37) xNet D+ 
+\i (00:15:37) xname_flush 
+\i (00:15:37) trapsize 7114
+\t (00:15:37) Net "Gnd" highlighted.
+\t (00:15:37) Net "+3.3V" highlighted.
+\t (00:15:37) Net "Pe0" highlighted.
+\t (00:15:37) Net "Pe1" highlighted.
+\t (00:15:37) Net "D-" highlighted.
+\t (00:15:37) Net "D+" highlighted.
+\i (00:15:37) done 
+\i (00:15:37) generaledit 
+\i (00:15:41) xdehilite 
+\i (00:15:41) xNet Gnd 
+\i (00:15:41) xNet +3.3V 
+\i (00:15:41) xNet Pe0 
+\i (00:15:41) xNet Pe1 
+\i (00:15:41) xNet D- 
+\i (00:15:41) xNet D+ 
+\i (00:15:41) xname_flush 
+\t (00:15:41) Net "Gnd" dehighlighted.
+\t (00:15:41) Net "+3.3V" dehighlighted.
+\t (00:15:41) Net "Pe0" dehighlighted.
+\t (00:15:41) Net "Pe1" dehighlighted.
+\t (00:15:41) Net "D-" dehighlighted.
+\t (00:15:41) Net "D+" dehighlighted.
+\i (00:15:41) done 
+\i (00:15:41) generaledit 
+\i (00:15:42) xhilite 
+\i (00:15:42) xNet +5V 
+\i (00:15:42) xNet Gnd 
+\i (00:15:42) xNet Buzzer 
+\i (00:15:42) xname_flush 
+\i (00:15:42) trapsize 7114
+\t (00:15:42) Net "+5V" highlighted.
+\t (00:15:42) Net "Gnd" highlighted.
+\t (00:15:42) Net "Buzzer" highlighted.
+\i (00:15:42) done 
+\i (00:15:42) generaledit 
+\i (00:15:45) xdehilite 
+\i (00:15:45) xNet +5V 
+\i (00:15:45) xNet Gnd 
+\i (00:15:45) xNet Buzzer 
+\i (00:15:45) xname_flush 
+\t (00:15:45) Net "+5V" dehighlighted.
+\t (00:15:45) Net "Gnd" dehighlighted.
+\t (00:15:45) Net "Buzzer" dehighlighted.
+\i (00:15:45) done 
+\i (00:15:45) generaledit 
+\i (00:15:47) xhilite 
+\i (00:15:47) xNet +3.3V 
+\i (00:15:47) xNet Gnd 
+\i (00:15:47) xNet Int6 
+\i (00:15:47) xNet Int0 
+\i (00:15:47) xNet Int1 
+\i (00:15:47) xNet Pa4 
+\i (00:15:47) xNet Pa5 
+\i (00:15:47) xname_flush 
+\i (00:15:47) trapsize 7114
+\t (00:15:47) Net "+3.3V" highlighted.
+\t (00:15:47) Net "Gnd" highlighted.
+\t (00:15:47) Net "Int6" highlighted.
+\t (00:15:47) Net "Int0" highlighted.
+\t (00:15:47) Net "Int1" highlighted.
+\t (00:15:47) Net "Pa4" highlighted.
+\t (00:15:47) Net "Pa5" highlighted.
+\i (00:15:47) done 
+\i (00:15:47) generaledit 
+\i (00:15:50) xdehilite 
+\i (00:15:50) xNet +3.3V 
+\i (00:15:50) xNet Gnd 
+\i (00:15:50) xNet Int6 
+\i (00:15:50) xNet Int0 
+\i (00:15:50) xNet Int1 
+\i (00:15:50) xNet Pa4 
+\i (00:15:50) xNet Pa5 
+\i (00:15:50) xname_flush 
+\t (00:15:50) Net "+3.3V" dehighlighted.
+\t (00:15:50) Net "Gnd" dehighlighted.
+\t (00:15:50) Net "Int6" dehighlighted.
+\t (00:15:50) Net "Int0" dehighlighted.
+\t (00:15:50) Net "Int1" dehighlighted.
+\t (00:15:50) Net "Pa4" dehighlighted.
+\t (00:15:50) Net "Pa5" dehighlighted.
+\i (00:15:50) done 
+\i (00:15:50) generaledit 
+\i (00:15:51) xhilite 
+\i (00:15:51) xNet +5V 
+\i (00:15:51) xNet Gnd 
+\i (00:15:51) xNet Buzzer 
+\i (00:15:51) xname_flush 
+\i (00:15:51) trapsize 7114
+\t (00:15:51) Net "+5V" highlighted.
+\t (00:15:51) Net "Gnd" highlighted.
+\t (00:15:51) Net "Buzzer" highlighted.
+\i (00:15:51) done 
+\i (00:15:51) generaledit 
+\i (00:15:53) xdehilite 
+\i (00:15:53) xNet +5V 
+\i (00:15:53) xNet Gnd 
+\i (00:15:53) xNet Buzzer 
+\i (00:15:53) xname_flush 
+\t (00:15:53) Net "+5V" dehighlighted.
+\t (00:15:53) Net "Gnd" dehighlighted.
+\t (00:15:53) Net "Buzzer" dehighlighted.
+\i (00:15:53) done 
+\i (00:15:53) generaledit 
+\i (01:28:50) xhilite 
+\i (01:28:50) xNet +3.3V 
+\i (01:28:50) xrefdes J13 
+\i (01:28:50) xNet Gnd 
+\i (01:28:50) xname_flush 
+\i (01:28:50) trapsize 7114
+\t (01:28:50) Net "+3.3V" highlighted.
+\t (01:28:50) Symbol "J13" highlighted.
+\t (01:28:50) Net "Gnd" highlighted.
+\i (01:28:50) done 
+\i (01:28:50) generaledit 
+\i (01:43:03) zoom out 1 
+\i (01:43:03) setwindow pcb
+\i (01:43:03) zoom out 18.7805 12.2358
+\t (01:43:03) Grids are drawn 1.2700, 1.2700 apart for enhanced viewability.
+\i (01:43:03) trapsize 14228
+\i (01:43:03) zoom out 1 
+\i (01:43:03) setwindow pcb
+\i (01:43:03) zoom out 71.6667 12.2357
+\t (01:43:03) Grids are drawn 2.5400, 2.5400 apart for enhanced viewability.
+\i (01:43:03) trapsize 21341
+\i (01:43:06) color192 
+\i (01:43:06) setwindow cvf.dialog
+\i (01:43:06) cvf layer_mode
+\i (01:43:06) setwindow pcb
+\i (01:43:06) generaledit 
+\i (01:43:08) setwindow cvf.dialog
+\i (01:43:08) cvf global_visible
+\i (01:43:08) cvf okay
+\i (01:43:09) setwindow pcb
+\i (01:43:09) zoom in 1 
+\i (01:43:09) setwindow pcb
+\i (01:43:09) zoom in 46.7683 -18.9634
+\t (01:43:09) Grids are drawn 1.2700, 1.2700 apart for enhanced viewability.
+\i (01:43:09) trapsize 10671
+\i (01:43:09) zoom in 1 
+\i (01:43:09) setwindow pcb
+\i (01:43:09) zoom in 3.7988 -17.6829
+\i (01:43:09) trapsize 5335
+\i (01:43:10) zoom out 1 
+\i (01:43:10) setwindow pcb
+\i (01:43:10) zoom out 8.8140 -16.8292
+\i (01:43:10) trapsize 10671
+\i (01:43:11) grid toggle 
+\i (01:43:11) generaledit 
+\i (01:43:12) zoom out 1 
+\i (01:43:12) setwindow pcb
+\i (01:43:12) zoom out 32.0762 -7.0122
+\i (01:43:12) trapsize 21341
+\i (01:43:13) zoom in 1 
+\i (01:43:13) setwindow pcb
+\i (01:43:13) zoom in 97.5610 47.6219
+\i (01:43:13) trapsize 10671
+\i (01:43:13) zoom in 1 
+\i (01:43:13) setwindow pcb
+\i (01:43:13) zoom in 29.1951 47.6220
+\i (01:43:13) trapsize 5335
+\i (01:43:13) zoom out 1 
+\i (01:43:13) setwindow pcb
+\i (01:43:13) zoom out 30.6891 47.1952
+\i (01:43:13) trapsize 10671
+\i (01:43:16) roam x 96 
+\i (01:43:59) zoom in 1 
+\i (01:43:59) setwindow pcb
+\i (01:43:59) zoom in 61.8475 20.0915
+\i (01:43:59) trapsize 5335
+\i (01:44:00) zoom fit 
+\i (01:44:00) trapsize 7229
+\i (01:44:26) pick grid -21.3900 27.3367
+\t (01:44:26) last pick:  -21.5900 27.3050
+\i (01:44:28) shape select 
+\i (01:44:28) pick grid 25.0233 57.4114
+\t (01:44:28) last pick:  24.7650 57.1500
+\i (01:44:29) pick grid -16.0402 26.9030
+\t (01:44:29) last pick:  -15.8750 26.6700
+\w (01:44:29) WARNING(SPMHGE-604): No editable vertex was found.
+\i (01:44:31) setwindow form.vf_vis
+\i (01:44:31) FORM vf_vis all_all_visible NO 
+\i (01:44:32) FORM vf_vis all_all_visible YES 
+\i (01:44:33) setwindow pcb
+\i (01:44:33) pick grid 72.7379 21.5531
+\t (01:44:33) last pick:  73.0250 21.5900
+\w (01:44:33) WARNING(SPMHGE-604): No editable vertex was found.
+\i (01:44:35) shape select 
+\i (01:44:36) pick grid 20.6856 5.3591
+\t (01:44:36) last pick:  20.9550 5.0800
+\i (01:44:37) prepopup 12.8778 43.2416
+\i (01:44:39) dehilight 
+\i (01:44:40) pick grid -24.1372 32.8311
+\t (01:44:40) last pick:  -24.1300 33.0200
+\i (01:44:41) pick grid -16.7632 19.5289
+\t (01:44:41) last pick:  -16.5100 19.6850
+\i (01:44:44) setwindow form.vf_vis
+\i (01:44:44) FORM vf_vis colorview_list Film: TOP 
+\i (01:44:46) setwindow pcb
+\i (01:44:46) pick grid 79.2445 24.5895
+\t (01:44:46) last pick:  79.3750 24.7650
+\i (01:44:47) setwindow form.vf_vis
+\i (01:44:47) FORM vf_vis 1 drc_colorvisible 1 
+\i (01:44:48) FORM vf_vis 1 drc_colorvisible 0 
+\i (01:44:49) FORM vf_vis 1 drc_colorvisible 1 
+\i (01:44:50) FORM vf_vis 2 drc_colorvisible 1 
+\i (01:44:50) FORM vf_vis 2 pin_colorvisible 1 
+\i (01:44:50) FORM vf_vis 2 via_colorvisible 1 
+\i (01:44:51) FORM vf_vis 2 etch_colorvisible 1 
+\i (01:44:51) FORM vf_vis 2 etch_colorvisible 0 
+\i (01:44:52) FORM vf_vis 2 via_colorvisible 0 
+\i (01:44:52) FORM vf_vis 2 pin_colorvisible 0 
+\i (01:44:52) FORM vf_vis 2 drc_colorvisible 0 
+\i (01:44:53) FORM vf_vis 2 all_colorvisible YES 
+\i (01:44:55) setwindow pcb
+\i (01:44:55) color192 
+\i (01:44:55) setwindow cvf.dialog
+\i (01:44:55) cvf layer_mode
+\i (01:44:57) cvf global_visible
+\i (01:44:58) cvf okay
+\i (01:44:58) setwindow pcb
+\i (01:44:58) pick grid -22.2576 11.7210
+\t (01:44:58) last pick:  -22.2250 11.4300
+\i (01:44:59) zoom out 1 
+\i (01:44:59) setwindow pcb
+\i (01:44:59) zoom out -7.5094 16.7817
+\i (01:44:59) trapsize 14459
+\i (01:45:00) pick grid 74.1328 -4.0393
+\t (01:45:00) last pick:  74.2950 -3.8100
+\i (01:45:01) zoom in 1 
+\i (01:45:01) setwindow pcb
+\i (01:45:01) zoom in 70.0843 -2.5934
+\i (01:45:01) trapsize 7229
+\i (01:45:01) zoom in 1 
+\i (01:45:01) setwindow pcb
+\i (01:45:01) zoom in 69.7951 -2.1596
+\i (01:45:01) trapsize 3615
+\i (01:45:01) zoom in 1 
+\i (01:45:01) setwindow pcb
+\i (01:45:01) zoom in 69.7952 -2.1596
+\i (01:45:01) trapsize 1807
+\i (01:45:02) pick grid 72.5786 -2.4487
+\t (01:45:02) last pick:  72.3900 -2.5400
+\i (01:45:03) shape select 
+\i (01:45:04) pick grid 62.6742 1.9613
+\t (01:45:04) last pick:  62.8650 1.9050
+\i (01:45:05) pick grid 77.4946 -3.4247
+\t (01:45:05) last pick:  77.4700 -3.1750
+\w (01:45:05) WARNING(SPMHGE-604): No editable vertex was found.
+\i (01:45:05) zoom out 1 
+\i (01:45:05) setwindow pcb
+\i (01:45:05) zoom out 74.1691 -0.6775
+\i (01:45:05) trapsize 3615
+\i (01:45:05) zoom out 1 
+\i (01:45:05) setwindow pcb
+\i (01:45:05) zoom out 74.0968 -0.6775
+\i (01:45:05) trapsize 7229
+\i (01:45:06) zoom out 1 
+\i (01:45:06) setwindow pcb
+\i (01:45:06) zoom out 72.2170 3.2264
+\i (01:45:06) trapsize 14459
+\i (01:45:10) setwindow form.mini
+\i (01:45:10) FORM mini subclass TOP 
+\i (01:45:12) setwindow pcb
+\i (01:45:12) pick grid 62.8548 -14.9918
+\t (01:45:12) last pick:  62.8650 -15.2400
+\w (01:45:12) WARNING(SPMHGE-604): No editable vertex was found.
+\i (01:45:12) zoom in 1 
+\i (01:45:12) setwindow pcb
+\i (01:45:12) zoom in 55.6253 1.2022
+\i (01:45:12) trapsize 7229
+\i (01:45:12) zoom in 1 
+\i (01:45:12) setwindow pcb
+\i (01:45:12) zoom in 55.4807 1.6360
+\i (01:45:12) trapsize 3615
+\i (01:45:13) zoom in 1 
+\i (01:45:13) setwindow pcb
+\i (01:45:13) zoom in 55.4807 1.6360
+\i (01:45:13) trapsize 1807
+\i (01:45:13) zoom in 1 
+\i (01:45:13) setwindow pcb
+\i (01:45:13) zoom in 55.4807 1.6360
+\i (01:45:13) trapsize 904
+\i (01:45:13) pick grid 58.1555 1.9614
+\t (01:45:13) last pick:  58.4200 1.9050
+\w (01:45:13) WARNING(SPMHGE-604): No editable vertex was found.
+\i (01:45:14) shape void element 
+\e (01:45:14) A dynamic shape does not allow a manual void element.
+\t (01:45:14) Pick element to be voided.
+\i (01:45:15) shape select 
+\i (01:45:15) zoom out 1 
+\i (01:45:15) setwindow pcb
+\i (01:45:15) zoom out 54.6854 6.6425
+\i (01:45:15) trapsize 1807
+\i (01:45:15) zoom out 1 
+\i (01:45:15) setwindow pcb
+\i (01:45:15) zoom out 54.6854 6.6063
+\i (01:45:15) trapsize 3615
+\i (01:45:16) zoom out 1 
+\i (01:45:16) setwindow pcb
+\i (01:45:16) zoom out 54.5407 4.7990
+\i (01:45:16) trapsize 7230
+\i (01:45:16) zoom out 1 
+\i (01:45:16) setwindow pcb
+\i (01:45:16) zoom out 54.5408 4.7990
+\i (01:45:16) trapsize 14459
+\i (01:45:17) drag_start grid 46.9503 4.1515
+\i (01:45:17) drag_stop grid 49.8421 -25.6341
+\i (01:45:18) shape select 
+\i (01:45:19) drag_start grid 39.4316 2.4165
+\i (01:45:19) drag_stop grid 64.3011 -11.4642
+\i (01:45:20) pick grid 57.3608 3.5732
+\t (01:45:20) last pick:  57.1500 3.8100
+\i (01:45:20) move 
+\t (01:45:21) Select element(s) to move.
+\i (01:45:21) pick grid 42.3234 3.2840
+\t (01:45:21) last pick:  42.5450 3.1750
+\t (01:45:22) last pick:  19.6850 1.9050
+\t (01:45:22) Pick new location for the element(s).
+\i (01:45:22) prepopup 37.6965 0.9706
+\i (01:45:23) cancel 
+\t (01:45:23) Performing autosave...
+\t (01:45:23) Autosave successful
+\i (01:45:23) generaledit 
+\i (01:45:24) pick grid 13.4053 3.5732
+\t (01:45:24) last pick:  13.3350 3.8100
+\i (01:45:25) move 
+\t (01:45:25) Select element(s) to move.
+\i (01:45:26) pick grid 9.6460 0.6814
+\t (01:45:26) last pick:  9.5250 0.6350
+\i (01:45:26) zoom in 1 
+\i (01:45:26) setwindow pcb
+\i (01:45:26) zoom in -1.0537 0.3922
+\i (01:45:26) trapsize 7230
+\i (01:45:27) zoom in 1 
+\i (01:45:27) setwindow pcb
+\i (01:45:27) zoom in -0.9091 0.6814
+\i (01:45:27) trapsize 3615
+\i (01:45:27) zoom in 1 
+\i (01:45:27) setwindow pcb
+\i (01:45:27) zoom in -0.9090 0.7537
+\i (01:45:27) trapsize 1807
+\i (01:45:27) pick grid 1.3322 0.0308
+\t (01:45:27) last pick:  1.2700 0.0000
+\i (01:45:28) zoom out 1 
+\i (01:45:28) setwindow pcb
+\i (01:45:28) zoom out 7.4411 -0.9090
+\i (01:45:28) trapsize 3615
+\i (01:45:28) zoom out 1 
+\i (01:45:28) setwindow pcb
+\i (01:45:28) zoom out 7.7303 -1.8489
+\i (01:45:28) trapsize 7230
+\i (01:45:28) zoom out 1 
+\i (01:45:28) setwindow pcb
+\i (01:45:28) zoom out 8.0195 -3.2948
+\i (01:45:28) trapsize 14459
+\i (01:45:29) setwindow form.find
+\i (01:45:29) FORM find all_on  
+\i (01:45:30) FORM find all_off  
+\i (01:45:30) FORM find shapes YES 
+\i (01:45:31) setwindow pcb
+\i (01:45:31) pick grid 59.6742 1.9105
+\t (01:45:31) last pick:  59.6900 1.9050
+\t (01:45:31) last pick:  59.6900 1.9050
+\t (01:45:31) Element has no origin, using pick.
+\t (01:45:31) Pick new location for the element(s).
+\i (01:45:32) pick grid 131.9693 -35.9721
+\t (01:45:32) last pick:  132.0800 -36.1950
+\i (01:45:33) pick grid 59.6742 2.7781
+\t (01:45:33) last pick:  59.6900 2.5400
+\t (01:45:33) last pick:  59.6900 2.5400
+\t (01:45:33) Element has no origin, using pick.
+\t (01:45:33) Pick new location for the element(s).
+\i (01:45:33) pick grid 12.2486 -30.7669
+\t (01:45:33) last pick:  12.0650 -30.4800
+\i (01:45:35) zoom in 1 
+\i (01:45:35) setwindow pcb
+\i (01:45:35) zoom in 83.9654 -16.5970
+\i (01:45:35) trapsize 7230
+\i (01:45:35) zoom in 1 
+\i (01:45:35) setwindow pcb
+\i (01:45:35) zoom in 83.9654 -16.5970
+\i (01:45:35) trapsize 3615
+\i (01:45:36) prepopup 82.5195 -16.2355
+\i (01:45:37) cancel 
+\i (01:45:37) generaledit 
+\i (01:45:38) zoom out 1 
+\i (01:45:38) setwindow pcb
+\i (01:45:38) zoom out 72.8320 -15.8741
+\i (01:45:38) trapsize 7230
+\i (01:45:38) zoom out 1 
+\i (01:45:38) setwindow pcb
+\i (01:45:38) zoom out 73.1212 -15.8740
+\i (01:45:38) trapsize 14459
+\i (01:45:39) prepopup 28.1535 1.1876
+\i (01:45:39) pick grid 11.3811 -33.8032
+\t (01:45:39) last pick:  11.4300 -33.6550
+\i (01:45:40) pick grid 120.9805 -10.0904
+\t (01:45:40) last pick:  121.2850 -10.1600
+\i (01:45:41) shape select 
+\i (01:45:42) pick grid 12.5378 1.4768
+\t (01:45:42) last pick:  12.7000 1.2700
+\i (01:45:45) setwindow form.mini
+\i (01:45:45) FORM mini dyns_netname_list  
+\i (01:45:47) fillin "Gnd"
+\i (01:45:48) setwindow pcb
+\i (01:45:48) zoom in 1 
+\i (01:45:48) setwindow pcb
+\i (01:45:48) zoom in 50.1313 -1.7042
+\i (01:45:48) trapsize 7230
+\i (01:45:48) zoom in 1 
+\i (01:45:48) setwindow pcb
+\i (01:45:48) zoom in 49.1192 -0.8366
+\i (01:45:48) trapsize 3615
+\i (01:45:49) pick grid 50.5651 -6.2588
+\t (01:45:49) last pick:  50.8000 -6.3500
+\w (01:45:49) WARNING(SPMHGE-604): No editable vertex was found.
+\i (01:45:50) prepopup 55.1920 2.4167
+\i (01:45:53) dehilight 
+\i (01:46:03) color192 
+\i (01:46:03) setwindow cvf.dialog
+\i (01:46:03) cvf layer_mode
+\i (01:46:05) cvf cancel
+\i (01:46:05) setwindow pcb
+\i (01:46:05) pick grid 59.3129 -3.0778
+\t (01:46:05) last pick:  59.0550 -3.1750
+\i (01:46:05) zoom out 1 
+\i (01:46:05) setwindow pcb
+\i (01:46:05) zoom out 59.0960 -2.8609
+\i (01:46:05) trapsize 7230
+\i (01:46:05) zoom out 1 
+\i (01:46:05) setwindow pcb
+\i (01:46:05) zoom out 59.0960 -2.8609
+\i (01:46:05) trapsize 14459
+\i (01:46:06) zoom in 1 
+\i (01:46:06) setwindow pcb
+\i (01:46:06) zoom in 77.0250 11.0198
+\i (01:46:06) trapsize 7230
+\i (01:46:06) zoom in 1 
+\i (01:46:06) setwindow pcb
+\i (01:46:06) zoom in 81.3627 11.0199
+\i (01:46:06) trapsize 3615
+\i (01:46:07) zoom out 1 
+\i (01:46:07) setwindow pcb
+\i (01:46:07) zoom out 74.7839 7.6220
+\i (01:46:07) trapsize 7230
+\i (01:46:07) zoom out 1 
+\i (01:46:07) setwindow pcb
+\i (01:46:07) zoom out 70.5907 15.1407
+\i (01:46:07) trapsize 14459
+\i (01:46:07) zoom out 1 
+\i (01:46:07) setwindow pcb
+\i (01:46:07) zoom out 50.4204 14.8515
+\i (01:46:07) trapsize 21341
+\i (01:46:08) zoom in 1 
+\i (01:46:08) setwindow pcb
+\i (01:46:08) zoom in 60.0000 56.5854
+\i (01:46:08) trapsize 10671
+\i (01:46:08) zoom in 1 
+\i (01:46:08) setwindow pcb
+\i (01:46:08) zoom in 10.2012 57.4391
+\i (01:46:08) trapsize 5335
+\i (01:46:10) pick grid -7.0854 51.2500
+\t (01:46:10) last pick:  -6.9850 51.4350
+\i (01:49:42) pick grid -10.0732 39.0854
+\t (01:49:42) last pick:  -10.1600 39.3700
+\i (01:49:43) zoom out 1 
+\i (01:49:43) setwindow pcb
+\i (01:49:43) zoom out -5.3781 41.2196
+\i (01:49:43) trapsize 10671
+\i (01:49:43) undo 
+\i (01:49:43) generaledit 
+\i (01:49:43) undo 
+\i (01:49:44) generaledit 
+\i (01:49:46) move 
+\t (01:49:46) Select element(s) to move.
+\i (01:49:47) pick grid 73.1585 26.9207
+\t (01:49:47) last pick:  73.0250 26.6700
+\i (01:49:49) setwindow form.find
+\i (01:49:49) FORM find all_on  
+\i (01:49:51) setwindow pcb
+\i (01:49:51) pick grid 72.9451 19.8781
+\t (01:49:51) last pick:  73.0250 19.6850
+\t (01:49:51) last pick:  73.0250 19.6850
+\t (01:49:51) Element has no origin, using pick.
+\t (01:49:51) Pick new location for the element(s).
+\i (01:49:53) pick grid 0.8109 58.0793
+\t (01:49:53) last pick:  0.6350 57.7850
+\i (01:49:54) zoom in 1 
+\i (01:49:54) setwindow pcb
+\i (01:49:54) zoom in -19.8903 41.2195
+\i (01:49:54) trapsize 5335
+\i (01:49:54) zoom in 1 
+\i (01:49:54) setwindow pcb
+\i (01:49:54) zoom in 0.1707 38.1250
+\i (01:49:54) trapsize 2668
+\i (01:49:54) zoom in 1 
+\i (01:49:54) setwindow pcb
+\i (01:49:54) zoom in 0.1708 38.1251
+\i (01:49:54) trapsize 1334
+\i (01:49:55) zoom in 1 
+\i (01:49:55) setwindow pcb
+\i (01:49:55) zoom in 2.2250 38.4986
+\i (01:49:55) trapsize 667
+\i (01:49:55) zoom in 1 
+\i (01:49:55) setwindow pcb
+\i (01:49:55) zoom in 2.2384 38.5120
+\i (01:49:55) trapsize 333
+\i (01:49:55) zoom in 1 
+\i (01:49:55) setwindow pcb
+\i (01:49:55) zoom in 2.2383 38.5120
+\i (01:49:55) trapsize 167
+\i (01:49:56) zoom out 1 
+\i (01:49:56) setwindow pcb
+\i (01:49:56) zoom out 1.9582 38.2186
+\i (01:49:56) trapsize 333
+\i (01:49:56) zoom out 1 
+\i (01:49:56) setwindow pcb
+\i (01:49:56) zoom out 1.9716 38.1986
+\i (01:49:56) trapsize 667
+\i (01:49:56) zoom out 1 
+\i (01:49:56) setwindow pcb
+\i (01:49:56) zoom out 1.9717 38.1987
+\i (01:49:56) trapsize 1334
+\i (01:49:56) prepopup -1.1229 39.7726
+\i (01:49:58) done 
+\i (01:49:58) generaledit 
+\i (01:49:59) pick grid -4.4309 37.6651
+\t (01:49:59) last pick:  -4.4450 37.4650
+\i (01:50:00) pick grid 1.3581 37.4784
+\t (01:50:00) last pick:  1.2700 37.4650
+\i (01:50:00) zoom out 1 
+\i (01:50:00) setwindow pcb
+\i (01:50:00) zoom out 1.4648 37.3450
+\i (01:50:00) trapsize 2668
+\i (01:50:00) zoom out 1 
+\i (01:50:00) setwindow pcb
+\i (01:50:00) zoom out 1.5182 37.1849
+\i (01:50:00) trapsize 5335
+\i (01:50:00) zoom out 1 
+\i (01:50:00) setwindow pcb
+\i (01:50:00) zoom out 1.7316 37.1850
+\i (01:50:00) trapsize 10671
+\i (01:50:01) zoom out 1 
+\i (01:50:01) setwindow pcb
+\i (01:50:01) zoom out 36.0918 53.1696
+\i (01:50:01) trapsize 21341
+\i (01:50:01) zoom out 1 
+\i (01:50:01) setwindow pcb
+\i (01:50:01) zoom out 158.5975 -23.6585
+\i (01:50:01) trapsize 21341
+\i (01:50:01) zoom out 1 
+\i (01:50:01) setwindow pcb
+\i (01:50:01) zoom out 166.7073 -23.6585
+\i (01:50:01) trapsize 21341
+\i (01:50:01) zoom in 1 
+\i (01:50:01) setwindow pcb
+\i (01:50:01) zoom in 21.5854 10.9146
+\i (01:50:01) trapsize 10671
+\i (01:50:01) zoom in 1 
+\i (01:50:01) setwindow pcb
+\i (01:50:01) zoom in -9.6464 11.3415
+\i (01:50:01) trapsize 5335
+\i (01:50:03) zoom in 1 
+\i (01:50:03) setwindow pcb
+\i (01:50:03) zoom in 9.8811 1.3110
+\i (01:50:03) trapsize 2668
+\i (01:50:04) roam y -96 
+\i (01:50:04) roam y -96
+\i (01:50:04) roam y -96 
+\i (01:50:04) roam y -96
+\i (01:50:05) roam y -96 
+\i (01:50:05) roam y -96
+\i (01:50:05) roam y -96 
+\i (01:50:05) roam y -96
+\i (01:50:05) roam y -96 
+\i (01:50:05) roam y -96
+\i (01:50:05) roam y -96 
+\i (01:50:05) roam y -96
+\i (01:50:06) roam y 96 
+\i (01:50:06) roam y 96
+\i (01:50:06) roam y 96 
+\i (01:50:06) roam y 96
+\i (01:50:06) roam y 96 
+\i (01:50:06) roam y 96
+\i (01:50:07) roam y 96 
+\i (01:50:07) roam y 96
+\i (01:50:07) roam y 96 
+\i (01:50:07) roam y 96
+\i (01:50:07) zoom out 1 
+\i (01:50:07) setwindow pcb
+\i (01:50:07) zoom out 10.8414 6.0061
+\i (01:50:07) trapsize 5335
+\i (01:50:08) roam x 96 
+\i (01:50:08) roam x 96
+\i (01:50:08) roam y -96 
+\i (01:50:08) roam y -96
+\i (01:50:09) roam y -96 
+\i (01:50:09) roam y -96
+\i (01:50:09) roam y 96 
+\i (01:50:09) roam y 96
+\i (01:50:10) roam y 96 
+\i (01:50:10) roam y 96
+\i (01:50:11) pick grid 12.4086 0.9909
+\t (01:50:11) last pick:  12.7000 1.2700
+\i (01:50:13) pick grid 13.2623 -4.5579
+\t (01:50:13) last pick:  13.3350 -4.4450
+\i (01:50:14) delete 
+\i (01:50:15) pick grid 9.8476 1.0976
+\t (01:50:15) last pick:  10.1600 1.2700
+\t (01:50:15) Dynamic Shape "Gnd, Boundary/Bottom"
+\i (01:50:16) pick grid -8.1859 -0.0762
+\t (01:50:16) last pick:  -8.2550 0.0000
+\i (01:50:17) pick grid -0.0762 -0.0762
+\t (01:50:17) last pick:  0.0000 0.0000
+\t (01:50:17) Dynamic Shape "Gnd, Boundary/Top"
+\i (01:50:17) pick grid -14.1615 0.9909
+\t (01:50:17) last pick:  -13.9700 1.2700
+\i (01:50:19) shape add rect 
+\i (01:50:23) setwindow form.mini
+\i (01:50:23) FORM mini subclass TOP 
+\i (01:50:24) FORM mini dyns_netname_list  
+\i (01:50:26) fillin "Gnd"
+\t (01:50:26) Assigning selected shape to net: GND
+\i (01:50:30) setwindow pcb
+\i (01:50:30) pick 0 0 
+\t (01:50:30) last pick:  0.0000 0.0000
+\i (01:50:33) pick 70 70 
+\t (01:50:33) last pick:  70.0000 70.0000
+\i (01:50:36) zoom out 1 
+\i (01:50:36) setwindow pcb
+\i (01:50:36) zoom out 39.1921 9.5275
+\i (01:50:36) trapsize 10671
+\i (01:50:36) zoom out 1 
+\i (01:50:36) setwindow pcb
+\i (01:50:36) zoom out 48.9025 9.3140
+\i (01:50:36) trapsize 21341
+\i (01:50:37) zoom in 1 
+\i (01:50:37) setwindow pcb
+\i (01:50:37) zoom in 59.5732 -14.6951
+\i (01:50:37) trapsize 10671
+\i (01:50:37) zoom in 1 
+\i (01:50:37) setwindow pcb
+\i (01:50:37) zoom in 7.4268 -11.2804
+\i (01:50:37) trapsize 5335
+\i (01:50:37) zoom in 1 
+\i (01:50:37) setwindow pcb
+\i (01:50:37) zoom in 11.3750 -5.5182
+\i (01:50:37) trapsize 2668
+\i (01:50:38) roam y -96 
+\i (01:50:38) roam y -96
+\i (01:50:38) roam y -96 
+\i (01:50:38) roam y -96
+\i (01:50:38) roam y -96 
+\i (01:50:38) roam y -96
+\i (01:50:40) color192 
+\i (01:50:40) setwindow cvf.dialog
+\i (01:50:40) cvf layer_mode
+\i (01:50:42) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (01:50:43) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (01:50:44) cvf layer_tree_item 'Board Geometry'
+\i (01:50:45) cvf layer_tree_item 'Package Geometry'
+\i (01:50:45) cvf layer_tree_item 'Components'
+\i (01:50:46) cvf layer_tree_item 'Manufacturing'
+\i (01:50:46) cvf layer_tree_item 'Analysis'
+\i (01:50:47) cvf layer_tree_item 'Stack-Up'
+\i (01:50:52) cvf cancel
+\i (01:50:52) setwindow pcb
+\i (01:50:52) zoom out 1 
+\i (01:50:52) setwindow pcb
+\i (01:50:52) zoom out 30.4756 10.5411
+\i (01:50:52) trapsize 5335
+\i (01:50:53) pick grid 22.1525 -7.9193
+\t (01:50:53) last pick:  22.2250 -7.6200
+\i (01:50:54) prepopup 34.5306 -8.3462
+\i (01:50:55) cancel 
+\i (01:50:55) generaledit 
+\i (01:50:56) shape add rect 
+\i (01:50:57) open 
+\e (01:50:57) Do you want to save the changes you made to SENSOR BOARD.brd?
+\i (01:50:58) fillin no 
+\i (01:50:59) fillin "SENSOR BOARD.brd"
+\t (01:51:00) Opening existing design...
+\t (01:51:00) Grids are drawn 5.0800, 5.0800 apart for enhanced viewability.
+\t (01:51:00) Grids are drawn 1.2700, 1.2700 apart for enhanced viewability.
+\i (01:51:00) trapsize 10671
+\d (01:51:00) Design opened: C:/project/allegro/SENSOR BOARD.brd
+\i (01:51:00) generaledit 
+\i (01:51:01) zoom in 1 
+\i (01:51:01) setwindow pcb
+\i (01:51:01) zoom in 69.3925 21.4802
+\i (01:51:01) trapsize 5335
+\i (01:51:03) setwindow form.vf_vis
+\i (01:51:03) FORM vf_vis all_all_visible YES 
+\i (01:51:04) setwindow pcb
+\i (01:51:04) pick grid 89.1337 25.8552
+\t (01:51:04) last pick:  88.9000 26.0350
+\i (01:51:05) zoom out 1 
+\i (01:51:05) setwindow pcb
+\i (01:51:05) zoom out 86.1459 26.4955
+\i (01:51:05) trapsize 10671
+\i (01:51:10) color192 
+\i (01:51:10) setwindow cvf.dialog
+\i (01:51:10) cvf layer_mode
+\i (01:51:10) setwindow pcb
+\i (01:51:10) generaledit 
+\i (01:51:12) setwindow cvf.dialog
+\i (01:51:12) cvf global_visible
+\i (01:51:12) cvf okay
+\i (01:51:13) setwindow pcb
+\i (01:51:13) pick grid -35.3957 7.2879
+\t (01:51:13) last pick:  -35.5600 6.9850
+\i (01:51:14) shape select 
+\i (01:51:15) pick grid 12.6234 3.8732
+\t (01:51:15) last pick:  12.7000 3.8100
+\i (01:51:16) prepopup -28.9931 12.8368
+\i (01:51:17) cancel 
+\i (01:51:17) generaledit 
+\i (01:51:17) pick grid -41.7982 8.9952
+\t (01:51:17) last pick:  -41.9100 8.8900
+\i (01:51:19) zoom in 1 
+\i (01:51:19) setwindow pcb
+\i (01:51:19) zoom in 6.6477 3.6598
+\i (01:51:19) trapsize 5335
+\i (01:51:45) zoom in 1 
+\i (01:51:45) setwindow pcb
+\i (01:51:45) zoom in 9.1020 8.5685
+\i (01:51:45) trapsize 2668
+\i (01:51:45) zoom in 1 
+\i (01:51:45) setwindow pcb
+\i (01:51:45) zoom in 9.1554 8.7286
+\i (01:51:45) trapsize 1334
+\i (01:51:46) zoom fit 
+\i (01:51:46) trapsize 7229
+\i (01:51:51) pick grid -11.2687 30.8069
+\t (01:51:51) last pick:  -11.4300 31.1150
+\i (01:51:52) grid toggle 
+\i (01:51:52) generaledit 
+\i (01:51:53) pick grid -27.1736 12.7332
+\t (01:51:53) last pick:  -27.3050 12.7000
+\i (01:51:53) zoom out 1 
+\i (01:51:53) setwindow pcb
+\i (01:51:53) zoom out -24.1372 14.6128
+\i (01:51:53) trapsize 14459
+\i (01:51:54) zoom in 1 
+\i (01:51:54) setwindow pcb
+\i (01:51:54) zoom in -12.0428 16.9263
+\i (01:51:54) trapsize 7229
+\i (01:51:55) zoom fit 
+\i (01:51:55) trapsize 7229
+\t (01:55:23) Performing autosave...
+\t (01:55:23) Autosave successful
+\i (02:46:56) zoom out 1 
+\i (02:46:56) setwindow pcb
+\i (02:46:56) zoom out 69.4124 17.3600
+\i (02:46:56) trapsize 14459
+\i (02:46:58) zoom in 1 
+\i (02:46:58) setwindow pcb
+\i (02:46:58) zoom in 171.0080 16.2034
+\i (02:46:58) trapsize 7229
+\i (02:47:07) zoom in 1 
+\i (02:47:07) setwindow pcb
+\i (02:47:07) zoom in 55.3486 25.6017
+\i (02:47:07) trapsize 3615
+\i (02:47:07) zoom out 1 
+\i (02:47:07) setwindow pcb
+\i (02:47:07) zoom out 55.0594 25.4572
+\i (02:47:07) trapsize 7229
+\i (02:47:08) zoom out 1 
+\i (02:47:08) setwindow pcb
+\i (02:47:08) zoom out 54.3365 25.4571
+\i (02:47:08) trapsize 14459
+\i (02:47:08) zoom in 1 
+\i (02:47:08) setwindow pcb
+\i (02:47:08) zoom in 31.3342 59.0020
+\i (02:47:08) trapsize 7229
+\i (02:47:09) zoom in 1 
+\i (02:47:09) setwindow pcb
+\i (02:47:09) zoom in 36.2502 54.9535
+\i (02:47:09) trapsize 3615
+\i (02:47:09) zoom in 1 
+\i (02:47:09) setwindow pcb
+\i (02:47:09) zoom in 35.9611 52.7124
+\i (02:47:09) trapsize 1807
+\i (02:47:10) zoom out 1 
+\i (02:47:10) setwindow pcb
+\i (02:47:10) zoom out 36.1418 50.5074
+\i (02:47:10) trapsize 3615
+\i (02:47:10) zoom out 1 
+\i (02:47:10) setwindow pcb
+\i (02:47:10) zoom out 36.1419 50.3628
+\i (02:47:10) trapsize 7229
+\i (02:47:10) zoom in 1 
+\i (02:47:10) setwindow pcb
+\i (02:47:10) zoom in 25.2976 41.8320
+\i (02:47:10) trapsize 3615
+\i (02:47:11) zoom in 1 
+\i (02:47:11) setwindow pcb
+\i (02:47:11) zoom in 32.0211 41.6874
+\i (02:47:11) trapsize 1807
+\i (02:47:11) zoom in 1 
+\i (02:47:11) setwindow pcb
+\i (02:47:11) zoom in 31.9488 42.0489
+\i (02:47:11) trapsize 904
+\i (03:14:40) xhilite 
+\i (03:14:40) xrefdes D3 
+\i (03:14:40) xname_flush 
+\i (03:14:40) trapsize 1201
+\t (03:14:40) Symbol "D3" highlighted.
+\i (03:14:40) done 
+\i (03:14:40) generaledit 
+\w (03:15:23) Save Pending
+\i (03:51:50) exit 
+\e (03:51:50) Do you want to save the changes you made to SENSOR BOARD.brd?
+\i (03:51:52) fillin yes 
+\t (03:51:52)     Journal end - Wed Oct 17 13:18:02 2018

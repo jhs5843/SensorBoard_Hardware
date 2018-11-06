@@ -1,0 +1,1870 @@
+(PCB C:/project/allegro/SENSOR BOARD.brd
+ (parser
+  (string_quote ')
+  (space_in_quoted_tokens on)
+  (host_cad allegro)
+  (host_version 'v16-6-112JA_7/23/2018')
+  (write_resolution MM 100000)
+  (routes_include testpoint)
+  (constant pcb_xlo -80)
+  (constant pcb_ylo -80)
+  (constant pcb_xhi 217)
+  (constant pcb_yhi 130)
+  (constant board_name 'C:/project/allegro/SENSOR BOARD.brd')
+  (via_rotate_first off))
+ (resolution MM 100000)
+ (time_resolution nsec 1000000)
+ (structure
+  (boundary (rect pcb -3 -3 63 63))
+  (boundary (rect signal 0 0 60 60))
+  (control (off_grid off)
+   (force_to_terminal_point on)
+   (noise_accumulation RSS)
+   (noise_calculation linear_interpolation)
+   (crosstalk_model CCT1A)
+   (bbv_ctr2ctr on)
+   (roundoff_rotation on)
+   (average_pair_length off)
+   (reroute_order_viols on))
+  (layer TOP
+   (type signal))
+  (layer BOTTOM
+   (type signal))
+  (rule (clearance 0.1270))
+  (rule (width 0.1270))
+  (via VIA)
+  (grid via 0.0001)
+  (grid wire 0.0001)
+  (grid manufacturing 0.00001))
+ (placement
+  (place_control (flip_style mirror_first))
+  (component XTAL_SMD_Y1
+   (place Y1 47.6250 36.8300 front 180 (property (value 16MHz) (height 3.8100)
+     )))
+  (component 'NW3-A06-B3_SW2'
+   (place SW2 54.6100 50.8000 front 180 (property (value SW_TACT) (height
+      3.8100))))
+  (component 'BPE-1407P-40_LS1'
+   (place LS1 7.6200 36.8300 front 270 (property (value BUZZER) (height 3.8100
+      ))))
+  (component 'CI-B2012-331JJT_L1'
+   (place L1 27.3050 8.8900 front 90 (property (value 330nH) (height 3.8100)))
+   )
+  (component JUMPER2_J5
+   (place J5 3.1750 46.9900 front 90 (property (value I2C) (height 12.7000))))
+  (component JUMPER2_J4
+   (place J4 15.8750 57.1500 front 0 (property (value UART1) (height 12.7000))
+    ))
+  (component JUMPER2_J3
+   (place J3 12.7000 2.5400 front 180 (property (value UART0) (height 12.7000)
+     )))
+  (component JUMPER2_J13
+   (place J13 57.7850 13.9700 front 90 (property (value '3.3V DC') (height
+      12.7000))))
+  (component 'FSMD050-1812_F1'
+   (place F1 26.6700 14.6050 front 90 (property (value FUSE) (height 3.8100)))
+   )
+  (component CAP_5PI_X5MM_C5
+   (place C5 33.0200 13.9700 front 270 (property (value 47uF/16V) (height
+      3.8100))))
+  (component CAP_4PI_X5MM_C6
+   (place C6 45.0850 55.8800 front 0 (property (value 10uF/16V) (height 3.8100
+      ))))
+  (component CAP_4PI_X5MM_C21
+   (place C21 56.5150 27.9400 front 0 (property (value 10uF/16V) (height
+      3.8100))))
+  (component CAP_4PI_X5MM_C20
+   (place C20 50.1650 27.9400 front 180 (property (value 10uF/16V) (height
+      3.8100))))
+  (component SMC1206_C1
+   (place C1 43.1800 32.3850 front 0 (property (value 20pF) (height 0.0254))))
+  (component SMC1206_C2
+   (place C2 49.5300 32.3850 front 0 (property (value 20pF) (height 0.0254))))
+  (component SMC1206_C11
+   (place C11 20.3200 26.0350 front 270 (property (value 82nF) (height 0.0254)
+     )))
+  (component SMC1206_C12
+   (place C12 17.7800 26.0350 front 270 (property (value 82nF) (height 0.0254)
+     )))
+  (component SMC1206_C13
+   (place C13 28.5750 26.0350 front 270 (property (value 82nF) (height 0.0254)
+     )))
+  (component SMC1206_C14
+   (place C14 31.7500 22.8600 front 90 (property (value 82nF) (height 0.0254))
+    ))
+  (component SMC1206_R2
+   (place R2 17.7800 47.6250 front 180 (property (value 2K) (height 0.0254))))
+  (component SMC1206_R4
+   (place R4 43.8150 51.4350 front 0 (property (value 10K) (height 0.0254))))
+  (component SMC1206_R3
+   (place R3 14.6050 52.0700 front 0 (property (value 10K) (height 0.0254))))
+  (component SMC1206_R15
+   (place R15 14.6050 22.8600 front 90 (property (value 10K) (height 0.0254)))
+   )
+  (component SMC1206_R14
+   (place R14 11.4300 22.8600 front 90 (property (value 10K) (height 0.0254)))
+   )
+  (component SMC1206_R13
+   (place R13 8.2550 22.8600 front 90 (property (value 10K) (height 0.0254))))
+  (component SMC1206_R9
+   (place R9 28.5750 38.1000 front 270 (property (value 4.7K) (height 0.0254))
+    ))
+  (component SMC1206_R8
+   (place R8 17.7800 38.1000 front 270 (property (value 4.7K) (height 0.0254))
+    ))
+  (component SMC1206_R7
+   (place R7 20.3200 34.9250 front 90 (property (value 4.7K) (height 0.0254)))
+   )
+  (component SMC1206_R6
+   (place R6 36.1950 38.1000 front 270 (property (value 4.7K) (height 0.0254))
+    ))
+  (component SMC1206_R5
+   (place R5 33.6550 38.1000 front 270 (property (value 4.7K) (height 0.0254))
+    ))
+  (component SMC1206_R16
+   (place R16 15.2400 15.2400 front 0 (property (value 4.7K) (height 0.0254)))
+   )
+  (component SMC1206_R12
+   (place R12 25.4000 38.1000 front 270 (property (value 4.7K) (height 0.0254)
+     )))
+  (component SMC1206_R11
+   (place R11 22.8600 34.9250 front 90 (property (value 4.7K) (height 0.0254))
+    ))
+  (component SMC1206_R10
+   (place R10 31.1150 34.9250 front 90 (property (value 4.7K) (height 0.0254))
+    ))
+  (component SMC1206_R1
+   (place R1 38.1000 16.5100 front 270 (property (value 680) (height 0.0254)))
+   )
+  (component SMC1206_C8
+   (place C8 34.9250 26.0350 front 270 (property (value 82nF) (height 0.0254))
+    ))
+  (component SMC1206_C15
+   (place C15 22.8600 26.0350 front 270 (property (value 82nF) (height 0.0254)
+     )))
+  (component SMC1206_C16
+   (place C16 25.4000 22.8600 front 90 (property (value 82nF) (height 0.0254))
+    ))
+  (component SMC1206_C17
+   (place C17 40.6400 22.8600 front 90 (property (value 82nF) (height 0.0254))
+    ))
+  (component SMC1206_C18
+   (place C18 43.8150 22.8600 front 90 (property (value 82nF) (height 0.0254))
+    ))
+  (component SMC1206_C7
+   (place C7 37.4650 22.8600 front 90 (property (value 82nF) (height 0.0254)))
+   )
+  (component SMC1206_D3
+   (place D3 43.8150 48.2600 front 0 (property (value 1N4148) (height 0.0254))
+    ))
+  (component SMC1206_D2
+   (place D2 3.8100 29.8450 front 0 (property (value 1N4148) (height 0.0254)))
+   )
+  (component SMC1206_D1
+   (place D1 38.1000 6.3500 front 90 (property (value LED) (height 0.0254))))
+  (component SMC1206_C23
+   (place C23 18.4150 2.5400 front 90 (property (value 0.1uF) (height 0.0254))
+    ))
+  (component SMC1206_C22
+   (place C22 18.4150 12.0650 front 270 (property (value 0.1uF) (height 0.0254
+      ))))
+  (component SMC1206_C19
+   (place C19 14.6050 38.1000 front 270 (property (value 1uF) (height 0.0254))
+    ))
+  (component 2SC1815_Q1
+   (place Q1 9.5250 48.2600 front 180 (property (value C1815) (height 3.8100))
+    ))
+  (component 'LM1117IMPX-ADJ_U7'
+   (place U7 50.1650 15.8750 front 180 (property (value GS1117Y33F) (height
+      3.8100))))
+  (component 'MCU-U52105_J14'
+   (place J14 29.2100 2.5400 front 180 (property (value 'USB_micro 5pin')
+     (height 3.8100))))
+  (component MAX44009_U6
+   (place U6 15.2400 29.8450 front 90 (property (value MAX44009) (height
+      3.8100))))
+  (component BOX_HEADER6_J2
+   (place J2 55.2450 43.8150 front 180 (property (value ISP) (height 3.8100)))
+   )
+  (component BME280_U2
+   (place U2 19.0500 29.8450 front 90 (property (value BME280) (height 3.8100)
+     )))
+  (component BMA280_U1
+   (place U1 35 30 front 0 (property (value BMA280) (height 3.8100))))
+  (component BMM150_U5
+   (place U5 40.6400 29.8450 front 0 (property (value BMM150) (height 3.8100))
+    ))
+  (component BMG160_U3
+   (place U3 30 30 front 0 (property (value BMG160) (height 3.8100))))
+  (component BMI160_U4
+   (place U4 25 30 front 0 (property (value BMI160) (height 3.8100))))
+  (component CP2102_U8
+   (place U8 12.7000 9.5250 front 180 (property (value CP2102) (height 3.8100)
+     )))
+  (component ATMEGA128_IC1
+   (place IC1 30.4800 49.5300 front 0 (property (value ATmega128) (height
+      3.8100)))))
+ (library
+  (image XTAL_SMD
+   (pin XTAL_SMD 2 4.7500 0)
+   (pin XTAL_SMD 1 -4.7500 0)
+   (outline (rect signal -7.5500 -2.3500 7.5500 2.3500)))
+  (image XTAL_SMD_Y1
+   (pin XTAL_SMD 1 -4.7500 0)
+   (pin XTAL_SMD 2 4.7500 0)
+   (outline (polygon signal 0 -7.5500 -2.3500 7.5500 -2.3500 7.5500 2.3500
+     -7.5500 2.3500 -7.5500 -2.3500)))
+  (image 'NW3-A06-B3'
+   (pin 'NW3-A06-B3' 2 4 0)
+   (pin 'NW3-A06-B3' 1 -4 0)
+   (outline (rect signal -5 -1.8500 5 1.8500)))
+  (image 'NW3-A06-B3_SW2'
+   (pin 'NW3-A06-B3' 1 -4 0)
+   (pin 'NW3-A06-B3' 2 4 0)
+   (outline (polygon signal 0 -5 -1.8500 5 -1.8500 5 1.8500 -5 1.8500 -5
+     -1.8500)))
+  (image 'BPE-1407P-40'
+   (pin PAD40CIR28D 2 3.8000 0)
+   (pin PAD40CIR28D 1 -3.8000 0)
+   (outline (rect signal -8.1750 -5.0500 5.0500 5.0500)))
+  (image 'BPE-1407P-40_LS1'
+   (pin PAD40CIR28D 1 -3.8000 0)
+   (pin PAD40CIR28D 2 3.8000 0)
+   (outline (polygon signal 0 -8.1750 -5.0500 5.0500 -5.0500 5.0500 5.0500
+     -8.1750 5.0500 -8.1750 -5.0500)))
+  (image 'CI-B2012-331JJT'
+   (pin 'CI-B2012-331JJT' 2 1 0)
+   (pin 'CI-B2012-331JJT' 1 -1 0)
+   (outline (rect signal -1.6000 -0.7000 1.6000 0.7000)))
+  (image 'CI-B2012-331JJT_L1'
+   (pin 'CI-B2012-331JJT' 1 -1 0)
+   (pin 'CI-B2012-331JJT' 2 1 0)
+   (outline (polygon signal 0 -1.6000 -0.7000 1.6000 -0.7000 1.6000 0.7000
+     -1.6000 0.7000 -1.6000 -0.7000)))
+  (image JUMPER2
+   (pin PAD60CIR36D 2 2.5400 0)
+   (pin PAD60CIR36D 1 0 0)
+   (outline (rect signal -1.2700 -1.2700 3.8100 1.2700)))
+  (image JUMPER2_J5
+   (pin PAD60CIR36D 1 0 0)
+   (pin PAD60CIR36D 2 2.5400 0)
+   (outline (polygon signal 0 -1.2700 -1.2700 3.8100 -1.2700 3.8100 1.2700
+     -1.2700 1.2700 -1.2700 -1.2700)))
+  (image JUMPER2_J4
+   (pin PAD60CIR36D 1 0 0)
+   (pin PAD60CIR36D 2 2.5400 0)
+   (outline (polygon signal 0 -1.2700 -1.2700 3.8100 -1.2700 3.8100 1.2700
+     -1.2700 1.2700 -1.2700 -1.2700)))
+  (image JUMPER2_J3
+   (pin PAD60CIR36D 1 0 0)
+   (pin PAD60CIR36D 2 2.5400 0)
+   (outline (polygon signal 0 -1.2700 -1.2700 3.8100 -1.2700 3.8100 1.2700
+     -1.2700 1.2700 -1.2700 -1.2700)))
+  (image JUMPER2_J13
+   (pin PAD60CIR36D 1 0 0)
+   (pin PAD60CIR36D 2 2.5400 0)
+   (outline (polygon signal 0 -1.2700 -1.2700 3.8100 -1.2700 3.8100 1.2700
+     -1.2700 1.2700 -1.2700 -1.2700)))
+  (image 'FSMD050-1812'
+   (pin 'FSMD050-1812' 2 1.9000 0)
+   (pin 'FSMD050-1812' 1 -1.9000 0)
+   (outline (rect signal -3.1500 -1.7000 3.1500 1.7000)))
+  (image 'FSMD050-1812_F1'
+   (pin 'FSMD050-1812' 1 -1.9000 0)
+   (pin 'FSMD050-1812' 2 1.9000 0)
+   (outline (polygon signal 0 -3.1500 -1.7000 3.1500 -1.7000 3.1500 1.7000
+     -3.1500 1.7000 -3.1500 -1.7000)))
+  (image CAP_5PI_X5MM
+   (pin CAP_5PI_X5MM 2 2.2000 0)
+   (pin CAP_5PI_X5MM 1 -2.2000 0)
+   (outline (rect signal -3.7000 -2.7500 3.7000 2.7500)))
+  (image CAP_5PI_X5MM_C5
+   (pin CAP_5PI_X5MM 1 -2.2000 0)
+   (pin CAP_5PI_X5MM 2 2.2000 0)
+   (outline (polygon signal 0 -3.7000 -2.7500 3.7000 -2.7500 3.7000 2.7500
+     -3.7000 2.7500 -3.7000 -2.7500)))
+  (image CAP_4PI_X5MM
+   (pin CAP_4PI_X5MM 2 1.5500 0)
+   (pin CAP_4PI_X5MM 1 -1.5500 0)
+   (outline (rect signal -2.8500 -2.2500 2.8500 2.2500)))
+  (image CAP_4PI_X5MM_C6
+   (pin CAP_4PI_X5MM 1 -1.5500 0)
+   (pin CAP_4PI_X5MM 2 1.5500 0)
+   (outline (polygon signal 0 -2.8500 -2.2500 2.8500 -2.2500 2.8500 2.2500
+     -2.8500 2.2500 -2.8500 -2.2500)))
+  (image CAP_4PI_X5MM_C21
+   (pin CAP_4PI_X5MM 1 -1.5500 0)
+   (pin CAP_4PI_X5MM 2 1.5500 0)
+   (outline (polygon signal 0 -2.8500 -2.2500 2.8500 -2.2500 2.8500 2.2500
+     -2.8500 2.2500 -2.8500 -2.2500)))
+  (image CAP_4PI_X5MM_C20
+   (pin CAP_4PI_X5MM 1 -1.5500 0)
+   (pin CAP_4PI_X5MM 2 1.5500 0)
+   (outline (polygon signal 0 -2.8500 -2.2500 2.8500 -2.2500 2.8500 2.2500
+     -2.8500 2.2500 -2.8500 -2.2500)))
+  (image SMC1206
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C1
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C2
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C11
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C12
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C13
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C14
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R2
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R4
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R3
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R15
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R14
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R13
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R9
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R8
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R7
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R6
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R5
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R16
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R12
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R11
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R10
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_R1
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C8
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C15
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C16
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C17
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C18
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C7
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_D3
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_D2
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_D1
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C23
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C22
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image SMC1206_C19
+   (pin SM_LLB_PAD10_1 2 3.3020 0 (rotate 90))
+   (pin SM_LLB_PAD9_1 1 0 0 (rotate 90))
+   (outline (polygon signal 0 -1.2192 -1.2192 4.5212 -1.2192 4.5212 1.2192
+     -1.2192 1.2192 -1.2192 -1.2192)))
+  (image 2SC1815
+   (pin 2SC1815 3 0.9500 -1.2000 (rotate 270))
+   (pin 2SC1815 2 0 1.2000 (rotate 270))
+   (pin 2SC1815 1 -0.9500 -1.2000 (rotate 270))
+   (outline (rect signal -1.5500 -1.8000 1.5500 1.8000)))
+  (image 2SC1815_Q1
+   (pin 2SC1815 1 -0.9500 -1.2000 (rotate 270))
+   (pin 2SC1815 2 0 1.2000 (rotate 270))
+   (pin 2SC1815 3 0.9500 -1.2000 (rotate 270))
+   (outline (polygon signal 0 -1.5500 -1.8000 1.5500 -1.8000 1.5500 1.8000
+     -1.5500 1.8000 -1.5500 -1.8000)))
+  (image 'LM1117IMPX-ADJ'
+   (pin 'LM1117IMPX-ADJ2' 4 0 3.6500)
+   (pin 'LM1117IMPX-ADJ1' 3 -2.3000 -2.6500)
+   (pin 'LM1117IMPX-ADJ1' 2 0 -2.6500)
+   (pin 'LM1117IMPX-ADJ1' 1 2.3000 -2.6500)
+   (outline (rect signal -3.3000 -3.5500 3.3000 4.5000)))
+  (image 'LM1117IMPX-ADJ_U7'
+   (pin 'LM1117IMPX-ADJ1' 1 2.3000 -2.6500)
+   (pin 'LM1117IMPX-ADJ1' 2 0 -2.6500)
+   (pin 'LM1117IMPX-ADJ1' 3 -2.3000 -2.6500)
+   (pin 'LM1117IMPX-ADJ2' 4 0 3.6500)
+   (outline (polygon signal 0 -3.3000 -3.5500 3.3000 -3.5500 3.3000 4.5000
+     -3.3000 4.5000 -3.3000 -3.5500)))
+  (image 'MCU-U52105'
+   (pin 'MCU-U52105_HOLE' cct_misc_108971056 3.2000 0.9500 (mechanical))
+   (pin 'MCU-U52105_HOLE' cct_misc_108970936 -3.2000 0.9500 (mechanical))
+   (pin 'MCU-U52105_GND2' cct_misc_108970816 1.0750 0.9500 (mechanical))
+   (pin 'MCU-U52105_GND2' cct_misc_108970696 -1.0750 0.9500 (mechanical))
+   (pin 'MCU-U52105_GND' cct_misc_108970576 3.1000 -1.6000 (mechanical))
+   (pin 'MCU-U52105_GND' cct_misc_108970456 -3.1000 -1.6000 (mechanical))
+   (pin 'MCU-U52105_PIN' 5 -1.3000 -1.7250)
+   (pin 'MCU-U52105_PIN' 4 -0.6500 -1.7250)
+   (pin 'MCU-U52105_PIN' 3 0 -1.7250)
+   (pin 'MCU-U52105_PIN' 2 0.6500 -1.7250)
+   (pin 'MCU-U52105_PIN' 1 1.3000 -1.7250)
+   (outline (rect signal -6.6000 -2.4500 4.2000 2.4500)))
+  (image 'MCU-U52105_J14'
+   (pin 'MCU-U52105_PIN' 1 1.3000 -1.7250)
+   (pin 'MCU-U52105_PIN' 2 0.6500 -1.7250)
+   (pin 'MCU-U52105_PIN' 3 0 -1.7250)
+   (pin 'MCU-U52105_PIN' 4 -0.6500 -1.7250)
+   (pin 'MCU-U52105_PIN' 5 -1.3000 -1.7250)
+   (pin 'MCU-U52105_GND' cct_misc_108970456 -3.1000 -1.6000 (mechanical))
+   (pin 'MCU-U52105_GND' cct_misc_108970576 3.1000 -1.6000 (mechanical))
+   (pin 'MCU-U52105_GND2' cct_misc_108970696 -1.0750 0.9500 (mechanical))
+   (pin 'MCU-U52105_GND2' cct_misc_108970816 1.0750 0.9500 (mechanical))
+   (pin 'MCU-U52105_HOLE' cct_misc_108970936 -3.2000 0.9500 (mechanical))
+   (pin 'MCU-U52105_HOLE' cct_misc_108971056 3.2000 0.9500 (mechanical))
+   (outline (polygon signal 0 -6.6000 -2.4500 4.2000 -2.4500 4.2000 2.4500
+     -6.6000 2.4500 -6.6000 -2.4500)))
+  (image MAX44009
+   (pin MAX44009_CENTER cct_misc_108967328 0 0 (mechanical))
+   (pin MAX44009 6 1.1650 0.6500)
+   (pin MAX44009 5 1.1650 0)
+   (pin MAX44009 4 1.1650 -0.6500)
+   (pin MAX44009 3 -1.1650 -0.6500)
+   (pin MAX44009 2 -1.1650 0)
+   (pin MAX44009 1 -1.1650 0.6500)
+   (outline (rect signal -1.6450 -1 1.6450 1)))
+  (image MAX44009_U6
+   (pin MAX44009 1 -1.1650 0.6500)
+   (pin MAX44009 2 -1.1650 0)
+   (pin MAX44009 3 -1.1650 -0.6500)
+   (pin MAX44009 4 1.1650 -0.6500)
+   (pin MAX44009 5 1.1650 0)
+   (pin MAX44009 6 1.1650 0.6500)
+   (pin MAX44009_CENTER cct_misc_108967328 0 0 (mechanical))
+   (outline (polygon signal 0 -1.6450 -1 1.6450 -1 1.6450 1 -1.6450 1 -1.6450
+     -1)))
+  (image BOX_HEADER6
+   (pin PAD40CIR28D 6 1.2700 -2.5400)
+   (pin PAD40CIR28D 5 -1.2700 -2.5400)
+   (pin PAD40CIR28D 4 1.2700 0)
+   (pin PAD40CIR28D 3 -1.2700 0)
+   (pin PAD40CIR28D 2 1.2700 2.5400)
+   (pin PAD40CIR28D 1 -1.2700 2.5400)
+   (outline (rect signal -4.2000 -3.8100 4.2000 3.8100)))
+  (image BOX_HEADER6_J2
+   (pin PAD40CIR28D 1 -1.2700 2.5400)
+   (pin PAD40CIR28D 2 1.2700 2.5400)
+   (pin PAD40CIR28D 3 -1.2700 0)
+   (pin PAD40CIR28D 4 1.2700 0)
+   (pin PAD40CIR28D 5 -1.2700 -2.5400)
+   (pin PAD40CIR28D 6 1.2700 -2.5400)
+   (outline (polygon signal 0 -4.2000 -3.8100 4.2000 -3.8100 4.2000 3.8100
+     -4.2000 3.8100 -4.2000 -3.8100)))
+  (image BME280
+   (pin BME280 8 -1.2500 0.9750)
+   (pin BME280 7 -1.2500 0.3250)
+   (pin BME280 6 -1.2500 -0.3250)
+   (pin BME280 5 -1.2500 -0.9750)
+   (pin BME280 4 1.2500 -0.9750)
+   (pin BME280 3 1.2500 -0.3250)
+   (pin BME280 2 1.2500 0.3250)
+   (pin BME280 1 1.2500 0.9750)
+   (outline (rect signal -1.7500 -1.3000 1.7500 1.3000)))
+  (image BME280_U2
+   (pin BME280 1 1.2500 0.9750)
+   (pin BME280 2 1.2500 0.3250)
+   (pin BME280 3 1.2500 -0.3250)
+   (pin BME280 4 1.2500 -0.9750)
+   (pin BME280 5 -1.2500 -0.9750)
+   (pin BME280 6 -1.2500 -0.3250)
+   (pin BME280 7 -1.2500 0.3250)
+   (pin BME280 8 -1.2500 0.9750)
+   (outline (polygon signal 0 -1.7500 -1.3000 1.7500 -1.3000 1.7500 1.3000
+     -1.7500 1.3000 -1.7500 -1.3000)))
+  (image BMA280
+   (pin BMA280 12 -0.2500 1 (rotate 90))
+   (pin BMA280 11 0.2500 1 (rotate 90))
+   (pin BMA280 10 1 0.7500)
+   (pin BMA280 9 1 0.2500)
+   (pin BMA280 8 1 -0.2500)
+   (pin BMA280 7 1 -0.7500)
+   (pin BMA280 6 0.2500 -1 (rotate 90))
+   (pin BMA280 5 -0.2500 -1 (rotate 90))
+   (pin BMA280 4 -1 -0.7500)
+   (pin BMA280 3 -1 -0.2500)
+   (pin BMA280 2 -1 0.2500)
+   (pin BMA280 1 -1 0.7500)
+   (outline (rect signal -1.5500 -2.0500 1.5500 2.0500))
+   (keepout (rect TOP -1.9050 0.4657 -1.6000 1.1430)))
+  (image BMA280_U1
+   (pin BMA280 1 -1 0.7500)
+   (pin BMA280 2 -1 0.2500)
+   (pin BMA280 3 -1 -0.2500)
+   (pin BMA280 4 -1 -0.7500)
+   (pin BMA280 5 -0.2500 -1 (rotate 90))
+   (pin BMA280 6 0.2500 -1 (rotate 90))
+   (pin BMA280 7 1 -0.7500)
+   (pin BMA280 8 1 -0.2500)
+   (pin BMA280 9 1 0.2500)
+   (pin BMA280 10 1 0.7500)
+   (pin BMA280 11 0.2500 1 (rotate 90))
+   (pin BMA280 12 -0.2500 1 (rotate 90))
+   (outline (polygon signal 0 -1.5500 -2.0500 1.5500 -2.0500 1.5500 2.0500
+     -1.5500 2.0500 -1.5500 -2.0500)))
+  (image BMM150
+   (pin BMM150 A5 0.5660 -0.5660)
+   (pin BMM150 C5 0 -0.5660)
+   (pin BMM150 E5 -0.5660 -0.5660)
+   (pin BMM150 B4 0.2830 -0.2830)
+   (pin BMM150 D4 -0.2830 -0.2830)
+   (pin BMM150 A3 0.5660 0)
+   (pin BMM150 E3 -0.5660 0)
+   (pin BMM150 B2 0.2830 0.2830)
+   (pin BMM150 D2 -0.2830 0.2830)
+   (pin BMM150 A1 0.5660 0.5660)
+   (pin BMM150 C1 0 0.5660)
+   (pin BMM150 E1 -0.5660 0.5660)
+   (outline (rect signal -0.7800 -0.7800 0.7800 0.7800)))
+  (image BMM150_U5
+   (pin BMM150 E1 -0.5660 0.5660)
+   (pin BMM150 C1 0 0.5660)
+   (pin BMM150 A1 0.5660 0.5660)
+   (pin BMM150 D2 -0.2830 0.2830)
+   (pin BMM150 B2 0.2830 0.2830)
+   (pin BMM150 E3 -0.5660 0)
+   (pin BMM150 A3 0.5660 0)
+   (pin BMM150 D4 -0.2830 -0.2830)
+   (pin BMM150 B4 0.2830 -0.2830)
+   (pin BMM150 E5 -0.5660 -0.5660)
+   (pin BMM150 C5 0 -0.5660)
+   (pin BMM150 A5 0.5660 -0.5660)
+   (outline (polygon signal 0 -0.7800 -0.7800 0.7800 -0.7800 0.7800 0.7800
+     -0.7800 0.7800 -0.7800 -0.7800)))
+  (image BMG160
+   (pin BMG160 12 0 -1.5000 (rotate 89.495))
+   (pin BMG160 6 0 1.5000 (rotate 89.495))
+   (pin BMG160 11 -1.5000 -1)
+   (pin BMG160 10 -1.5000 -0.5000)
+   (pin BMG160 9 -1.5000 0)
+   (pin BMG160 8 -1.5000 0.5000)
+   (pin BMG160 7 -1.5000 1)
+   (pin BMG160 5 1.5000 1)
+   (pin BMG160 4 1.5000 0.5000)
+   (pin BMG160 3 1.5000 0)
+   (pin BMG160 2 1.5000 -0.5000)
+   (pin BMG160 1 1.5000 -1)
+   (outline (rect signal -2.1750 -2.1760 2.1750 2.1770)))
+  (image BMG160_U3
+   (pin BMG160 1 1.5000 -1)
+   (pin BMG160 2 1.5000 -0.5000)
+   (pin BMG160 3 1.5000 0)
+   (pin BMG160 4 1.5000 0.5000)
+   (pin BMG160 5 1.5000 1)
+   (pin BMG160 7 -1.5000 1)
+   (pin BMG160 8 -1.5000 0.5000)
+   (pin BMG160 9 -1.5000 0)
+   (pin BMG160 10 -1.5000 -0.5000)
+   (pin BMG160 11 -1.5000 -1)
+   (pin BMG160 6 0 1.5000 (rotate 89.495))
+   (pin BMG160 12 0 -1.5000 (rotate 89.495))
+   (outline (polygon signal 0 -2.1750 -2.1760 2.1750 -2.1760 2.1750 2.1770
+     -2.1750 2.1770 -2.1750 -2.1760)))
+  (image BMI160
+   (pin BMI160 14 -0.5000 1.2500 (rotate 90))
+   (pin BMI160 13 0 1.2500 (rotate 90))
+   (pin BMI160 12 0.5000 1.2500 (rotate 90))
+   (pin BMI160 11 1.5000 0.7500)
+   (pin BMI160 10 1.5000 0.2500)
+   (pin BMI160 9 1.5000 -0.2500)
+   (pin BMI160 8 1.5000 -0.7500)
+   (pin BMI160 7 0.5000 -1.2500 (rotate 90))
+   (pin BMI160 6 0 -1.2500 (rotate 90))
+   (pin BMI160 5 -0.5000 -1.2500 (rotate 90))
+   (pin BMI160 4 -1.5000 -0.7500)
+   (pin BMI160 3 -1.5000 -0.2500)
+   (pin BMI160 2 -1.5000 0.2500)
+   (pin BMI160 1 -1.5000 0.7500)
+   (outline (rect signal -2.1750 -1.9250 2.1750 1.9250)))
+  (image BMI160_U4
+   (pin BMI160 1 -1.5000 0.7500)
+   (pin BMI160 2 -1.5000 0.2500)
+   (pin BMI160 3 -1.5000 -0.2500)
+   (pin BMI160 4 -1.5000 -0.7500)
+   (pin BMI160 5 -0.5000 -1.2500 (rotate 90))
+   (pin BMI160 6 0 -1.2500 (rotate 90))
+   (pin BMI160 7 0.5000 -1.2500 (rotate 90))
+   (pin BMI160 8 1.5000 -0.7500)
+   (pin BMI160 9 1.5000 -0.2500)
+   (pin BMI160 10 1.5000 0.2500)
+   (pin BMI160 11 1.5000 0.7500)
+   (pin BMI160 12 0.5000 1.2500 (rotate 90))
+   (pin BMI160 13 0 1.2500 (rotate 90))
+   (pin BMI160 14 -0.5000 1.2500 (rotate 90))
+   (outline (polygon signal 0 -2.1750 -1.9250 2.1750 -1.9250 2.1750 1.9250
+     -2.1750 1.9250 -2.1750 -1.9250)))
+  (image CP2102
+   (pin CP2102_REQGND cct_misc_108934864 -2.5400 2.5400 (mechanical))
+   (pin CP2102_CENTER cct_misc_108934744 0 0 (mechanical))
+   (pin CP2102 28 -1.5000 2.5000 (rotate 90))
+   (pin CP2102 27 -1 2.5000 (rotate 90))
+   (pin CP2102 26 -0.5000 2.5000 (rotate 90))
+   (pin CP2102 25 0 2.5000 (rotate 90))
+   (pin CP2102 24 0.5000 2.5000 (rotate 90))
+   (pin CP2102 23 1 2.5000 (rotate 90))
+   (pin CP2102 22 1.5000 2.5000 (rotate 90))
+   (pin CP2102 21 2.5000 1.5000)
+   (pin CP2102 20 2.5000 1)
+   (pin CP2102 19 2.5000 0.5000)
+   (pin CP2102 18 2.5000 0)
+   (pin CP2102 17 2.5000 -0.5000)
+   (pin CP2102 16 2.5000 -1)
+   (pin CP2102 15 2.5000 -1.5000)
+   (pin CP2102 14 1.5000 -2.5000 (rotate 90))
+   (pin CP2102 13 1 -2.5000 (rotate 90))
+   (pin CP2102 12 0.5000 -2.5000 (rotate 90))
+   (pin CP2102 11 0 -2.5000 (rotate 90))
+   (pin CP2102 10 -0.5000 -2.5000 (rotate 90))
+   (pin CP2102 9 -1 -2.5000 (rotate 90))
+   (pin CP2102 8 -1.5000 -2.5000 (rotate 90))
+   (pin CP2102 7 -2.5000 -1.5000)
+   (pin CP2102 6 -2.5000 -1)
+   (pin CP2102 5 -2.5000 -0.5000)
+   (pin CP2102 4 -2.5000 0)
+   (pin CP2102 3 -2.5000 0.5000)
+   (pin CP2102 2 -2.5000 1)
+   (pin CP2102 1 -2.5000 1.5000)
+   (outline (rect signal -3.1000 -3.1000 3.1000 3.1000)))
+  (image CP2102_U8
+   (pin CP2102 1 -2.5000 1.5000)
+   (pin CP2102 2 -2.5000 1)
+   (pin CP2102 3 -2.5000 0.5000)
+   (pin CP2102 4 -2.5000 0)
+   (pin CP2102 5 -2.5000 -0.5000)
+   (pin CP2102 6 -2.5000 -1)
+   (pin CP2102 7 -2.5000 -1.5000)
+   (pin CP2102 8 -1.5000 -2.5000 (rotate 90))
+   (pin CP2102 9 -1 -2.5000 (rotate 90))
+   (pin CP2102 10 -0.5000 -2.5000 (rotate 90))
+   (pin CP2102 11 0 -2.5000 (rotate 90))
+   (pin CP2102 12 0.5000 -2.5000 (rotate 90))
+   (pin CP2102 13 1 -2.5000 (rotate 90))
+   (pin CP2102 14 1.5000 -2.5000 (rotate 90))
+   (pin CP2102 15 2.5000 -1.5000)
+   (pin CP2102 16 2.5000 -1)
+   (pin CP2102 17 2.5000 -0.5000)
+   (pin CP2102 18 2.5000 0)
+   (pin CP2102 19 2.5000 0.5000)
+   (pin CP2102 20 2.5000 1)
+   (pin CP2102 21 2.5000 1.5000)
+   (pin CP2102 22 1.5000 2.5000 (rotate 90))
+   (pin CP2102 23 1 2.5000 (rotate 90))
+   (pin CP2102 24 0.5000 2.5000 (rotate 90))
+   (pin CP2102 25 0 2.5000 (rotate 90))
+   (pin CP2102 26 -0.5000 2.5000 (rotate 90))
+   (pin CP2102 27 -1 2.5000 (rotate 90))
+   (pin CP2102 28 -1.5000 2.5000 (rotate 90))
+   (pin CP2102_CENTER cct_misc_108934744 0 0 (mechanical))
+   (pin CP2102_REQGND cct_misc_108934864 -2.5400 2.5400 (mechanical))
+   (outline (polygon signal 0 -3.1000 -3.1000 3.1000 -3.1000 3.1000 3.1000
+     -3.1000 3.1000 -3.1000 -3.1000)))
+  (image ATMEGA128
+   (pin ATMEGA128_PAD 64 -6.0970 8 (rotate 90))
+   (pin ATMEGA128_PAD 63 -5.2840 8 (rotate 90))
+   (pin ATMEGA128_PAD 62 -4.4710 8 (rotate 90))
+   (pin ATMEGA128_PAD 61 -3.6580 8 (rotate 90))
+   (pin ATMEGA128_PAD 60 -2.8450 8 (rotate 90))
+   (pin ATMEGA128_PAD 59 -2.0320 8 (rotate 90))
+   (pin ATMEGA128_PAD 58 -1.2190 8 (rotate 90))
+   (pin ATMEGA128_PAD 57 -0.4060 8 (rotate 90))
+   (pin ATMEGA128_PAD 56 0.4070 8 (rotate 90))
+   (pin ATMEGA128_PAD 55 1.2200 8 (rotate 90))
+   (pin ATMEGA128_PAD 54 2.0330 8 (rotate 90))
+   (pin ATMEGA128_PAD 53 2.8460 8 (rotate 90))
+   (pin ATMEGA128_PAD 52 3.6580 8 (rotate 90))
+   (pin ATMEGA128_PAD 51 4.4720 8 (rotate 90))
+   (pin ATMEGA128_PAD 50 5.2840 8 (rotate 90))
+   (pin ATMEGA128_PAD 49 6.0970 8 (rotate 90))
+   (pin ATMEGA128_PAD 48 8 6.0970)
+   (pin ATMEGA128_PAD 47 8 5.2840)
+   (pin ATMEGA128_PAD 46 8 4.4710)
+   (pin ATMEGA128_PAD 45 8 3.6580)
+   (pin ATMEGA128_PAD 44 8 2.8450)
+   (pin ATMEGA128_PAD 43 8 2.0320)
+   (pin ATMEGA128_PAD 42 8 1.2190)
+   (pin ATMEGA128_PAD 41 8 0.4060)
+   (pin ATMEGA128_PAD 40 8 -0.4070)
+   (pin ATMEGA128_PAD 39 8 -1.2200)
+   (pin ATMEGA128_PAD 38 8 -2.0330)
+   (pin ATMEGA128_PAD 37 8 -2.8460)
+   (pin ATMEGA128_PAD 36 8 -3.6580)
+   (pin ATMEGA128_PAD 35 8 -4.4720)
+   (pin ATMEGA128_PAD 34 8 -5.2840)
+   (pin ATMEGA128_PAD 33 8 -6.0970)
+   (pin ATMEGA128_PAD 32 6.0970 -8 (rotate 90))
+   (pin ATMEGA128_PAD 31 5.2840 -8 (rotate 90))
+   (pin ATMEGA128_PAD 30 4.4710 -8 (rotate 90))
+   (pin ATMEGA128_PAD 29 3.6580 -8 (rotate 90))
+   (pin ATMEGA128_PAD 28 2.8450 -8 (rotate 90))
+   (pin ATMEGA128_PAD 27 2.0320 -8 (rotate 90))
+   (pin ATMEGA128_PAD 26 1.2190 -8 (rotate 90))
+   (pin ATMEGA128_PAD 25 0.4060 -8 (rotate 90))
+   (pin ATMEGA128_PAD 24 -0.4070 -8 (rotate 90))
+   (pin ATMEGA128_PAD 23 -1.2200 -8 (rotate 90))
+   (pin ATMEGA128_PAD 22 -2.0330 -8 (rotate 90))
+   (pin ATMEGA128_PAD 21 -2.8460 -8 (rotate 90))
+   (pin ATMEGA128_PAD 20 -3.6580 -8 (rotate 90))
+   (pin ATMEGA128_PAD 19 -4.4720 -8 (rotate 90))
+   (pin ATMEGA128_PAD 18 -5.2840 -8 (rotate 90))
+   (pin ATMEGA128_PAD 17 -6.0970 -8 (rotate 90))
+   (pin ATMEGA128_PAD 16 -8 -6.0970)
+   (pin ATMEGA128_PAD 15 -8 -5.2840)
+   (pin ATMEGA128_PAD 14 -8 -4.4710)
+   (pin ATMEGA128_PAD 13 -8 -3.6580)
+   (pin ATMEGA128_PAD 12 -8 -2.8450)
+   (pin ATMEGA128_PAD 11 -8 -2.0320)
+   (pin ATMEGA128_PAD 10 -8 -1.2190)
+   (pin ATMEGA128_PAD 9 -8 -0.4060)
+   (pin ATMEGA128_PAD 8 -8 0.4070)
+   (pin ATMEGA128_PAD 7 -8 1.2200)
+   (pin ATMEGA128_PAD 6 -8 2.0330)
+   (pin ATMEGA128_PAD 5 -8 2.8460)
+   (pin ATMEGA128_PAD 4 -8 3.6580)
+   (pin ATMEGA128_PAD 3 -8 4.4720)
+   (pin ATMEGA128_PAD 2 -8 5.2840)
+   (pin ATMEGA128_PAD 1 -8 6.0970)
+   (outline (rect signal -8.8380 -8.8380 8.8370 8.8370)))
+  (image ATMEGA128_IC1
+   (pin ATMEGA128_PAD 1 -8 6.0970)
+   (pin ATMEGA128_PAD 2 -8 5.2840)
+   (pin ATMEGA128_PAD 3 -8 4.4720)
+   (pin ATMEGA128_PAD 4 -8 3.6580)
+   (pin ATMEGA128_PAD 5 -8 2.8460)
+   (pin ATMEGA128_PAD 6 -8 2.0330)
+   (pin ATMEGA128_PAD 7 -8 1.2200)
+   (pin ATMEGA128_PAD 8 -8 0.4070)
+   (pin ATMEGA128_PAD 9 -8 -0.4060)
+   (pin ATMEGA128_PAD 10 -8 -1.2190)
+   (pin ATMEGA128_PAD 11 -8 -2.0320)
+   (pin ATMEGA128_PAD 12 -8 -2.8450)
+   (pin ATMEGA128_PAD 13 -8 -3.6580)
+   (pin ATMEGA128_PAD 14 -8 -4.4710)
+   (pin ATMEGA128_PAD 15 -8 -5.2840)
+   (pin ATMEGA128_PAD 16 -8 -6.0970)
+   (pin ATMEGA128_PAD 17 -6.0970 -8 (rotate 90))
+   (pin ATMEGA128_PAD 18 -5.2840 -8 (rotate 90))
+   (pin ATMEGA128_PAD 19 -4.4720 -8 (rotate 90))
+   (pin ATMEGA128_PAD 20 -3.6580 -8 (rotate 90))
+   (pin ATMEGA128_PAD 21 -2.8460 -8 (rotate 90))
+   (pin ATMEGA128_PAD 22 -2.0330 -8 (rotate 90))
+   (pin ATMEGA128_PAD 23 -1.2200 -8 (rotate 90))
+   (pin ATMEGA128_PAD 24 -0.4070 -8 (rotate 90))
+   (pin ATMEGA128_PAD 25 0.4060 -8 (rotate 90))
+   (pin ATMEGA128_PAD 26 1.2190 -8 (rotate 90))
+   (pin ATMEGA128_PAD 27 2.0320 -8 (rotate 90))
+   (pin ATMEGA128_PAD 28 2.8450 -8 (rotate 90))
+   (pin ATMEGA128_PAD 29 3.6580 -8 (rotate 90))
+   (pin ATMEGA128_PAD 30 4.4710 -8 (rotate 90))
+   (pin ATMEGA128_PAD 31 5.2840 -8 (rotate 90))
+   (pin ATMEGA128_PAD 32 6.0970 -8 (rotate 90))
+   (pin ATMEGA128_PAD 33 8 -6.0970)
+   (pin ATMEGA128_PAD 34 8 -5.2840)
+   (pin ATMEGA128_PAD 35 8 -4.4720)
+   (pin ATMEGA128_PAD 36 8 -3.6580)
+   (pin ATMEGA128_PAD 37 8 -2.8460)
+   (pin ATMEGA128_PAD 38 8 -2.0330)
+   (pin ATMEGA128_PAD 39 8 -1.2200)
+   (pin ATMEGA128_PAD 40 8 -0.4070)
+   (pin ATMEGA128_PAD 41 8 0.4060)
+   (pin ATMEGA128_PAD 42 8 1.2190)
+   (pin ATMEGA128_PAD 43 8 2.0320)
+   (pin ATMEGA128_PAD 44 8 2.8450)
+   (pin ATMEGA128_PAD 45 8 3.6580)
+   (pin ATMEGA128_PAD 46 8 4.4710)
+   (pin ATMEGA128_PAD 47 8 5.2840)
+   (pin ATMEGA128_PAD 48 8 6.0970)
+   (pin ATMEGA128_PAD 49 6.0970 8 (rotate 90))
+   (pin ATMEGA128_PAD 50 5.2840 8 (rotate 90))
+   (pin ATMEGA128_PAD 51 4.4720 8 (rotate 90))
+   (pin ATMEGA128_PAD 52 3.6580 8 (rotate 90))
+   (pin ATMEGA128_PAD 53 2.8460 8 (rotate 90))
+   (pin ATMEGA128_PAD 54 2.0330 8 (rotate 90))
+   (pin ATMEGA128_PAD 55 1.2200 8 (rotate 90))
+   (pin ATMEGA128_PAD 56 0.4070 8 (rotate 90))
+   (pin ATMEGA128_PAD 57 -0.4060 8 (rotate 90))
+   (pin ATMEGA128_PAD 58 -1.2190 8 (rotate 90))
+   (pin ATMEGA128_PAD 59 -2.0320 8 (rotate 90))
+   (pin ATMEGA128_PAD 60 -2.8450 8 (rotate 90))
+   (pin ATMEGA128_PAD 61 -3.6580 8 (rotate 90))
+   (pin ATMEGA128_PAD 62 -4.4710 8 (rotate 90))
+   (pin ATMEGA128_PAD 63 -5.2840 8 (rotate 90))
+   (pin ATMEGA128_PAD 64 -6.0970 8 (rotate 90))
+   (outline (polygon signal 0 -8.8380 -8.8380 8.8370 -8.8380 8.8370 8.8370
+     -8.8380 8.8370 -8.8380 -8.8380)))
+  (padstack VIA
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 0.6096 0 0))
+   (hole (circle signal 0.3302 0 0))
+   (hole (circle power 0.3302 0 0))
+   (antipad (circle TOP 0.7620 0 0))
+   (antipad (circle BOTTOM 0.7620 0 0)))
+  (padstack XTAL_SMD
+   (type smdpad)
+   (shape (rect TOP -1.25000 -0.65000 1.25000 0.65000))
+   (antipad (rect TOP -1.25000 -0.65000 1.25000 0.65000)))
+  (padstack CP2102_REQGND
+   (type smdpad)
+   (shape (rect TOP -0.50000 -0.50000 0.50000 0.50000))
+   (antipad (rect TOP -0.35000 -0.35000 0.35000 0.35000)))
+  (padstack CP2102_CENTER
+   (type smdpad)
+   (shape (rect TOP -1.57500 -1.57500 1.57500 1.57500))
+   (antipad (rect TOP -1.50000 -1.50000 1.50000 1.50000)))
+  (padstack CP2102
+   (type smdpad)
+   (shape (rect TOP -0.60000 -0.15000 0.60000 0.15000))
+   (antipad (rect TOP -0.40000 -0.15000 0.40000 0.15000)))
+  (padstack 'LM1117IMPX-ADJ2'
+   (type smdpad)
+   (shape (rect TOP -1.65000 -0.75000 1.65000 0.75000))
+   (antipad (rect TOP -1.75000 -0.85000 1.75000 0.85000)))
+  (padstack 'LM1117IMPX-ADJ1'
+   (type smdpad)
+   (shape (rect TOP -0.50000 -0.75000 0.50000 0.75000))
+   (antipad (rect TOP -0.65000 -0.90000 0.65000 0.90000)))
+  (padstack MAX44009_CENTER
+   (type smdpad)
+   (shape (rect TOP -0.35500 -0.70000 0.35500 0.70000))
+   (antipad (rect TOP -0.30500 -0.65000 0.30500 0.65000)))
+  (padstack MAX44009
+   (type smdpad)
+   (shape (rect TOP -0.48000 -0.18000 0.48000 0.18000))
+   (antipad (rect TOP -0.48000 -0.13000 0.48000 0.13000)))
+  (padstack BMM150
+   (type smdpad)
+   (shape (circle TOP 0.2000 0 0))
+   (antipad (circle TOP 0.1500 0 0)))
+  (padstack BMI160
+   (type smdpad)
+   (shape (rect TOP -0.67500 -0.12500 0.67500 0.12500)))
+  (padstack BMG160
+   (type smdpad)
+   (shape (rect TOP -0.67500 -0.12500 0.67500 0.12500))
+   (antipad (rect TOP -0.57500 -0.07500 0.57500 0.07500)))
+  (padstack BME280
+   (type smdpad)
+   (shape (rect TOP -0.50000 -0.17500 0.50000 0.17500))
+   (antipad (rect TOP -0.40000 -0.07500 0.40000 0.07500)))
+  (padstack BMA280
+   (type smdpad)
+   (shape (rect TOP -0.41000 -0.14000 0.41000 0.14000))
+   (antipad (rect TOP -0.40000 -1.30000 0.40000 1.30000)))
+  (padstack 'NW3-A06-B3'
+   (type smdpad)
+   (shape (rect TOP -0.90000 -0.50000 0.90000 0.50000))
+   (antipad (rect TOP -1 -0.60000 1 0.60000)))
+  (padstack 2SC1815
+   (type smdpad)
+   (shape (rect TOP -0.50000 -0.25000 0.50000 0.25000))
+   (antipad (rect TOP -0.60000 -0.35000 0.60000 0.35000)))
+  (padstack 'CI-B2012-331JJT'
+   (type smdpad)
+   (shape (rect TOP -0.50000 -0.70000 0.50000 0.70000))
+   (antipad (rect TOP -0.60000 -0.70000 0.60000 0.70000)))
+  (padstack PAD40CIR28D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 1.0160 0 0))
+   (hole (circle signal 0.7112 0 0))
+   (hole (circle power 0.7112 0 0))
+   (antipad (circle TOP 1.7272 0 0))
+   (antipad (circle BOTTOM 1.7272 0 0)))
+  (padstack 'MCU-U52105_HOLE'
+   (type smdpad)
+   (shape (path TOP 1.1000 0 -0.3500 0 0.3500))
+   (hole (path TOP 0.5000 0 -0.3500 0 0.3500))
+   (antipad (path TOP 0.8000 0 -0.4500 0 0.4500)))
+  (padstack 'MCU-U52105_GND2'
+   (type smdpad)
+   (shape (rect TOP -0.82500 -0.95000 0.82500 0.95000))
+   (antipad (rect TOP -0.82500 -0.95000 0.82500 0.95000)))
+  (padstack 'MCU-U52105_GND'
+   (type smdpad)
+   (shape (rect TOP -1.05000 -0.80000 1.05000 0.80000))
+   (antipad (rect TOP -1.05000 -0.80000 1.05000 0.80000)))
+  (padstack 'MCU-U52105_PIN'
+   (type smdpad)
+   (shape (rect TOP -0.20000 -0.67500 0.20000 0.67500))
+   (antipad (rect TOP -0.20000 -0.67500 0.20000 0.67500)))
+  (padstack PAD60CIR36D
+   (plating plated)
+   (type thrupad)
+   (shape (circle signal 1.5240 0 0))
+   (hole (circle signal 0.9144 0 0))
+   (hole (circle power 0.9144 0 0))
+   (antipad (circle TOP 2.2352 0 0))
+   (antipad (circle BOTTOM 2.2352 0 0)))
+  (padstack ATMEGA128_PAD
+   (type smdpad)
+   (shape (rect TOP -0.81250 -0.22500 0.81250 0.22500))
+   (antipad (rect TOP -0.83750 -0.25000 0.83750 0.25000)))
+  (padstack 'FSMD050-1812'
+   (type smdpad)
+   (shape (rect TOP -1 -1.70000 1 1.70000))
+   (antipad (rect TOP -1.25000 -1.70000 1.25000 1.70000)))
+  (padstack CAP_5PI_X5MM
+   (type smdpad)
+   (shape (rect TOP -1.50000 -0.70000 1.50000 0.70000))
+   (antipad (rect TOP -1.40000 -0.60000 1.40000 0.60000)))
+  (padstack CAP_4PI_X5MM
+   (type smdpad)
+   (shape (rect TOP -1.30000 -0.80000 1.30000 0.80000))
+   (antipad (rect TOP -1.20000 -0.70000 1.20000 0.70000)))
+  (padstack SM_LLB_PAD9_1
+   (type smdpad)
+   (shape (rect TOP -0.76200 -0.76200 0.76200 0.76200))
+   (antipad (rect TOP -0.76200 -0.76200 0.76200 0.76200)))
+  (padstack SM_LLB_PAD10_1
+   (type smdpad)
+   (shape (rect TOP -0.76200 -0.76200 0.76200 0.76200))
+   (antipad (rect TOP -0.76200 -0.76200 0.76200 0.76200))))
+ (floor_plan)
+ (part_library
+  (logical_part_mapping 'CAP NP_SMC1206_20PF'
+   (comp C1 C2))
+  (logical_part 'CAP NP_SMC1206_20PF'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             1    2                    0 )
+   (pin 1               0    G1             1    1                    0 ))
+  (logical_part_mapping 'CAP NP_SMC1206_82NF'
+   (comp C11 C12 C13 C14 C15 C16 C17 C18 C7 C8))
+  (logical_part 'CAP NP_SMC1206_82NF'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             2    2                    0 )
+   (pin 1               0    G1             2    1                    0 ))
+  (logical_part_mapping 'CAP NP_SMC1206_1UF'
+   (comp C19))
+  (logical_part 'CAP NP_SMC1206_1UF'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             3    2                    0 )
+   (pin 1               0    G1             3    1                    0 ))
+  (logical_part_mapping 'CAP POL_CAP_4PI_X5MM_10UF/16V'
+   (comp C20 C21 C6))
+  (logical_part 'CAP POL_CAP_4PI_X5MM_10UF/16V'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             4    2                    0 )
+   (pin 1               0    G1             4    1                    0 ))
+  (logical_part_mapping 'CAP NP_SMC1206_0.1UF'
+   (comp C22 C23))
+  (logical_part 'CAP NP_SMC1206_0.1UF'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             5    2                    0 )
+   (pin 1               0    G1             5    1                    0 ))
+  (logical_part_mapping 'CAP POL_CAP_5PI_X5MM_47UF/16V'
+   (comp C5))
+  (logical_part 'CAP POL_CAP_5PI_X5MM_47UF/16V'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             6    2                    0 )
+   (pin 1               0    G1             6    1                    0 ))
+  (logical_part_mapping LED_SMC1206_LED
+   (comp D1))
+  (logical_part LED_SMC1206_LED
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 1               0    G1             7    CATHODE              0 )
+   (pin 2               0    G1             7    ANODE                0 ))
+  (logical_part_mapping DIODE_SMC1206_1N4148
+   (comp D2 D3))
+  (logical_part DIODE_SMC1206_1N4148
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 1               0    G1             8    K                    0 )
+   (pin 2               0    G1             8    A                    0 ))
+  (logical_part_mapping 'FUSE_FSMD050-1812_FUSE'
+   (comp F1))
+  (logical_part 'FUSE_FSMD050-1812_FUSE'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             9    2                    0 )
+   (pin 1               0    G1             9    1                    0 ))
+  (logical_part_mapping ATMEGA128_1_ATMEGA128_ATMEGA128
+   (comp IC1))
+  (logical_part ATMEGA128_1_ATMEGA128_ATMEGA128
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 23              0    G1             10   XTAL2                0 )
+   (pin 24              0    G1             10   XTAL1                0 )
+   (pin 21              2    G1             10   VCC2                 0 )
+   (pin 52              2    G1             10   VCC1                 0 )
+   (pin 20              3    G1             10   'R\E\S\E\T\'         0 )
+   (pin 1               3    G1             10   'P\E\N\'             0 )
+   (pin 42              4    G1             10   'PC7 (A15)'          0 )
+   (pin 41              4    G1             10   'PC6 (A14)'          0 )
+   (pin 40              4    G1             10   'PC5 (A13)'          0 )
+   (pin 39              4    G1             10   'PC4 (A12)'          0 )
+   (pin 38              4    G1             10   'PC3 (A11)'          0 )
+   (pin 37              4    G1             10   'PC2 (A10)'          0 )
+   (pin 36              4    G1             10   'PC1 (A9)'           0 )
+   (pin 35              4    G1             10   'PC0 (A8)'           0 )
+   (pin 17              4    G1             10   'PB7 (OC2/OC1C)'     0 )
+   (pin 16              4    G1             10   'PB6 (OC1B)'         0 )
+   (pin 15              4    G1             10   'PB5 (OC1A)'         0 )
+   (pin 14              4    G1             10   'PB4 (OC0)'          0 )
+   (pin 13              4    G1             10   'PB3 (MISO)'         0 )
+   (pin 12              4    G1             10   'PB2 (MOSI)'         0 )
+   (pin 11              4    G1             10   'PB1 (SCK)'          0 )
+   (pin 10              4    G1             10   'PB0 (S\S\)'         0 )
+   (pin 44              4    G1             10   'PA7 (AD7)'          0 )
+   (pin 45              4    G1             10   'PA6 (AD6)'          0 )
+   (pin 46              4    G1             10   'PA5 (AD5)'          0 )
+   (pin 47              4    G1             10   'PA4 (AD4)'          0 )
+   (pin 48              4    G1             10   'PA3 (AD3)'          0 )
+   (pin 49              4    G1             10   'PA2 (AD2)'          0 )
+   (pin 50              4    G1             10   'PA1 (AD1)'          0 )
+   (pin 51              4    G1             10   'PA0 (AD0)'          0 )
+   (pin 22              2    G1             10   GND3                 0 )
+   (pin 53              2    G1             10   GND2                 0 )
+   (pin 63              2    G1             10   GND1                 0 )
+   (pin 64              2    G1             10   AVCC                 0 )
+   (pin 62              2    G1             10   AREF                 0 )
+   (pin 4               4    G1             10   '(XCL0/AIN0) PE2'    0 )
+   (pin 30              4    G1             10   '(XCK1) PD5'         0 )
+   (pin 33              4    G1             10   '(W\R\) PG0'         0 )
+   (pin 28              4    G1             10   '(TXD1/INT3) PD3'    0 )
+   (pin 3               4    G1             10   '(TXD0/PDO) PE1'     0 )
+   (pin 18              4    G1             10   '(TOSC2) PG3'        0 )
+   (pin 19              4    G1             10   '(TOSC1) PG4'        0 )
+   (pin 56              4    G1             10   '(TMS/ADC5) PF5'     0 )
+   (pin 55              4    G1             10   '(TDO/ADC6) PF6'     0 )
+   (pin 54              4    G1             10   '(TDI/ADC7) PF7'     0 )
+   (pin 57              4    G1             10   '(TCK/ADC4) PF4'     0 )
+   (pin 8               4    G1             10   '(T3/INT6) PE6'      0 )
+   (pin 32              4    G1             10   '(T2) PD7'           0 )
+   (pin 31              4    G1             10   '(T1) PD6'           0 )
+   (pin 26              4    G1             10   '(SDA/INT1) PD1'     0 )
+   (pin 25              4    G1             10   '(SCL/INT0) PD0'     0 )
+   (pin 34              4    G1             10   '(R\D\) PG1'         0 )
+   (pin 27              4    G1             10   '(RXD1/INT2) PD2'    0 )
+   (pin 2               4    G1             10   '(RXD0/PDI) PE0'     0 )
+   (pin 7               4    G1             10   '(OC3C/INT5) PE5'    0 )
+   (pin 6               4    G1             10   '(OC3B/INT4) PE4'    0 )
+   (pin 5               4    G1             10   '(OC3A/AIN1) PE3'    0 )
+   (pin 9               4    G1             10   '(IC3/INT7) PE7'     0 )
+   (pin 29              4    G1             10   '(IC1) PD4'          0 )
+   (pin 43              4    G1             10   '(ALE) PG2'          0 )
+   (pin 58              4    G1             10   '(ADC3) PF3'         0 )
+   (pin 59              4    G1             10   '(ADC2) PF2'         0 )
+   (pin 60              4    G1             10   '(ADC1) PF1'         0 )
+   (pin 61              4    G1             10   '(ADC0) PF0'         0 ))
+  (logical_part_mapping 'CON2_JUMPER2_3.3V DC'
+   (comp J13))
+  (logical_part 'CON2_JUMPER2_3.3V DC'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             11   2                    0 )
+   (pin 1               0    G1             11   1                    0 ))
+  (logical_part_mapping 'CON5_0_MCU-U52105_USB_MICRO 5PI'
+   (comp J14))
+  (logical_part 'CON5_0_MCU-U52105_USB_MICRO 5PI'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 5               0    G1             12   5                    0 )
+   (pin 4               0    G1             12   4                    0 )
+   (pin 3               0    G1             12   3                    0 )
+   (pin 2               0    G1             12   2                    0 )
+   (pin 1               0    G1             12   1                    0 ))
+  (logical_part_mapping CON6A_BOX_HEADER6_ISP
+   (comp J2))
+  (logical_part CON6A_BOX_HEADER6_ISP
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 6               0    G1             13   6                    0 )
+   (pin 5               0    G1             13   5                    0 )
+   (pin 4               0    G1             13   4                    0 )
+   (pin 3               0    G1             13   3                    0 )
+   (pin 2               0    G1             13   2                    0 )
+   (pin 1               0    G1             13   1                    0 ))
+  (logical_part_mapping CON2_JUMPER2_UART0
+   (comp J3))
+  (logical_part CON2_JUMPER2_UART0
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             14   2                    0 )
+   (pin 1               0    G1             14   1                    0 ))
+  (logical_part_mapping CON2_JUMPER2_UART1
+   (comp J4))
+  (logical_part CON2_JUMPER2_UART1
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             15   2                    0 )
+   (pin 1               0    G1             15   1                    0 ))
+  (logical_part_mapping CON2_JUMPER2_I2C
+   (comp J5))
+  (logical_part CON2_JUMPER2_I2C
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             16   2                    0 )
+   (pin 1               0    G1             16   1                    0 ))
+  (logical_part_mapping 'BEAD_CI-B2012-331JJT_330NH'
+   (comp L1))
+  (logical_part 'BEAD_CI-B2012-331JJT_330NH'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             17   2                    0 )
+   (pin 1               0    G1             17   1                    0 ))
+  (logical_part_mapping 'BUZZER_BPE-1407P-40_BUZZER'
+   (comp LS1))
+  (logical_part 'BUZZER_BPE-1407P-40_BUZZER'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             18   B                    0 )
+   (pin 1               0    G1             18   A                    0 ))
+  (logical_part_mapping 'NPN BCE_0_2SC1815_C1815'
+   (comp Q1))
+  (logical_part 'NPN BCE_0_2SC1815_C1815'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 3               0    G1             19   E                    0 )
+   (pin 2               0    G1             19   C                    0 )
+   (pin 1               0    G1             19   B                    0 ))
+  (logical_part_mapping R_SMC1206_680
+   (comp R1))
+  (logical_part R_SMC1206_680
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             20   2                    0 )
+   (pin 1               0    G1             20   1                    0 ))
+  (logical_part_mapping R_SMC1206_4.7K
+   (comp R10 R11 R12 R16 R5 R6 R7 R8 R9))
+  (logical_part R_SMC1206_4.7K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             21   2                    0 )
+   (pin 1               0    G1             21   1                    0 ))
+  (logical_part_mapping R_SMC1206_10K
+   (comp R13 R14 R15 R3 R4))
+  (logical_part R_SMC1206_10K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             22   2                    0 )
+   (pin 1               0    G1             22   1                    0 ))
+  (logical_part_mapping R_SMC1206_2K
+   (comp R2))
+  (logical_part R_SMC1206_2K
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             23   2                    0 )
+   (pin 1               0    G1             23   1                    0 ))
+  (logical_part_mapping 'SW TACT-SPST_NW3-A06-B3_SW_TACT'
+   (comp SW2))
+  (logical_part 'SW TACT-SPST_NW3-A06-B3_SW_TACT'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             24   2                    0 )
+   (pin 1               0    G1             24   1                    0 ))
+  (logical_part_mapping BMA280_1_BMA280_BMA280
+   (comp U1))
+  (logical_part BMA280_1_BMA280_BMA280
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 3               2    G1             25   VDDIO#3              0 )
+   (pin 11              2    G1             25   VDDIO#11             0 )
+   (pin 7               2    G1             25   VDD                  0 )
+   (pin 1               0    G1             25   SDO                  0 )
+   (pin 2               0    G1             25   SDA                  0 )
+   (pin 12              0    G1             25   SCL                  0 )
+   (pin 6               0    G1             25   INT2                 0 )
+   (pin 5               0    G1             25   INT1                 0 )
+   (pin 8               2    G1             25   GNDIO                0 )
+   (pin 9               2    G1             25   GND#9                0 )
+   (pin 4               2    G1             25   GND#4                0 )
+   (pin 10              0    G1             25   DNC                  0 ))
+  (logical_part_mapping BME280_BME280_BME280
+   (comp U2))
+  (logical_part BME280_BME280_BME280
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 6               2    G1             26   VDDIO                0 )
+   (pin 8               2    G1             26   VDD                  0 )
+   (pin 5               0    G1             26   SDO                  0 )
+   (pin 3               0    G1             26   SDI                  0 )
+   (pin 4               0    G1             26   SCK                  0 )
+   (pin 7               2    G1             26   GND#7                0 )
+   (pin 1               2    G1             26   GND#1                0 )
+   (pin 2               0    G1             26   CBS                  0 ))
+  (logical_part_mapping BMG160_0_BMG160_BMG160
+   (comp U3))
+  (logical_part BMG160_0_BMG160_BMG160
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 6               2    G1             27   VDDIO#6              0 )
+   (pin 10              2    G1             27   VDDIO#10             0 )
+   (pin 2               2    G1             27   VDD                  0 )
+   (pin 9               0    G1             27   SDA                  0 )
+   (pin 7               0    G1             27   SCL                  0 )
+   (pin 12              0    G1             27   INT2                 0 )
+   (pin 4               0    G1             27   INT1                 0 )
+   (pin 11              2    G1             27   GNDIO                0 )
+   (pin 8               2    G1             27   GND#8                0 )
+   (pin 3               2    G1             27   GND#3                0 )
+   (pin 1               2    G1             27   GND#1                0 )
+   (pin 5               0    G1             27   DNC                  0 ))
+  (logical_part_mapping BMI160_BMI160_BMI160
+   (comp U4))
+  (logical_part BMI160_BMI160_BMI160
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 5               0    G1             28   VDDIO                0 )
+   (pin 8               0    G1             28   VDD                  0 )
+   (pin 14              0    G1             28   SDX                  0 )
+   (pin 1               0    G1             28   SDO                  0 )
+   (pin 13              0    G1             28   SCX                  0 )
+   (pin 11              0    G1             28   OSDO                 0 )
+   (pin 10              0    G1             28   OSCB                 0 )
+   (pin 9               0    G1             28   INT2                 0 )
+   (pin 4               0    G1             28   INT1                 0 )
+   (pin 6               0    G1             28   GNDIO                0 )
+   (pin 7               0    G1             28   GND                  0 )
+   (pin 12              0    G1             28   CSB                  0 )
+   (pin 2               0    G1             28   ASDX                 0 )
+   (pin 3               0    G1             28   ASCX                 0 ))
+  (logical_part_mapping BMM150_0_BMM150_BMM150
+   (comp U5))
+  (logical_part BMM150_0_BMM150_BMM150
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin B2              0    G1             29   VDDIO                0 )
+   (pin E5              2    G1             29   VDD                  0 )
+   (pin C1              0    G1             29   SDO                  0 )
+   (pin B4              0    G1             29   SDI                  0 )
+   (pin A3              0    G1             29   SCK                  0 )
+   (pin A1              0    G1             29   PS                   0 )
+   (pin D2              0    G1             29   INT                  0 )
+   (pin E3              2    G1             29   GND#E3               0 )
+   (pin E1              2    G1             29   GND#E1               0 )
+   (pin C5              2    G1             29   GND#C5               0 )
+   (pin D4              0    G1             29   DRDY                 0 )
+   (pin A5              0    G1             29   CSB                  0 ))
+  (logical_part_mapping MAX44009_MAX44009_MAX44009
+   (comp U6))
+  (logical_part MAX44009_MAX44009_MAX44009
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 1               2    G1             30   VCC                  0 )
+   (pin 6               0    G1             30   SDA                  0 )
+   (pin 5               0    G1             30   SCL                  0 )
+   (pin 2               2    G1             30   GND                  0 )
+   (pin 3               0    G1             30   AD                   0 )
+   (pin 4               0    G1             30   /INT                 0 ))
+  (logical_part_mapping 'LM7805/TO_1_LM1117IMPX-ADJ_GS11'
+   (comp U7))
+  (logical_part 'LM7805/TO_1_LM1117IMPX-ADJ_GS11'
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               4    G1             31   VOUT                 0 )
+   (pin 1               3    G1             31   VIN                  0 )
+   (pin 4               0    G1             31   NC                   0 )
+   (pin 3               2    G1             31   GND                  0 ))
+  (logical_part_mapping CP2102_CP2102_CP2102
+   (comp U8))
+  (logical_part CP2102_CP2102_CP2102
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 10              2    cct_108844072  0    1                    0 )
+   (pin 13              2    cct_108844024  0    1                    0 )
+   (pin 14              2    cct_108843976  0    1                    0 )
+   (pin 21              2    cct_108843928  0    1                    0 )
+   (pin 20              2    cct_108843880  0    1                    0 )
+   (pin 19              2    cct_108843832  0    1                    0 )
+   (pin 18              2    cct_108843784  0    1                    0 )
+   (pin 17              2    cct_108843736  0    1                    0 )
+   (pin 16              2    cct_108843688  0    1                    0 )
+   (pin 15              2    cct_108843640  0    1                    0 )
+   (pin 22              2    cct_108843592  0    1                    0 )
+   (pin 6               2    G1             32   VDD                  0 )
+   (pin 8               0    G1             32   VBUS                 0 )
+   (pin 26              0    G1             32   TXD                  0 )
+   (pin 12              0    G1             32   SUSPEND              0 )
+   (pin 25              0    G1             32   RXD                  0 )
+   (pin 24              0    G1             32   RTS                  0 )
+   (pin 2               0    G1             32   RI                   0 )
+   (pin 7               0    G1             32   REGIN                0 )
+   (pin 3               0    G1             32   GND                  0 )
+   (pin 28              0    G1             32   DTR                  0 )
+   (pin 27              0    G1             32   DSR                  0 )
+   (pin 1               0    G1             32   DCD                  0 )
+   (pin 5               0    G1             32   'D-'                 0 )
+   (pin 4               0    G1             32   D+                   0 )
+   (pin 23              0    G1             32   CTS                  0 )
+   (pin 11              0    G1             32   /SUSPEND             0 )
+   (pin 9               0    G1             32   /RESET               0 ))
+  (logical_part_mapping CRYSTAL_XTAL_SMD_16MHZ
+   (comp Y1))
+  (logical_part CRYSTAL_XTAL_SMD_16MHZ
+#      |------------------------------------------------------------------|
+#      |       PIN          |                  GATE                       |
+#      |------------------------------------------------------------------|
+#      |    Physical | Pin  |    Gate    | Gate |       Gate       | Pin  |
+#      |      Pin    | Type |    Name    | Swap |       Pin        | Swap |
+#      |      Name   |      |            | Code |       Name       | Code |
+#      |-------------|------|------------|------|------------------|------|
+   (pin 2               0    G1             33   2                    0 )
+   (pin 1               0    G1             33   1                    0 )))
+ (network
+  (net PE3
+   (pins IC1-5))
+  (net PE2
+   (pins IC1-4))
+  (net INT7
+   (pins U6-4 R15-2 IC1-9))
+  (net INT6
+   (pins U5-D2 IC1-8))
+  (net PD7
+   (pins IC1-32))
+  (net INT5
+   (pins U4-9 IC1-7))
+  (net PD6
+   (pins IC1-31))
+  (net N18276
+   (pins U3-2 C14-2))
+  (net INT4
+   (pins U4-4 IC1-6))
+  (net N83254
+   (pins L1-2 F1-1))
+  (net PD5
+   (pins IC1-30))
+  (net INT3
+   (pins U3-12 IC1-28 J4-2))
+  (net N83212
+   (pins L1-1 J14-1))
+  (net PD4
+   (pins IC1-29))
+  (net INT0
+   (pins U1-5 R6-2 U2-4 R8-2 U3-7 R10-1 U1-12 U4-13 R12-2 U5-A3 U6-5 R14-2
+    IC1-25 J5-1))
+  (net /PEN
+   (pins IC1-1))
+  (net PC7
+   (pins IC1-42))
+  (net PC6
+   (pins IC1-41))
+  (net PC5
+   (pins IC1-40))
+  (net PC4
+   (pins IC1-39))
+  (net PC3
+   (pins IC1-38))
+  (net PC2
+   (pins IC1-37))
+  (net PC1
+   (pins IC1-36))
+  (net PC0
+   (pins IC1-35))
+  (net PB7
+   (pins IC1-17))
+  (net PB6
+   (pins IC1-16))
+  (net PB5
+   (pins IC1-15))
+  (net PB1
+   (pins IC1-11 J2-4))
+  (net PB0
+   (pins IC1-10))
+  (net PA7
+   (pins IC1-44))
+  (net N68776
+   (pins U8-9 R16-1))
+  (net PA6
+   (pins IC1-45))
+  (net PA5
+   (pins IC1-46))
+  (net PA4
+   (pins IC1-47))
+  (net PA3
+   (pins IC1-48))
+  (net PA2
+   (pins IC1-49))
+  (net N67245
+   (pins U8-6 C22-1))
+  (net PA1
+   (pins IC1-50))
+  (net PA0
+   (pins IC1-51))
+  (net N02069
+   (pins LS1-1 D2-1 Q1-2))
+  (net N02065
+   (pins R2-2 R3-2 Q1-1))
+  (net N01134
+   (pins Y1-2 C1-1 IC1-23))
+  (net N01127
+   (pins C2-1 Y1-1 IC1-24))
+  (net GND
+   (pins C19-2 C7-2 U1-1 C12-2 C11-2 U2-7 C8-2 U1-9 U1-8 U1-4 U2-1 C15-2 U4-7
+    U4-6 C16-1 U4-1 U5-C5 C17-2 C18-2 U5-E3 U5-E1 U5-C1 U6-3 U6-2 U7-3 C20-2
+    C21-2 U2-5 J13-2 U8-3 C22-2 C23-2 D1-1 IC1-53 IC1-63 IC1-22 C2-2 C1-2 Q1-3
+    R3-1 J2-1 SW2-1 C6-2 C5-2 J14-5))
+  (net INT2
+   (pins U3-4 IC1-27 J4-1))
+  (net INT1
+   (pins U1-6 U1-2 R5-2 R7-2 R9-2 U3-9 U2-3 U4-14 R11-2 U5-B4 U6-6 R13-2
+    IC1-26 J5-2))
+  (net 'D-'
+   (pins U8-5 J14-3))
+  (net D+
+   (pins U8-4 J14-2))
+  (net +3.3V
+   (pins R16-2 U1-3 C7-1 R6-1 R5-1 U2-6 C12-1 U2-8 C11-1 R7-1 R8-1 U3-11 C13-1
+    C13-2 U3-10 R9-1 R10-2 C14-1 U3-3 U3-1 U3-8 U1-7 C8-1 U1-11 U2-2 U3-6
+    C15-1 U4-8 U4-12 U4-5 C16-2 R11-1 R12-1 U5-A1 U5-B2 U5-E5 C18-1 U6-1 C19-1
+    R13-1 R14-1 R15-1 C21-1 U7-2 U5-A5 C17-1 J13-1))
+  (net +5V
+   (pins C20-1 U7-1 U8-7 U8-8 C23-1 C5-1 D2-2 LS1-2 J2-5 D3-1 R4-1 IC1-21
+    IC1-52 IC1-64 IC1-62 R1-1 F1-2))
+  (net /RESET
+   (pins R4-2 D3-2 SW2-2 C6-1 IC1-20 J2-2))
+  (net N05362
+   (pins D1-2 R1-2))
+  (net PE1
+   (pins U8-25 IC1-3 J3-2))
+  (net PE0
+   (pins U8-26 IC1-2 J3-1))
+  (net BUZZER
+   (pins R2-1 IC1-14))
+  (net MOSI
+   (pins IC1-12 J2-3))
+  (net MISO
+   (pins IC1-13 J2-6))
+  (net PG4
+   (pins IC1-19))
+  (net PG3
+   (pins IC1-18))
+  (net PG2
+   (pins IC1-43))
+  (net PG1
+   (pins IC1-34))
+  (net PG0
+   (pins IC1-33))
+  (net PF7
+   (pins IC1-54))
+  (net PF6
+   (pins IC1-55))
+  (net PF5
+   (pins IC1-56))
+  (net PF4
+   (pins IC1-57))
+  (net PF3
+   (pins IC1-58))
+  (net PF2
+   (pins IC1-59))
+  (net PF1
+   (pins IC1-60))
+  (net PF0
+   (pins IC1-61))
+  (net NC
+   (pins U8-22 U8-15 U8-16 U8-17 U8-18 U8-19 U8-20 U8-21 U8-14 U8-13 U8-10)))
+ (wiring)
+ (colors
+  (color 16 color16 149 0 74)
+  (color 17 color17 255 255 0)
+  (color 18 color18 88 88 88)
+  (color 19 color19 135 113 95)
+  (color 20 color20 172 94 64)
+  (color 21 color21 216 5 21)
+  (color 22 color22 226 128 18)
+  (color 23 color23 181 181 0)
+  (color 24 color24 99 139 58)
+  (color 25 color25 0 162 0)
+  (color 26 color26 0 170 123)
+  (color 27 color27 0 151 183)
+  (color 28 color28 0 112 223)
+  (color 29 color29 0 0 227)
+  (color 30 color30 141 0 217)
+  (color 31 color31 191 0 191)
+  (color 32 color32 215 0 107)
+  (color 33 color33 0 255 0)
+  (color 34 color34 131 131 131)
+  (color 35 color35 156 134 114)
+  (color 36 color36 202 133 106)
+  (color 37 color37 252 78 90)
+  (color 38 color38 239 155 63)
+  (color 39 color39 215 215 0)
+  (color 40 color40 129 180 78)
+  (color 41 color41 0 221 0)
+  (color 42 color42 0 215 155)
+  (color 43 color43 1 192 233)
+  (color 44 color44 51 152 255)
+  (color 45 color45 100 100 255)
+  (color 46 color46 189 66 255)
+  (color 47 color47 242 0 242)
+  (color 48 color48 255 51 153)
+  (color 49 color49 0 0 255)
+  (color 50 color50 172 172 172)
+  (color 51 color51 169 149 131)
+  (color 52 color52 216 160 139)
+  (color 53 color53 252 122 132)
+  (color 54 color54 242 176 104)
+  (color 55 color55 240 240 0)
+  (color 56 color56 157 197 118)
+  (color 57 color57 38 255 38)
+  (color 58 color58 0 244 177)
+  (color 59 color59 17 214 255)
+  (color 60 color60 98 176 254)
+  (color 61 color61 130 130 255)
+  (color 62 color62 206 115 255)
+  (color 63 color63 255 111 255)
+  (color 64 color64 255 119 187)
+  (color 65 color65 255 0 255)
+  (color 66 color66 217 217 217)
+  (color 67 color67 186 169 154)
+  (color 68 color68 231 182 169)
+  (color 69 color69 253 162 168)
+  (color 70 color70 247 199 147)
+  (color 71 color71 255 255 140)
+  (color 72 color72 192 218 167)
+  (color 73 color73 138 255 138)
+  (color 74 color74 117 255 217)
+  (color 75 color75 145 236 255)
+  (color 76 color76 151 203 255)
+  (color 77 color77 176 176 255)
+  (color 78 color78 223 164 255)
+  (color 79 color79 255 168 255)
+  (color 80 color80 255 176 216)
+  (color 81 color81 0 255 255)
+  (color 82 color82 255 255 255)
+  (color 83 color83 202 189 170)
+  (color 84 color84 235 199 190)
+  (color 85 color85 254 197 201)
+  (color 86 color86 251 216 181)
+  (color 87 color87 255 255 187)
+  (color 88 color88 213 231 194)
+  (color 89 color89 189 255 189)
+  (color 90 color90 176 255 230)
+  (color 91 color91 185 241 255)
+  (color 92 color92 191 223 255)
+  (color 93 color93 198 198 255)
+  (color 94 color94 233 191 255)
+  (color 95 color95 255 198 255)
+  (color 96 color96 255 198 255)
+  (color 97 color97 255 0 0)
+  (color 98 color98 250 120 120)
+  (color 0 background 170 210 255)
+  (color 1 blue 0 0 255)
+  (color 2 green 0 255 0)
+  (color 3 violet 175 0 175)
+  (color 4 red 255 0 0)
+  (color 5 magenta 125 0 125)
+  (color 6 white 255 255 255)
+  (color 7 lgtgray 180 180 180)
+  (color 8 drkgray 120 120 120)
+  (color 9 drkblue 0 0 170)
+  (color 10 drkgreen 0 170 0)
+  (color 11 coral 255 127 0)
+  (color 12 drkred 170 0 0)
+  (color 13 lgtmgnta 255 0 255)
+  (color 14 yellow 255 255 0)
+  (color 15 black 0 0 0)
+  (set_color background black)
+  (set_color via drkgreen)
+  (set_color thru drkgray)
+  (set_color select color82)
+  (set_color highlight color58)
+  (set_color antipad white)
+  (set_color guide color59)
+  (set_color histogram grid color82)
+  (set_color histogram segment red)
+  (set_color histogram peak red)
+  (set_color grid via color82)
+  (set_color grid wiring color82)
+  (set_color grid place color82)
+  (set_color grid manuf color82)
+  (set_color grid major route color82)
+  (set_color grid major place color82)
+  (set_color error clearance yellow)
+  (set_color error length yellow)
+  (set_color error crosstalk white)
+  (set_color error balance white)
+  (set_color error placement white)
+  (set_color routability min green)
+  (set_color routability max red)
+  (set_color iroute target white)
+  (set_color testpoint color24)
+  (set_color protect white)
+  (set_color fix component lgtmgnta)
+  (set_color component front color74)
+  (set_color component back magenta)
+  (set_color site white)
+  (set_color ruler drkgray)
+  (set_color rowcolumn white)
+  (set_color viakeepouts color35)
+  (set_color signal 1 color57)
+  (set_color signal 2 color17)))

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : BMM150.dra                                    )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Mon Oct 15 20:07:22 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/USER/Desktop/Sensor Board/Allegro_lib
+    Name      = bmm150.psm
+    User      = USER
+    Machine   = USER1-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

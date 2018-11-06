@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : PIN_HEADER6.dra                               )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Mon Oct 08 20:50:36 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/USER/Desktop/Sensor Board/Allegro_lib
+    Name      = pin_header6.psm
+    User      = USER
+    Machine   = USER1-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

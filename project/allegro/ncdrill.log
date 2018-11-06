@@ -1,0 +1,59 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : SENSOR BOARD.brd                              )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Tue Oct 16 20:00:08 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		NO
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING(SPMHMF-365): This design contains 2 slot holes that can NOT be drilled.
+ WARNING(SPMHMF-366): They can be processed by NC routing instead.
+
+
+ Drill files being output to directory 'C:/project/allegro/gbr' ...
+
+
+
+     'SENSOR BOARD-1-2.drl' created for holes connecting TOP and BOTTOM
+     ------------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.   0.3302    0.0000/  0.0000      PLATED         94
+            2.   0.7112    0.0000/  0.0000      PLATED          8
+            3.   0.9144    0.0000/  0.0000      PLATED          8
+            4.   3.1750    0.0000/  0.0000  NON_PLATED          4
+
+     ---- Total holes:                                        114
+
+     ---- Total head travel:              6.63 feet (2.02 meters)
+

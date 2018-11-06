@@ -1,0 +1,32 @@
+Date and Time : 10/17/18 09:36:09
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1829): Possible pin type conflict +3.3V  Power Connected to Output
+                    SCHEMATIC1, PAGE1  (335.28, 205.74) 
+WARNING(ORCAP-1829): Possible pin type conflict U5,VDD  Power Connected to Output
+                    SCHEMATIC1, PAGE1  (340.36, 231.14) 
+WARNING(ORCAP-1829): Possible pin type conflict U2,VDDIO  Power Connected to Output
+                    SCHEMATIC1, PAGE1  (347.98, 149.86) 
+WARNING(ORCAP-1829): Possible pin type conflict U2,VDD  Power Connected to Output
+                    SCHEMATIC1, PAGE1  (347.98, 144.78) 
+WARNING(ORCAP-1829): Possible pin type conflict U6,VCC  Power Connected to Output
+                    SCHEMATIC1, PAGE1  (248.92, 248.92) 
+WARNING(ORCAP-1829): Possible pin type conflict IC1,AREF  Power Connected to Output
+                    SCHEMATIC1, PAGE1  (142.24, 104.14) 
+WARNING(ORCAP-1829): Possible pin type conflict IC1,AVCC  Power Connected to Output
+                    SCHEMATIC1, PAGE1  (142.24, 99.06) 
+WARNING(ORCAP-1829): Possible pin type conflict U7,VOUT  Output Connected to Power
+                    SCHEMATIC1, PAGE1  (187.96, 167.64) 
+WARNING(ORCAP-1829): Possible pin type conflict IC1,VCC1  Power Connected to Output
+                    SCHEMATIC1, PAGE1  (111.76, 10.16) 
+WARNING(ORCAP-1829): Possible pin type conflict IC1,VCC2  Power Connected to Output
+                    SCHEMATIC1, PAGE1  (109.22, 10.16) 
+WARNING(ORCAP-1608): Net has no driving source /PEN 
+                    SCHEMATIC1, PAGE1  (83.82, 104.14) 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets

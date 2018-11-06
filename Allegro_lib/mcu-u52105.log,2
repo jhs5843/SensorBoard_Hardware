@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : MCU-U52105.dra                                )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Mon Oct 08 18:38:12 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/USER/Desktop/Sensor Board/Allegro_lib
+    Name      = mcu-u52105.psm
+    User      = USER
+    Machine   = USER1-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

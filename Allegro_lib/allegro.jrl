@@ -1,0 +1,28 @@
+\t (00:46:18) allegro 16.6-2015 S111 (v16-6-112JA) Windows 32
+\t (00:46:18)     Journal start - Tue Oct 16 19:20:31 2018
+\t (00:46:18)         Host=USER1-PC User=USER Pid=2112 CPUs=4
+\t (00:46:18) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\allegro.exe -orcad -mpssession USER C:\PROJECT\allegro\SENSOR BOARD.brd
+\t (00:46:18) 
+\d (00:46:18) Design opened: C:/Users/USER/Desktop/Sensor Board/Allegro_lib/BMM150.dra
+\i (00:46:18) generaledit 
+\i (00:46:19) zoom out 1 
+\i (00:46:19) setwindow pcb
+\i (00:46:19) zoom out 0.242 -0.285
+\i (00:46:19) trapsize 31
+\i (00:46:20) zoom out 1 
+\i (00:46:20) setwindow pcb
+\i (00:46:20) zoom out 0.198 -0.223
+\i (00:46:20) trapsize 62
+\i (00:46:20) roam y -96 
+\i (00:46:22) pick grid -0.221 1.168
+\t (00:46:22) last pick:  0.000 0.000
+\i (00:46:27) open 
+\i (00:46:37) fillin "C:\project\allegro\SENSOR BOARD.brd"
+\i (00:46:37) cd "C:\project\allegro"
+\t (00:46:37) Opening existing design...
+\i (00:46:38) trapsize 1808
+\i (00:46:38) trapsize 1760
+\i (00:46:38) trapsize 1808
+\t (00:46:38) Grids are drawn 1.2700, 1.2700 apart for enhanced viewability.
+\i (00:46:38) trapsize 1808
+\t (00:46:38)     Journal end - Tue Oct 16 19:20:51 2018

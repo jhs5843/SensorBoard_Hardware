@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : NW3-A06-B3.dra                                )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Fri Oct 05 15:17:12 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/USER/Desktop/Sensor Board/Allegro_lib
+    Name      = nw3-a06-b3.psm
+    User      = USER
+    Machine   = USER1-PC
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

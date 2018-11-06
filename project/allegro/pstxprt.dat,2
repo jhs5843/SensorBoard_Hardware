@@ -1,0 +1,450 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Oct-16-2018 at 10:12:42 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SENSOR BOARD';
+ POST_TIME='Feb 15 2016 19:53:59';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_SMC1206_20PF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS387@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins387@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins387@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP NP_SMC1206_82NF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS15435@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins15435@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins15435@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP NP_SMC1206_82NF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS15451@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins15451@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins15451@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP NP_SMC1206_82NF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS27180@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins27180@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins27180@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP NP_SMC1206_82NF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS28041@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins28041@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins28041@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP NP_SMC1206_82NF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS49640@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins49640@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins49640@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP NP_SMC1206_82NF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS49660@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins49660@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins49660@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP NP_SMC1206_1UF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS50327@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins50327@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins50327@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_SMC1206_20PF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS403@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins403@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins403@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP POL_CAP_4PI_X5MM_10UF/16V':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS107695@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins107695@discrete.\cap pol.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins107695@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP POL_CAP_4PI_X5MM_10UF/16V':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS107711@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins107711@discrete.\cap pol.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins107711@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'CAP NP_SMC1206_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS106247@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins106247@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins106247@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'CAP NP_SMC1206_0.1UF':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS106279@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins106279@discrete.\cap np.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins106279@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP POL_CAP_5PI_X5MM_47UF/16V':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS4903@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins4903@discrete.\cap pol.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins4903@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP POL_CAP_4PI_X5MM_10UF/16V':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS6293@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins6293@discrete.\cap pol.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins6293@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_SMC1206_LED':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS512@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins512@discrete.\led.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins512@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'DIODE_SMC1206_1N4148':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS634@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins634@discrete.\diode.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins634@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'DIODE_SMC1206_1N4148':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS725@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins725@discrete.\diode.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins725@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ F1 'FUSE_FSMD050-1812_FUSE':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS76744@DISCRETE.FUSE.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins76744@discrete.\fuse.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins76744@discrete.\fuse.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IC1 'ATMEGA128_1_ATMEGA128_ATMEGA128':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS213@SENSOR BOARD.ATMEGA128_1.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins213@\sensor board\.\atmega128_1.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins213@\sensor board\.\atmega128_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J13 'CON2_JUMPER2_3.3V DC':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS107254@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins107254@connector.\con2.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins107254@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J14 'CON5_0_MCU-U52105_USB_MICRO 5PI':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS66427@SENSOR BOARD.CON5_0.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins66427@\sensor board\.\con5_0.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins66427@\sensor board\.\con5_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON6A_BOX_HEADER6_ISP':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS692@CONNECTOR.CON6A.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins692@connector.\con6a.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins692@connector.\con6a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON2_JUMPER2_UART0':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS800@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins800@connector.\con2.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins800@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON2_JUMPER2_UART1':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS816@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins816@connector.\con2.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins816@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON2_JUMPER2_I2C':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS841@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins841@connector.\con2.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins841@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'BEAD_CI-B2012-331JJT_330NH':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS76338@DISCRETE.BEAD.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins76338@discrete.\bead.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins76338@discrete.\bead.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS1 'BUZZER_BPE-1407P-40_BUZZER':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS659@ELECTROMECHANICAL.BUZZER.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins659@electromechanical.\buzzer.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins659@electromechanical.\buzzer.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'NPN BCE_0_2SC1815_C1815':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS39665@SENSOR BOARD.NPN BCE_0.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins39665@\sensor board\.\npn bce_0.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins39665@\sensor board\.\npn bce_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_SMC1206_680':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS5129@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins5129@discrete.\r.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins5129@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_SMC1206_4.7K':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS106335@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins106335@discrete.\r.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins106335@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'R_SMC1206_4.7K':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS112945@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins112945@discrete.\r.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins112945@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'R_SMC1206_4.7K':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS112961@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins112961@discrete.\r.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins112961@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_SMC1206_2K':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS577@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins577@discrete.\r.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins577@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_SMC1206_10K':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS593@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins593@discrete.\r.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins593@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_SMC1206_10K':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS750@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins750@discrete.\r.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins750@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'SW TACT-SPST_NW3-A06-B3_SW_TACT':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS2565@DISCRETE.SW TACT-SPST.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins2565@discrete.\sw tact-spst.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins2565@discrete.\sw tact-spst.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'BME280_BME280_BME280':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS23509@SENSOR_LIB.BME280.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins23509@sensor_lib.\bme280.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins23509@sensor_lib.\bme280.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'BMI160_BMI160_BMI160':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS26110@SENSOR_LIB.BMI160.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins26110@sensor_lib.\bmi160.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins26110@sensor_lib.\bmi160.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U5 'BMM150_0_BMM150_BMM150':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS49580@SENSOR BOARD.BMM150_0.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins49580@\sensor board\.\bmm150_0.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins49580@\sensor board\.\bmm150_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'MAX44009_MAX44009_MAX44009':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS50295@SENSOR_LIB.MAX44009.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins50295@sensor_lib.\max44009.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins50295@sensor_lib.\max44009.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'LM7805/TO_1_LM1117IMPX-ADJ_GS11':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS107667@SENSOR BOARD.LM7805/TO_1.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins107667@\sensor board\.\lm7805/to_1.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins107667@\sensor board\.\lm7805/to_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'CP2102_CP2102_CP2102':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS106167@SENSOR_LIB.CP2102.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins106167@sensor_lib.\cp2102.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins106167@sensor_lib.\cp2102.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'CRYSTAL_XTAL_SMD2_16MHZ':;
+
+SECTION_NUMBER 1
+ '@SENSOR BOARD.SCHEMATIC1(SCH_1):INS362@DISCRETE.CRYSTAL.NORMAL(CHIPS)':
+ C_PATH='@\sensor board\.schematic1(sch_1):ins362@discrete.\crystal.normal\(chips)',
+ P_PATH='@\sensor board\.schematic1(sch_1):page1_ins362@discrete.\crystal.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

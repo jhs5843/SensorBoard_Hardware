@@ -1,0 +1,33 @@
+\t (00:00:00) pad_designer 16.6-2015 S069 (v16-6-112FN) Windows 32
+\t (00:00:00)     Journal start - Mon Oct 15 21:26:05 2018
+\t (00:00:00)         Host=USER1-PC User=USER Pid=9300 CPUs=4
+\t (00:00:00) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:02) setwindow form.padedit
+\i (00:00:02) pse_open 
+\i (00:00:04) fillin "xtal_smd2.pad"
+\i (00:00:05) FORM padedit layers  
+\i (00:00:10) FORM padedit width 5.5 
+\i (00:00:13) FORM padedit width_th 5.7 
+\i (00:00:17) FORM padedit width_ant 5.5 
+\i (00:00:19) FORM padedit grid rpopup begin_layer Copy 
+\i (00:00:20) FORM padedit grid rpopup soldermask_top Paste 
+\i (00:00:22) FORM padedit grid rpopup pastemask_top Paste 
+\i (00:00:23) pse_save 
+\i (00:00:24) setwindow text
+\i (00:00:24) close 
+\i (00:00:26) fillin no 
+\i (00:00:33) setwindow form.padedit
+\i (00:00:33) FORM padedit grid rpopup begin_layer Copy 
+\i (00:00:34) FORM padedit grid rpopup soldermask_top Paste 
+\i (00:00:35) FORM padedit grid rpopup pastemask_top Paste 
+\i (00:00:37) pse_save 
+\i (00:00:38) setwindow text
+\i (00:00:38) close 
+\i (00:00:40) fillin no 
+\i (00:00:42) setwindow form.padedit
+\i (00:00:42) FORM padedit width_ant 5.7000 
+\i (00:00:46) pse_save 
+\i (00:00:47) fillin yes 
+\i (00:00:48) pse_exit
+\t (00:00:48)     Journal end - Mon Oct 15 21:26:54 2018
